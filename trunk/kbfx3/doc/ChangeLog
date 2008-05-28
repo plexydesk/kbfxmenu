@@ -1,0 +1,123 @@
+0.4.9.3.1
+=========
+ - CHANGED layout and font configfile specs
+ - UPDATED help documentation
+ - ADDED fade transition effect on the KBFX Button
+ - ADDED install guides for using checkinstall
+ - ADDED Hungarian translation (thanks to Ferenc Stelcz for it)
+ - ADDED option to watch for KDE global changes like new installed applications
+ - ADDED option for Theme Info
+ - ADDED resizable configuration dialogs
+ - ADDED drag&drop hover, pressed and normal images over the KBFX button
+ - ADDED tooltip support for the KBFX button
+ - ADDED switch between KBFX and K Menu
+ - ADDED new two panel skin - "2panels"
+ - ADDED configurable middle background - middleboxbg.png
+ - ADDED fonts support in every part of the menu
+ - ADDED layout support in the KBFX Configurator
+ - ADDED support for the new versions of strigi
+ - ADDED support for use of strigi in Gentoo
+ - ADDED support for SVN version in Gentoo
+ - ADDED support for PCLinuxOS rpm build (thanks to @PaGal and @tom777 for the testing)
+ - ADDED support for future KDE4 (part 1)
+ - ADDED uninstall option for "build.sh" script
+ - FIXED cmake uninstall
+ - FIXED RPM .la issues
+ - FIXED some major bugs
+ - REMOVED Water effect (too much CPU time consuming and not a favorite one for our users)
+
+0.4.9.3-20070117
+================
+ - Initial Release of the 0.4.9.3 Series - KBFX Silk (0.4.9.3)
+ - New Build system (cmake)
+ - Re-write of the data backend
+ - Re-write of the GUI
+ - Totally new theme
+ - Improved configuration dialog
+
+0.4.9.2rc4
+==========
+ - CHANGED some aspects of autoconf/automake behavior
+ - CHANGED "Toolbar Resize" behavior - turned off by default so kicker doesn't change its size anymore
+ - ADDED support for Mandriva 2007 compilation (no menudrake there by default)
+ - FIXED Search bar behavior (thanks @gropiuskalle)
+ - FIXED some minor bugs
+
+0.4.9.2rc3
+==========
+ - ADDED support for preparing .kbfxtheme files in Konqueror (look the explanation in HOWTO file)
+ - ADDED "--prepare" command line option to pack existing KBFX Skin Folders to .kbfxtheme files
+ - ADDED "Default Theme's Personal Image" to the "KBFX Configurator Application"
+ - ADDED "Toolbar Resize" option to the "KBFX Configurator Application" for the toolbar where the KBFX Button resides
+ - ADDED it, bg and nl translations
+ - FIXED some minor bugs
+
+0.4.9.2rc2
+==========
+ - CHANGED "KBFX Configurator Application" - rewritten from scratch and is no more part of "kcontrol"
+ - CHANGED "Tooltip Animation" behavior - turned off by default
+ - ADDED new Default Theme
+ - ADDED fonts configuration option to the "KBFX Configurator Application"
+ - ADDED Install/Delete Themes to the "KBFX Configurator Application"
+ - ADDED support for .kbfxtheme files in Konqueror (look the explanation in HOWTO file)
+ - ADDED possibility to change "dude" image to the "KBFX Configurator Application"
+ - ADDED Free-BSD Support
+ - FIXED font alignment problems
+ - FIXED long applications name problem
+ - FIXED some memory leaks
+ - FIXED some minor bugs
+
+0.4.9.2-20060708cvs
+===================
+ - UPDATED make system
+
+0.4.9.2-20060611cvs
+===================
+ - ADDED PC-BSD Support
+ - ADDED Drag and Drop Support
+ - FIXED a bug with showing icons in "Recently Used" items
+ - FIXED a bug with the placement of ".face.icon" (thanks @Nucc)
+ - Flicker Free KBFX Button
+ - Flicker Free KBFX SPINX Menu TOP
+ - Better scrolling
+
+0.4.9.2-20060528cvs
+===================
+ - ADDED support for Fedora rpm
+ - ADDED an option to disable tooltips (see HOWTO file)
+ - FIXED a problem with building SUSE rpm
+
+0.4.9.2rc1
+==========
+ - ADDED support for Buttons with Drop shadows
+ - ADDED Font settings as part of the Theme itself
+ - ADDED Kiosk mode support
+ - ADDED Handling of submenus
+ - FIXED make system for all distributions
+ - Better support for Mandriva distribution
+ - More applications for the menu
+ - Grouping header for each application group and sub groups
+
+0.4.9.1
+=======
+ - New HTML based Config
+ - Spinx Bar improved and redone for MAX icandy with better theme support
+ - Double buffered rendering for kbfx button
+ - image support
+ - Animated scrollbars like thing
+ - icons zoom
+ - Improved skin support
+ - themeable tooltip ( two types animated and none animated)
+ - KDE user icon support (KDM icons)
+ - user Name support (login name)
+ - Application Items are sorted
+ - Better user support and Help
+ - login and lock buttons are working now
+ - Mouse Cursor has more sense
+ - KControl Module uses HTML ..old config removed
+ - Automatic icons and theme installation with source code
+ - The applet is renamed , from kbfxvista to kbfxspinx
+ - Animated User Image
+ - Add more to Menu Action for Application List Better Customizations.
+ - 32x32 icons support
+

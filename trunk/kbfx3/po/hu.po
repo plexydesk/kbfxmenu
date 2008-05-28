@@ -1,0 +1,1616 @@
+# translation of hu.po to Hungarian
+# Hungarian translation for KBFX
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the KBFX package.
+#
+# Ferenc Stelcz <ferenc@stelcz.hu>, 2007.
+# PhobosK <phobosk@mail.kbfx.org>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: hu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-03-04 15:53+0200\n"
+"PO-Revision-Date: 2007-03-04 17:39+0100\n"
+"Last-Translator: Ferenc Stelcz <ferenc@stelcz.hu>\n"
+"Language-Team: Hungarian <hu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Rosetta-Export-Date: 2007-02-07 06:34+0000\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Stelcz Ferenc"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "ferenc@stelcz.hu"
+
+#: kbfxlib/common/kbfxconfig.cpp:32
+msgid "Not Specified"
+msgstr "Nincs megadva"
+
+#: kbfxlib/common/kbfxfontchooser.cpp:38
+msgid "Font..."
+msgstr "Betűtípus..."
+
+#: configdialog/kbfxconfigapp.cpp:28
+msgid "<p align='center'>%1</p>"
+msgstr "<p align='center'>%1</p>"
+
+#: configdialog/kbfxconfigapp.cpp:29
+msgid "You are running: <b>KBFX "
+msgstr "KBFX verziója: <b>KBFX "
+
+#: configdialog/kbfxconfigapp.cpp:30
+msgid ""
+"<br><p align='center'><font color='#ff0000'>The connection to the KBFX News "
+"Section on www.kbfx.org is broken.</font><br><br>If you want you can check "
+"the latest news for KBFX from here:<br><a href='http://www.kbfx.org/'>KBFX "
+"News</a></p>"
+msgstr ""
+"<br><p align='center'><font color='#ff0000'>A KBFX híroldal a www.kbfx.org "
+"szerverrel való kapcsolat hibájából eredően nem elérhető.</font><br><br>Ha "
+"szeretnél a legújabb KBFX-szel kapcsolatos hírekről olvasni, akkor a "
+"következő hivatkozáson próbáld:<br><a href='http://www.kbfx.org/'>KBFX "
+"Hírek</a></p>"
+
+#: configdialog/kbfxconfigapp.cpp:35
+msgid ""
+"<font size='+1'><b>KBFX start button</b><br></font><b>Tip! </b>You have 3 "
+"options to select for your KBFX start button.You have to select <i>(Normal, "
+"Pressed, Hover)</i> images. <br>Down below you can also see a preview of the "
+"images you have selected."
+msgstr ""
+"<font size=\"+2\"><br></font><font size=\"+3\"><b>Kbfx start gomb</b></"
+"font><br><b>Tipp!</b> \n"
+"Saját KBFX gombodat 3 opcióval szabhatod testre. Válassz egy <i>(Normál, "
+"Lenyomott, Fókuszált)</i> <br>állapothoz tartozó képet. Lejjebb láthatod a "
+"választott képekkel készült előnézetet."
+
+#: configdialog/kbfxconfigapp.cpp:40
+msgid ""
+"<font size='+1'><b>About KBFX</b><br></font><b>Tip! </b>Here you can find "
+"information about the KBFX Project and all the people involved in it."
+msgstr ""
+"<font size=\"+2\"><br></font><font size=\"+3\"><b>A KBFX névjegye</b></"
+"font><br><b>Tipp!</b> \n"
+"Itt találhatsz bővebb információt a KBFX Projektről <br>és a benne résztvevő "
+"emberekről."
+
+#: configdialog/kbfxconfigapp.cpp:43
+msgid ""
+"<font size='+1'><b>KBFX font settings</b><br></font><b>Tip! </b>Here you can "
+"set the fonts of the current theme.<br>If you don't have any 'kbfxfontrc' "
+"file don't worry about that.<br>When done just hit 'Apply' button and KBFX "
+"will save the 'kbfxfontrc' file."
+msgstr ""
+"<font size=\"+2\"><br></font><font size=\"+3\"><b>Kbfx betűtípus "
+"beállítások</b></font><br><b>Tipp!</b> \n"
+"Itt állíthatod be az aktuális témához tartozó betűtípusokat.<br> Amennyiben "
+"még nincs \"kbfxfontrc\" fájlod, ne aggódj.<br>Amennyiben kész vagy, csak "
+"kattints az \"Alkalmazás\" gombra <br> és a KBFX automatikusan elkészíti "
+"neked a kbfxfontrc fájlt."
+
+#: configdialog/kbfxconfigapp.cpp:48
+msgid ""
+"<font size='+1'><b>KBFX Layout</b><br></font><b>Tip! </b>Here you can "
+"configure the Look and Feel of your KBFX menu.<br>The most important "
+"settings that are used with the '<strong>Make it...</strong>' buttons are "
+"marked with '<strong>*</strong>'<br>Have in mind that the Layout of the "
+"theme also depends on the sizes of the images!<br>"
+msgstr ""
+"<font size='+1'><b>KBFX elrendezés</b><br></font><b>Tipp! </b>Itt szabhatod "
+"testre a KBFX menü megjelenését.<br>A <strong>Tedd...</strong>' gombbal "
+"jelölt beállítások között a legfontosabbakat '<strong>*</strong>'-gal "
+"jelöltük.<br>Vedd figyelembe, hogy a téma elrendezése függ a képek méretétől "
+"is!<br>"
+
+#: configdialog/kbfxconfigapp.cpp:53
+msgid ""
+"<font size='+1'><b>KBFX Plugins</b><br></font><b>Tip! </b>Here you can "
+"select what plugins will be enabled and in which panel of the KBFX menu."
+msgstr ""
+"<font size='+1'><b>KBFX modulok</b><br></font><b>Tipp! </b>Itt választhatod "
+"ki, hogy melyik modulok legyenek engedélyzve és, hogy a KBFX menü mely "
+"paneljén."
+
+#: configdialog/kbfxconfigapp.cpp:56
+msgid ""
+"<font size='+1'><b>Menu Type</b><br></font><b>Tip! </b>Please select which "
+"kind of menu you would like to use."
+msgstr ""
+"<font size=\"+2\"><br></font><font size=\"+3\"><b>Menü típusa</b></"
+"font><br><b>Tipp!</b>\n"
+"Válaszd ki milyen típusú menüt szeretnél használni. <br>KBFX menü vagy KDE "
+"Menü."
+
+#: configdialog/kbfxconfigapp.cpp:59
+msgid ""
+"<font size='+1'><b>KBFX Themes</b><br></font><b>Tip! </b>To keep it simple "
+"place all your themes inside one folder.<br>Then create different folders "
+"inside that folder with different names.<br>KBFX will then read those "
+"folders as themes."
+msgstr ""
+"<font size=\"+2\"><br></font><font size=\"+3\"><b>Kbfx Témák</b></"
+"font><br><b>Tipp!</b> \n"
+"Hogy egyszerűvé tedd a témakezelést, helyezz minden témát egy könyvtáron "
+"belül alkönyvtárakba.<br>A KBFX ezekután minden könyvtárat külön témaként "
+"kezel."
+
+#: configdialog/kbfxconfigapp.cpp:64
+msgid ""
+"<font size='+1'><b>KBFX tooltip settings</b><br></font><b>Tip! </b>Here you "
+"can configure the behaviour of KBFX's own tooltip."
+msgstr ""
+"<font size='+1'><b>KBFX eszköztipp beállítások</b><br></font><b>Tipp!</b>Itt "
+"állíthatod be a KBFX saját eszköztippjeinek viselkedését."
+
+#: configdialog/kbfxconfigapp.cpp:93
+msgid "Themes"
+msgstr "Témák"
+
+#: configdialog/kbfxconfigapp.cpp:105 rc.cpp:230
+#, no-c-format
+msgid "Start Button"
+msgstr "Start gomb"
+
+#: configdialog/kbfxconfigapp.cpp:121 rc.cpp:239
+#, no-c-format
+msgid "Menu Style"
+msgstr "Menü stílus"
+
+#: configdialog/kbfxconfigapp.cpp:130 rc.cpp:242
+#, no-c-format
+msgid "Tooltip"
+msgstr "Eszköztipp"
+
+#: configdialog/kbfxconfigapp.cpp:141
+msgid "Layout"
+msgstr "Elrendezés"
+
+#: configdialog/kbfxconfigapp.cpp:151 rc.cpp:248
+#, no-c-format
+msgid "Plugins"
+msgstr "Modulok"
+
+#: configdialog/kbfxconfigapp.cpp:240
+msgid "No default settings here ;)"
+msgstr "Itt nincsenek alapértelmezett beállítások ;)"
+
+#: configdialog/kbfxconfigapp.cpp:423
+msgid "<p align='center'>Could not create this KBFX theme package.</p>"
+msgstr "<p align='center'>Nem sikerült létrehozni ezt a KBFX témacsomagot.</p>"
+
+#: configdialog/kbfxconfigapp.cpp:435
+msgid "<p align='center'>KBFX Theme <strong>%1</strong> prepared.</p>"
+msgstr "<p align='center'>A(z) <strong>%1</strong> KBFX téma elkészítve.</p>"
+
+#: configdialog/kbfxconfigapp.cpp:436
+msgid "KBFX Theme Ready"
+msgstr "KBFX téma kész"
+
+#: configdialog/main.cpp:33
+msgid "KBFX Configuration Utility"
+msgstr "KBFX Beállító Segédprogram"
+
+#: configdialog/main.cpp:39
+msgid "kbfxconfigapp"
+msgstr "kbfxconfigapp"
+
+#: configdialog/main.cpp:52
+msgid "Install KBFX theme from <URL>"
+msgstr "KBFX téma telepítése saját <URL> címről"
+
+#: configdialog/main.cpp:53
+msgid "Prepare KBFX theme from folder <URL>"
+msgstr "KBFX téma előkészítése a következő <URL>-en található könyvtárból"
+
+#: configdialog/main.cpp:54
+msgid "Show the About page"
+msgstr "Névjegy mutatása"
+
+#: src/kbfxspinx.cpp:234
+msgid "This is a help box"
+msgstr "Ez egy súgó doboz"
+
+#: src/kbfxspinx.cpp:358
+msgid "Remove KBFX from Pannel"
+msgstr "KBFX eltávolítása a Panelről"
+
+#: src/kbfxspinx.cpp:360
+msgid "Reload KBFX"
+msgstr "KBFX újratöltése"
+
+#: src/kbfxspinx.cpp:363
+msgid "Configure KBFX"
+msgstr "KBFX beállítása"
+
+#: src/kbfxspinx.cpp:365
+msgid "Edit Applications Menu"
+msgstr "Alkalmazások menü szerkesztése"
+
+#: src/kbfxspinxmenu.cpp:54
+msgid "Double click to clear..."
+msgstr "Törléshez kattints kétszer..."
+
+#: src/kbfxspinxmenu.cpp:66
+msgid "Type here to search..."
+msgstr "Keresendő kifejezés..."
+
+#: src/kbfxbutton.cpp:270
+msgid ""
+"Invalid images were dropped!\n"
+"Cannot set the KBFX button to use these images!"
+msgstr ""
+"Érvénytelen képeket helyeztél el!\n"
+"Nem lehet beállítani a KBFX gombot ezen képek használatára!"
+
+#: src/kbfxbutton.cpp:272
+msgid "Error setting KBFX button images"
+msgstr "Hiba a KBFX gomb képeinek beállításakor"
+
+#: rc.cpp:3
+#, no-c-format
+msgid "KBFX Button"
+msgstr "KBFX gomb"
+
+#: rc.cpp:6
+#, no-c-format
+msgid ""
+"To change KBFX button skin, simply browse to the image you want OR just "
+"Drag&Drop the images to their respective place."
+msgstr ""
+"A KBFX gomb kinézetének megváltoztatásához egyszerűen csak nyisd meg a "
+"használni kívánt képet VAGY \"húzd és ejtsd\" a képeket a megfelelő helyre."
+
+#: rc.cpp:9
+#, no-c-format
+msgid "Livepreview"
+msgstr "Élőkép"
+
+#: rc.cpp:12
+#, no-c-format
+msgid ""
+"<b>Tip!</b> To see live preview, hover or press the preview image with your "
+"mouse."
+msgstr ""
+"<b>Tipp!</b> Az élő előnézeti kép megtekintéséhez vidd az egérkurzort az "
+"előnézeti kép fölé vagy kattints rajta."
+
+#: rc.cpp:15
+#, no-c-format
+msgid "KBFX Button live preview"
+msgstr "KBFX gomb élő előnézet"
+
+#: rc.cpp:18
+#, no-c-format
+msgid "Here you can see the live preview of the KBFX Button."
+msgstr "Itt láthatod a KBFX gomb valósidejű előnézeti képét."
+
+#: rc.cpp:21
+#, no-c-format
+msgid "Resize Panel"
+msgstr "Panel átméretezése"
+
+#: rc.cpp:24
+#, no-c-format
+msgid ""
+"<b>Tip!</b> This button resizes the panel on which the KBFX button is to "
+"button's height or width."
+msgstr ""
+"<b>Tipp!</b> Ez a gomb átméretezi a KBFX gombot tartalmazó eszköztárt saját "
+"magasságára, illetve szélességére."
+
+#: rc.cpp:27 configdialog/kbfxconfigdlgbutton.ui.h:141
+#, no-c-format
+msgid "Panel Resize is 'ON'"
+msgstr "Eszköztár átméretezés \"BE\""
+
+#: rc.cpp:32
+#, no-c-format
+msgid "<h3><p align=\"center\">Preview of selected images</p></h3>"
+msgstr "<h3><p align=\"center\">Választott képek előnézete</p></h3>"
+
+#: rc.cpp:35
+#, no-c-format
+msgid "\"PRESSED\" IMAGE SELECTION"
+msgstr "\"LENYOMOTT\" KÉP VÁLASZTÁS"
+
+#: rc.cpp:38
+#, no-c-format
+msgid "Please select \"pressed\" image."
+msgstr "Válaszd ki a \"Lenyomott\" állapothoz tartozó képet."
+
+#: rc.cpp:41 rc.cpp:65 rc.cpp:89
+#, no-c-format
+msgid "image/jpeg image/png image/x-xpm image/gif"
+msgstr "Képek/jpeg Képek/png Képek/x-xpm Képek/gif"
+
+#: rc.cpp:44
+#, no-c-format
+msgid "The Pressed Button Skin Image"
+msgstr "A \"Lenyomott\" állapothoz tartozó kép"
+
+#: rc.cpp:47
+#, no-c-format
+msgid "Here you can choose the Pressed Button Skin Image"
+msgstr "Itt választhatod ki a \"Lenyomott\" állapotú gombhoz tartozó képet"
+
+#: rc.cpp:50 rc.cpp:74 rc.cpp:98
+#, no-c-format
+msgid "Preview"
+msgstr "Előnézet"
+
+#: rc.cpp:53
+#, no-c-format
+msgid "Pressed Button Skin"
+msgstr "Lenyomott állapotú gomb képe"
+
+#: rc.cpp:56
+#, no-c-format
+msgid "Here you can Drag&Drop the Pressed Button Skin Image."
+msgstr "Ide ejtheted a \"Lenyomott\" állapotú gomb képét."
+
+#: rc.cpp:59
+#, no-c-format
+msgid "\"NORMAL\" IMAGE SELECTION"
+msgstr "\"NORMÁL\" KÉP VÁLASZTÁS"
+
+#: rc.cpp:62
+#, no-c-format
+msgid "Please select \"normal\" image."
+msgstr "Válaszd ki a \"normál\" állapothoz tartozó képet."
+
+#: rc.cpp:68
+#, no-c-format
+msgid "The Normal Button Skin Image"
+msgstr "A \"Normál\" állapotú gomb képe"
+
+#: rc.cpp:71
+#, no-c-format
+msgid "Here you can choose the Normal Button Skin Image"
+msgstr "Itt választhatod ki a \"Normál\" állapothoz tartozó képet"
+
+#: rc.cpp:77
+#, no-c-format
+msgid "Normal Button Skin"
+msgstr "\"Normál\" állapotú gomb képe"
+
+#: rc.cpp:80
+#, no-c-format
+msgid "Here you can Drag&Drop the Normal Button Skin Image."
+msgstr "Ide ejtheted a \"Normál\" állapotú gomb képét."
+
+#: rc.cpp:83
+#, no-c-format
+msgid "\"HOVER\" IMAGE SELECTION"
+msgstr "\"FÓKUSZÁLT\" KÉP VÁLASZTÁS"
+
+#: rc.cpp:86
+#, no-c-format
+msgid "Please select \"hover\" image."
+msgstr "Válaszd ki a \"Fókuszált\" állapothoz tartozó képet."
+
+#: rc.cpp:92
+#, no-c-format
+msgid "The Hover Button Skin Image"
+msgstr "A \"Fókuszált\" állapotú gombhoz tartozó kép"
+
+#: rc.cpp:95
+#, no-c-format
+msgid "Here you can choose the Hover Button Skin Image"
+msgstr "Itt választhatod ki a \"Fókuszált\" állapotú gombhoz tartozó képet"
+
+#: rc.cpp:101
+#, no-c-format
+msgid "Hover Button Skin"
+msgstr "\"Fókuszált\" állapotú gomb képe"
+
+#: rc.cpp:104
+#, no-c-format
+msgid "Here you can Drag&Drop the Hover Button Skin Image."
+msgstr "Ide ejtheted a \"Fókuszált\" állapotú gomb képét."
+
+#: rc.cpp:107
+#, no-c-format
+msgid "<h3><p align=\"center\">Please select KBFX button's images</p></h3>"
+msgstr "<h3><p align=\"center\">Válaszd ki a KBFX gomb képeit</p></h3>"
+
+#: rc.cpp:110 rc.cpp:179 rc.cpp:296 rc.cpp:404 rc.cpp:440 rc.cpp:461
+#, no-c-format
+msgid "KBFX Control Center"
+msgstr "KBFX vezérlőpult"
+
+#: rc.cpp:113
+#, no-c-format
+msgid "<b><h3><p align=\"center\">Layout options</p></h3></b>"
+msgstr "<b><h3><p align=\"center\">Elrendezés beállítások</p></h3></b>"
+
+#: rc.cpp:116
+#, no-c-format
+msgid "EXPORT KBFXLAYOUTRC FILE"
+msgstr "KBFXLAYOUTRC FÁJL EXPORTÁLÁSA"
+
+#: rc.cpp:119
+#, no-c-format
+msgid "Export the kbfxlayoutrc file to a folder"
+msgstr "kbfxlayoutrc fájl exportálása könyvtárba"
+
+#: rc.cpp:122 rc.cpp:473
+#, no-c-format
+msgid "Setup fonts for your KBFX"
+msgstr "KBFX betűtípusainak testreszabása"
+
+#: rc.cpp:125 rc.cpp:476
+#, no-c-format
+msgid "Theme that is edited:"
+msgstr "Szerkesztett téma:"
+
+#: rc.cpp:128 rc.cpp:479
+#, no-c-format
+msgid "<p align=\"left\"><b>default</b></p>"
+msgstr "<p align=\"left\"><b>alapértelmezés</b></p>"
+
+#: rc.cpp:131 rc.cpp:482
+#, no-c-format
+msgid "Please select the theme you want to edit"
+msgstr "Válaszd ki a szerkeszteni kívánt témát"
+
+#: rc.cpp:134
+#, no-c-format
+msgid "Select the Layout property to change"
+msgstr "Válaszd ki a szerkeszteni kívánt elrendezési tulajdonságot"
+
+#: rc.cpp:137
+#, no-c-format
+msgid "Make it 2 panels (Left \"ON\")"
+msgstr "Váltás 2 paneles módba (Baloldali \"BE\")"
+
+#: rc.cpp:140
+#, no-c-format
+msgid "Make it 2 panels (Right \"ON\")"
+msgstr "Váltás 2 paneles módba (Jobboldali \"BE\")"
+
+#: rc.cpp:143
+#, no-c-format
+msgid "Make it 3 panels"
+msgstr "Váltás 3 paneles módba"
+
+#: rc.cpp:146
+#, no-c-format
+msgid "textLabel1"
+msgstr "textLabel1"
+
+#: rc.cpp:149
+#, no-c-format
+msgid "textLabel2"
+msgstr "textLabel2"
+
+#: rc.cpp:152
+#, no-c-format
+msgid "textLabel3"
+msgstr "textLabel3"
+
+#: rc.cpp:155
+#, no-c-format
+msgid "textLabel4"
+msgstr "textLabel4"
+
+#: rc.cpp:158
+#, no-c-format
+msgid "checkBox1"
+msgstr "checkBox1"
+
+#: rc.cpp:161
+#, no-c-format
+msgid "textLabel5"
+msgstr "textLabel5"
+
+#: rc.cpp:164
+#, no-c-format
+msgid "textLabel6"
+msgstr "textLabel6"
+
+#: rc.cpp:167
+#, no-c-format
+msgid "textLabel7"
+msgstr "textLabel7"
+
+#: rc.cpp:170
+#, no-c-format
+msgid "textLabel8"
+msgstr "textLabel8"
+
+#: rc.cpp:173
+#, no-c-format
+msgid "checkBox2"
+msgstr "checkBox2"
+
+#: rc.cpp:176
+#, no-c-format
+msgid "C&ustom"
+msgstr "Egyéni"
+
+#: rc.cpp:182
+#, no-c-format
+msgid "<b><h3><p align=\"center\">Plugins options</p></h3></b>"
+msgstr "<b><h3><p align=\"center\">Modul beállítások</p></h3></b>"
+
+#: rc.cpp:185
+#, no-c-format
+msgid "Select KBFX Panel"
+msgstr "KBFX panel kiválasztása"
+
+#: rc.cpp:188 rc.cpp:191
+#, no-c-format
+msgid "Plugin to configure"
+msgstr "Beállítandó modul"
+
+#: rc.cpp:194
+#, no-c-format
+msgid "Please select the panel you want to configure:          "
+msgstr "Válaszd ki, melyik panelt szeretnéd beállítani:          "
+
+#: rc.cpp:197
+#, no-c-format
+msgid "&Available Plugins:"
+msgstr "Elérhető modulok:"
+
+#: rc.cpp:200
+#, no-c-format
+msgid "&Enabled Plugins:"
+msgstr "Engedélyezett modulok:"
+
+#: rc.cpp:203
+#, no-c-format
+msgid "&Configure Plugin"
+msgstr "Modul beállítása"
+
+#: rc.cpp:206
+#, no-c-format
+msgid "Alt+C"
+msgstr "Alt+C"
+
+#: rc.cpp:209 rc.cpp:212
+#, no-c-format
+msgid "Configure the selected plugin"
+msgstr "Választott modul beállítása"
+
+#: rc.cpp:215
+#, no-c-format
+msgid "&Plugin Information"
+msgstr "Modul Információ"
+
+#: rc.cpp:218
+#, no-c-format
+msgid "Alt+P"
+msgstr "Alt+P"
+
+#: rc.cpp:221 rc.cpp:224
+#, no-c-format
+msgid "Information about the selected plugin"
+msgstr "Választott modul részletei"
+
+#: rc.cpp:227
+#, no-c-format
+msgid "KBFX Configurator Application"
+msgstr "KBFX Beállító Alkalmazás"
+
+#: rc.cpp:233
+#, no-c-format
+msgid "KBFX Themes"
+msgstr "KBFX témák"
+
+#: rc.cpp:245
+#, no-c-format
+msgid "Search Engine"
+msgstr "Keresőmotor"
+
+#: rc.cpp:251
+#, no-c-format
+msgid "About KBFX"
+msgstr "A KBFX névjegye"
+
+#: rc.cpp:254
+#, no-c-format
+msgid ""
+"<br><p align=\"center\"><br><br><br>If you want you can check the latest "
+"news for KBFX from here:<br><a href=\"http://www.kbfx.org/\">KBFX News</a></"
+"p>"
+msgstr ""
+"<br><p align=\"center\"><br><br><br>A KBFX-szel kapcsolatos legfrissebb "
+"hírekért látogass el ide: <br><a href=\"http://www.kbfx.org/\">KBFX Hírek</"
+"a></p>"
+
+#: rc.cpp:260
+#, no-c-format
+msgid "Alt+H"
+msgstr "Alt+H"
+
+#: rc.cpp:263
+#, no-c-format
+msgid "Open Help Documentation"
+msgstr "Súgó megnyitása"
+
+#: rc.cpp:266
+#, no-c-format
+msgid "&Default"
+msgstr "Alapértelmezett"
+
+#: rc.cpp:269
+#, no-c-format
+msgid "Alt+D"
+msgstr "Alt+D"
+
+#: rc.cpp:272
+#, no-c-format
+msgid "Apply the default configuration for this section only"
+msgstr "Alapértelmezett beállítások alkalmazása csak erre a szakaszra"
+
+#: rc.cpp:278
+#, no-c-format
+msgid "Alt+A"
+msgstr "Alt+A"
+
+#: rc.cpp:281
+#, no-c-format
+msgid "Save the configuration and Apply it"
+msgstr "Beállítások mentése és alkalmazása"
+
+#: rc.cpp:287
+#, no-c-format
+msgid "Alt+X"
+msgstr "Alt+X"
+
+#: rc.cpp:290
+#, no-c-format
+msgid "Exit the configuration without saving"
+msgstr "Kilépés a beállításokból mentés nélkül"
+
+#: rc.cpp:293
+#, no-c-format
+msgid "<font size=\"+2\"><b>Kbfx start button</b><br></font>"
+msgstr "<font size=\"+2\"><b>KBFX start gomb</b><br></font>"
+
+#: rc.cpp:299
+#, no-c-format
+msgid "Select default folder"
+msgstr "Alapértelmezett könyvtár kiválasztása"
+
+#: rc.cpp:302
+#, no-c-format
+msgid "Please select the target folder where your themes are."
+msgstr "Válaszd ki a témákat tartalmazó könyvtárat."
+
+#: rc.cpp:305
+#, no-c-format
+msgid "SpixBar"
+msgstr "SpixBar"
+
+#: rc.cpp:308
+#, no-c-format
+msgid "Installed Themes"
+msgstr "Telepített témák"
+
+#: rc.cpp:311
+#, no-c-format
+msgid "Here are listed all the installed KBFX Themes"
+msgstr "Itt vannak felsorolva a telepített KBFX témák"
+
+#: rc.cpp:314
+#, no-c-format
+msgid "Selected Theme Preview"
+msgstr "Választott téma előnézete"
+
+#: rc.cpp:317
+#, no-c-format
+msgid "Delete Selected"
+msgstr "Kijelöltek törlése"
+
+#: rc.cpp:320
+#, no-c-format
+msgid "Delete the Selected Theme"
+msgstr "Kiválasztott téma törlése"
+
+#: rc.cpp:323
+#, no-c-format
+msgid ""
+"Pressing the button will delete the currently selected theme. <br><b>Warning!"
+"</b> You cannot delete the installed system wide themes!"
+msgstr ""
+"A gomb lenyomásával az éppen kijelölt téma törlésre kerül. <br><b>Figyelem!</"
+"b> Az egész rendszerre érvényes témákat nem lehet törölni!"
+
+#: rc.cpp:326
+#, no-c-format
+msgid "Get Themes"
+msgstr "Témák beszerzése"
+
+#: rc.cpp:329
+#, no-c-format
+msgid "Get More Themes from the Internet"
+msgstr "További témák beszerzése az Internetről"
+
+#: rc.cpp:332
+#, no-c-format
+msgid ""
+"Pressing the button will launch konqueror and go to the KBFX Themes Section "
+"on www.kde-look.org"
+msgstr ""
+"A gomb megnyomásával egy Konqueror ablak nyílik a www.kde-look.org KBFX téma "
+"szekciójával"
+
+#: rc.cpp:335
+#, no-c-format
+msgid "Install Theme"
+msgstr "Téma telepítése"
+
+#: rc.cpp:338
+#, no-c-format
+msgid "Install New Theme from KBFX Theme Package"
+msgstr "Új téma telepítése KBFX Témacsomagból"
+
+#: rc.cpp:341
+#, no-c-format
+msgid ""
+"Pressing the button will offer a dialog where you can choose KBFX Theme "
+"Package to install in your home folder"
+msgstr ""
+"A gomb megnyomásával kiválaszthatod hogy megy KBFX témacsomag kerüljön "
+"telepítésre a saját könyvtáradba"
+
+#: rc.cpp:344 rc.cpp:583
+#, no-c-format
+msgid "Theme Info"
+msgstr "Téma Info"
+
+#: rc.cpp:347
+#, no-c-format
+msgid "Show specific theme info"
+msgstr "Témaspecifikus információ megjelenítése"
+
+#: rc.cpp:350
+#, no-c-format
+msgid "Pressing the button will show you specific theme info"
+msgstr "A gomb megnyomásával megtekintheted a témaspecifikus információkat"
+
+#: rc.cpp:353
+#, no-c-format
+msgid "Personal Image"
+msgstr "Saját kép"
+
+#: rc.cpp:356
+#, no-c-format
+msgid "Theme's Default"
+msgstr "Téma alapértelmezése"
+
+#: rc.cpp:359
+#, no-c-format
+msgid "Set the Theme's Default Personal Image"
+msgstr "Téma alapértelmezett saját képének beállítása"
+
+#: rc.cpp:362
+#, no-c-format
+msgid ""
+"Pressing the button will delete the personal image you have selected and "
+"install the theme's default personal image"
+msgstr ""
+"A gomb megnyomásával a beállított saját kép törlődik és helyette a témában "
+"beállítottalapértelmezett kép kerül telepítésre"
+
+#: rc.cpp:365
+#, no-c-format
+msgid "Maxsize 48 x 48"
+msgstr "Maximális méret 48 x 48"
+
+#: rc.cpp:368
+#, no-c-format
+msgid "Select New image"
+msgstr "Új kép kiválasztása"
+
+#: rc.cpp:371
+#, no-c-format
+msgid "Select a Personal Image"
+msgstr "Saját kép kiválasztása"
+
+#: rc.cpp:374
+#, no-c-format
+msgid "Pressing the button will open a dialog to select your personal image"
+msgstr "A gomb megnyomásával kiválaszthatod a saját személyes képed"
+
+#: rc.cpp:377
+#, no-c-format
+msgid "This is your personal image displayed at the KBFX menu."
+msgstr "Ez a saját kép mely a KBFX menü bal felső sarkában kerül megjelenítésre."
+
+#: rc.cpp:380
+#, no-c-format
+msgid "Misc Options"
+msgstr "Egyéb beállítások"
+
+#: rc.cpp:383
+#, no-c-format
+msgid "Watch System Installs"
+msgstr "Rendszertelepítések figyelése"
+
+#: rc.cpp:386 rc.cpp:389
+#, no-c-format
+msgid "Watch for applications installs and reload KBFX if any occurs"
+msgstr "Alkalmazás telepítések figyelése és KBFX újratöltése szükség esetén"
+
+#: rc.cpp:392 rc.cpp:395
+#, no-c-format
+msgid "Show Old Themes"
+msgstr "Régi témák megjelenítése"
+
+#: rc.cpp:398
+#, no-c-format
+msgid "<b><h3><p align=\"center\">Please select theme folder</p></h3></b>"
+msgstr "<b><h3><p align=\"center\">Válassz téma könyvtárat</p></h3></b>"
+
+#: rc.cpp:401
+#, no-c-format
+msgid "<b><h3><p align=\"center\">Installed themes</p></h3></b>"
+msgstr "<b><h3><p align=\"center\">Telepített témák</p></h3></b>"
+
+#: rc.cpp:407
+#, no-c-format
+msgid "<b><h3><p align=\"center\">Tooltip ON or OFF</p></h3></b>"
+msgstr "<b><h3><p align=\"center\">Eszköztipp KI/BEkapcsolása</p></h3></b>"
+
+#: rc.cpp:410
+#, no-c-format
+msgid "Turn off or on the tooltip"
+msgstr "Eszköztipp ki/bekapcsolása"
+
+#: rc.cpp:413
+#, no-c-format
+msgid ""
+"Turn your tooltip off or on. <br>You can see the current status of the "
+"tooltip to the right."
+msgstr ""
+"Eszköztipp ki/bekapcsolása. <br>Az eszköztipp aktuális állapota jobboldalt "
+"látható."
+
+#: rc.cpp:416
+#, no-c-format
+msgid "Turn the tooltip \"OFF\""
+msgstr "Eszköztipp \"KI\""
+
+#: rc.cpp:419
+#, no-c-format
+msgid "Tooltip Text"
+msgstr "Eszköztipp szövege"
+
+#: rc.cpp:422
+#, no-c-format
+msgid "Type the text which you want to be displayed in the tooltip."
+msgstr "Írd be az eszköztippben megjeleníteni kívánt szöveget."
+
+#: rc.cpp:425
+#, no-c-format
+msgid "<b><h3><p align=\"center\">Tooltip personal text</p></h3></b>"
+msgstr "<b><h3><p align=\"center\">Személyes eszköztipp szövege</p></h3></b>"
+
+#: rc.cpp:428
+#, no-c-format
+msgid "Tooltip animation"
+msgstr "Eszköztipp animáció"
+
+#: rc.cpp:431
+#, no-c-format
+msgid ""
+"Turn your tooltip animation off or on. <br>You can see the current status of "
+"the tooltip to the right."
+msgstr ""
+"Eszköztipp animációjának ki/bekapcsolása. <br>Az animáció aktuális állapota "
+"jobboldalt látható."
+
+#: rc.cpp:434
+#, no-c-format
+msgid "Turn the animation \"ON\""
+msgstr "Animáció \"BE\""
+
+#: rc.cpp:437
+#, no-c-format
+msgid "<b><h3><p align=\"center\">Tooltip animation ON or OFF</p></h3></b>"
+msgstr "<b><h3><p align=\"center\">Eszköztipp animáció KI/BEkapcsolása</p></h3></b>"
+
+#: rc.cpp:443
+#, no-c-format
+msgid "<b><h3><p align=\"center\">Menu type</p></h3></b>"
+msgstr "<b><h3><p align=\"center\">Menü típusa</p></h3></b>"
+
+#: rc.cpp:446
+#, no-c-format
+msgid "Please select the menu style"
+msgstr "Válaszd ki a menü stílusát"
+
+#: rc.cpp:449 rc.cpp:455
+#, no-c-format
+msgid "KBFX MENU"
+msgstr "KBFX MENÜ"
+
+#: rc.cpp:452 rc.cpp:458
+#, no-c-format
+msgid "KDE MENU"
+msgstr "KDE MENÜ"
+
+#: rc.cpp:464
+#, no-c-format
+msgid "<b><h3><p align=\"center\">Font options</p></h3></b>"
+msgstr "<b><h3><p align=\"center\">Betűtípus beállítások</p></h3></b>"
+
+#: rc.cpp:467
+#, no-c-format
+msgid "EXPORT KBFXFONTRC FILE"
+msgstr "KBFXFONTRC FÁJL EXPORTÁLÁSA"
+
+#: rc.cpp:470
+#, no-c-format
+msgid "Export the kbfxfontrc file to a folder"
+msgstr "kbfxfontrc fájl exportálása könyvtárba"
+
+#: rc.cpp:485
+#, no-c-format
+msgid "Bold fonts on hover"
+msgstr "Félkövér betűk fókusznál"
+
+#: rc.cpp:488 rc.cpp:491
+#, no-c-format
+msgid "Make fonts bolder when you hover the mouse over an item"
+msgstr "A betűk legyenek félkövérek, ha az egér egy elem fölött van"
+
+#: rc.cpp:494
+#, no-c-format
+msgid "Application \"LINE\":"
+msgstr "Alkalmazás \"SOR\":"
+
+#: rc.cpp:497
+#, no-c-format
+msgid "Horizontal line color in the application area."
+msgstr "Vízszintes vonal színe az alkalmazásterületen."
+
+#: rc.cpp:500
+#, no-c-format
+msgid "Application text :"
+msgstr "Alkalmazás szövege:"
+
+#: rc.cpp:503
+#, no-c-format
+msgid "Select the color of the \"application\" in the menu."
+msgstr "Válaszd ki a menüben lévő \"alkalmazás\" színét."
+
+#: rc.cpp:506
+#, no-c-format
+msgid "Comment text:"
+msgstr "Megjegyzés szövegének színe:"
+
+#: rc.cpp:509
+#, no-c-format
+msgid "Color of the \"comments\" in the menu."
+msgstr "A menüben lévő \"megjegyzések\" színe."
+
+#: rc.cpp:512
+#, no-c-format
+msgid "Name display:"
+msgstr "Név megjelenítés:"
+
+#: rc.cpp:515 rc.cpp:527 rc.cpp:533
+#, no-c-format
+msgid "The color of your login name in the menu."
+msgstr "Menüben megjelenő bejelentkezési név színe."
+
+#: rc.cpp:518
+#, no-c-format
+msgid "Category text:"
+msgstr "Kategória szövege:"
+
+#: rc.cpp:521
+#, no-c-format
+msgid "Font color of the categoris in the menu."
+msgstr "Kategóriák betűszíne."
+
+#: rc.cpp:524
+#, no-c-format
+msgid "Separator:"
+msgstr "Elválasztó:"
+
+#: rc.cpp:530
+#, no-c-format
+msgid "Plugin:"
+msgstr "Modul:"
+
+#: rc.cpp:536
+#, no-c-format
+msgid "Select font for the application's text"
+msgstr "Add meg az alkalmazások betűtípusát"
+
+#: rc.cpp:539
+#, no-c-format
+msgid "Select font for the comment's text"
+msgstr "Add meg a megjegyzések betűtípusát"
+
+#: rc.cpp:542
+#, no-c-format
+msgid "Select font for the username's text"
+msgstr "Add meg a felhasználónév betűtípusát"
+
+#: rc.cpp:545
+#, no-c-format
+msgid "Select font for the category's text"
+msgstr "Add meg a kategória szövegének betűtípusát"
+
+#: rc.cpp:548
+#, no-c-format
+msgid "Select font for the separator's text"
+msgstr "Add meg az elválasztók szövegének betűtípusát"
+
+#: rc.cpp:551
+#, no-c-format
+msgid "Select font for the plugins' text"
+msgstr "Válaszd ki a modulok szöveg betűtípusát"
+
+#: rc.cpp:554
+#, no-c-format
+msgid "Form1"
+msgstr "Form1"
+
+#: rc.cpp:557
+#, no-c-format
+msgid "<b><h3><p align=\"center\">People behind KBFX</p></h3></b>"
+msgstr "<b><h3><p align=\"center\">A KBFX mögött álló emberek</p></h3></b>"
+
+#: rc.cpp:560
+#, no-c-format
+msgid "You are running: <b>KBFX 0493</b>"
+msgstr "A <b>KBFX 0493</b> verzióját futtatod"
+
+#: rc.cpp:563
+#, no-c-format
+msgid ""
+"Here are the people behind the KBFX application.\n"
+"We would like to thank all people who have helped with KBFX or have donated "
+"money to our project!\n"
+"THANKS A LOT ALL OF YOU OUT THERE!!!"
+msgstr ""
+"Itt olvashatsz a kbfx mögött álló emberekről.\n"
+"Szeretnénk köszönetet mondani mindazoknak, akik segítettek a KBFX\n"
+"fejlesztésében és akik adományukkal segítették a projektet! KÖSZÖNET\n"
+"MINDANNYIÓTOKNAK ODAKINN!!!"
+
+#: rc.cpp:568
+#, no-c-format
+msgid ""
+"<strong>Name:</strong> Siraj Razick<br><br><strong>Country:</strong> Sri "
+"Lanka<br><br><strong>KBFX:</strong> Author, Maintainer, Developer, Project "
+"Admin<br><br><strong>Email:</strong> siraj(a)mail.kbfx.org"
+msgstr ""
+"<strong>Név:</strong> Siraj Razick<br><br><strong>Ország:</strong> Sri "
+"Lanka<br><br><strong>KBFX:</strong> Szerző, Karbantartó, Fejlesztő, "
+"Projektvezető<br><br><strong>Email:</strong> siraj(a)mail.kbfx.org"
+
+#: rc.cpp:571
+#, no-c-format
+msgid ""
+"<b>Tip!</b> Hover over the contact images to see each personal contact "
+"information."
+msgstr ""
+"<b>Tipp!</b>Húzd az egeret a képek fölé, hogy megtekinthesd minden személy "
+"kapcsolati adatait."
+
+#: rc.cpp:574
+#, no-c-format
+msgid "SPONSORS!"
+msgstr "TÁMOGATÓK!"
+
+#: rc.cpp:577
+#, no-c-format
+msgid ""
+"We would like to thank swedish computer company <b>PC Agenten</b> for "
+"sponsoring us with a server and bandwidth."
+msgstr ""
+"Szeretnénk köszönetet mondani a svéd <b>PC Agenten</b> számítástechnikai "
+"cégnek hogy egy szerverrel és sávszélességgel támogatott bennünket."
+
+#: rc.cpp:580
+#, no-c-format
+msgid ""
+"<p align=\"right\"><u><b><a href='http://www.pcagenten.se'>HTTP://WWW."
+"PCAGENTEN.SE</a></u></b></p>"
+msgstr ""
+"<p align=\"right\"><u><b><a href='http://www.pcagenten.se'>HTTP://WWW."
+"PCAGENTEN.SE </a></u></b></p>"
+
+#: rc.cpp:589
+#, no-c-format
+msgid "<p align=\"right\"><b>Name:</b></p>"
+msgstr "<p align=\"right\"><b>Név:</b></p>"
+
+#: rc.cpp:592
+#, no-c-format
+msgid "<p align=\"right\"><b>Version:</b></p>"
+msgstr "<p align=\"right\"><b>Verzió:</b></p>"
+
+#: rc.cpp:595
+#, no-c-format
+msgid "<p align=\"right\"><b>Author:</b></p>"
+msgstr "<p align=\"right\"><b>Szerző:</b></p>"
+
+#: rc.cpp:598
+#, no-c-format
+msgid "<p align=\"right\"><b>Email:</b></p>"
+msgstr "<p align=\"right\"><b>Email:</b></p>"
+
+#: rc.cpp:601
+#, no-c-format
+msgid "<p align=\"right\"><b>Homepage:</b></p>"
+msgstr "<p align=\"right\"><b>Weboldal:</b></p>"
+
+#: rc.cpp:604 rc.cpp:607 rc.cpp:610 rc.cpp:613 rc.cpp:616
+#, no-c-format
+msgid "Test"
+msgstr "Test"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:61
+msgid ""
+"<p align='center'>Invalid user themes folder!</p><p align='center'>Will use "
+"default user themes folder.</p>"
+msgstr ""
+"<p align='center'>Érvénytelen felhasználói témakönyvtár!</p><p "
+"align='center'>Az alapértelmezettet fogom használni.</p>"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:63
+msgid "Error loading themes"
+msgstr "Hiba a témák betöltésekor"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:170
+msgid ""
+"<p align='center'>Are you sure you want to uninstall the KBFX theme <strong>%"
+"1</strong>?</p>"
+msgstr "<p>Biztosan törölni szeretnéd a(z) <strong>%1</strong> témát?</p>"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:171
+msgid "Uninstall KBFX theme"
+msgstr "KBFX téma eltávolítása"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:172
+msgid "Uninstall"
+msgstr "Eltávolítás"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:177
+msgid ""
+"<p align='center'>Do you want to keep your personal settings for theme "
+"<strong>%1</strong>?</p>"
+msgstr "<p>Szeretnéd megtartani a(z) <strong>%1</strong> témához tartozó személyes beállításaid?</p>"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:178
+msgid "Personal settings"
+msgstr "Személyes beállítások"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:179
+msgid "Keep settings"
+msgstr "Beállítások megtartása"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:180
+msgid "Delete settings"
+msgstr "Beállítások törlése"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:210
+msgid ""
+"<p align='center'>Could not uninstall this KBFX theme.</p><p "
+"align='center'>You may not have sufficient permissions to delete the folder "
+"<strong>%1<strong>.</p>"
+msgstr ""
+"<p align='center'>Nem sikerült eltávolítani ezt a KBFX témát.</p><p "
+"align='center'>Valószínűleg nincs elegendő jogosultságod a(z) <strong>%1</"
+"strong> könyvtár törléséhez.</p>"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:223
+msgid "KBFX theme packages (*.tar, *.tar.bz2, *.tar.gz, *.kbfxtheme)"
+msgstr "KBFX témacsomagok (*.tar, *.tar.bz2, *.tar.gz, *.kbfxtheme)"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:227
+msgid "Select KBFX theme package to install"
+msgstr "Válaszd ki a telepíteni kívánt témacsomagot"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:243
+msgid "<p align='center'>Could not read this KBFX theme package.</p>"
+msgstr "<p align='center'>Nem sikerült olvasni ezt a KBFX témacsomagot.</p>"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:270
+msgid "Select personal image"
+msgstr "Személyes kép kiválasztása"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:281
+msgid ""
+"<p align='center'>Image cannot be used as a personal image!</p><p "
+"align='center'>Will use default personal image.</p>"
+msgstr ""
+"<p align='center'>A választott kép nem használható mint személyes kép!</p><p "
+"align='center'>Az alapértelmezett képet fogom használni.</p>"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:283
+#: configdialog/kbfxconfigdlgbutton.ui.h:65
+#: configdialog/kbfxconfigdlgbutton.ui.h:86
+#: configdialog/kbfxconfigdlgbutton.ui.h:107
+msgid "Error loading image"
+msgstr "Hiba a kép betöltésekor"
+
+#: configdialog/kbfxconfigdlgtooltip.ui.h:23
+msgid "Turn the animation 'OFF'"
+msgstr "Animáció \"KI\""
+
+#: configdialog/kbfxconfigdlgtooltip.ui.h:30
+msgid "Turn the animation 'ON'"
+msgstr "Animáció \"BE\""
+
+#: configdialog/kbfxconfigdlgtooltip.ui.h:53
+msgid "Turn the tooltip 'OFF'"
+msgstr "Eszköztippek \"KI\""
+
+#: configdialog/kbfxconfigdlgtooltip.ui.h:60
+msgid "Turn the tooltip 'ON'"
+msgstr "Eszköztipp \"BE\""
+
+#: configdialog/kbfxconfigdlgfonts-old.ui.h:122
+msgid "Select folder to export kbfxfontrc file"
+msgstr "Válaszd ki a kbfxfontrc fájl exportjának célkönyvtárát"
+
+#: configdialog/kbfxconfigdlgfonts-old.ui.h:151
+msgid ""
+"<p align='center'>The Font configuration of the KBFX Theme <strong>%1</"
+"strong> has been exported successfully!</p>"
+msgstr ""
+"<p align='center'>A(z) <strong>%1</strong> KBFX témához tartozó betűtípus "
+"beállítások exportja sikeresen megtörtént!</p>"
+
+#: configdialog/kbfxconfigdlgfonts-old.ui.h:152
+msgid "KBFX Font Export Ready"
+msgstr "KBFX betűtípus export kész"
+
+#: configdialog/kbfxconfigdlgabout.ui.h:23
+msgid ""
+"<strong>Name:</strong> Mensur Zahirovic (Nookie)<br><br><strong>Country:</"
+"strong> Sweden<br><br><strong>KBFX:</strong> co-author, Q/A, system design, "
+"web designer, bug hunter, project administror<br><br><strong>Email:</strong> "
+"nookie@mail.kbfx.org"
+msgstr ""
+"<strong>Név:</strong> Mensur Zahirovic (Nookie)<br><br><strong>Ország:</"
+"strong> Svédország<br><br><strong>KBFX:</strong> Társszerző, "
+"minőségbiztosítás (Q/A), rendszerterv, weblaptervező, hibavadász, projekt "
+"adminisztrátor<br><br><strong>Email:</strong> nookie@mail.kbfx.org"
+
+#: configdialog/kbfxconfigdlgabout.ui.h:32
+msgid ""
+"<strong>Name:</strong> Siraj Razick<br><br><strong>Country:</strong> Sri "
+"Lanka<br><br><strong>KBFX:</strong> author, maintainer, developer, project "
+"administror<br><br><strong>Email:</strong> siraj@mail.kbfx.org"
+msgstr ""
+"<strong>Név:</strong> Siraj Razick<br><br><strong>Ország:</strong> Sri "
+"Lanka<br><br><strong>KBFX:</strong> Szerző, karbantartó, fejlesztő, projekt "
+"adminisztrátor<br><br><strong>Email:</strong> siraj@mail.kbfx.org"
+
+#: configdialog/kbfxconfigdlgabout.ui.h:41
+msgid ""
+"<strong>Name:</strong> Nathanael Dracor Gogniat<br><br><strong>Country:</"
+"strong> Switzerland<br><br><strong>KBFX:</strong> project technical writer, "
+"documentation manager, co-author<br><br><strong>Email:</strong> "
+"nathanael@mail.kbfx.org"
+msgstr ""
+"<strong>Név:</strong> Nathanael Dracor Gogniat<br><br><strong>Ország:</"
+"strong> Svájc<br><br><strong>KBFX:</strong> technikai szakíró, "
+"dokumentációkezelő, társszerző<br><br><strong>Email:</strong> nathanael@mail."
+"kbfx.org"
+
+#: configdialog/kbfxconfigdlgabout.ui.h:50
+msgid ""
+"<strong>Name:</strong> PhobosK<br><br><strong>Country:</strong> "
+"Bulgaria<br><br><strong>KBFX:</strong> package & release manager, Q/A, bug "
+"hunter, mandriva packages, project administrator, developer Qt/C+"
+"+<br><br><strong>Email:</strong> phobosk@mail.kbfx.org"
+msgstr ""
+"<strong>Név:</strong> PhobosK<br><br><strong>Ország:</strong> "
+"Bulgária<br><br><strong>KBFX:</strong> csomag és kiadás felelős, "
+"minőségbiztosítás (Q/A), hibavadász, Mandriva csomagok, projekt "
+"adminisztrátor, Qt/C++ fejlesztő<br><br><strong>Email:</strong> phobosk@mail."
+"kbfx.org"
+
+#: configdialog/kbfxconfigdlgabout.ui.h:59
+msgid ""
+"<strong>Name:</strong> Johnny Henry Saenz Acuna (scarebyte)"
+"<br><br><strong>Country:</strong> Peru<br><br><strong>KBFX:</strong> "
+"developer Qt4/C++<br><br><strong>Email:</strong> saenzac@mail.kbfx.org"
+msgstr ""
+"<strong>Név:</strong> Johnny Henry Saenz Acuna (scarebyte)"
+"<br><br><strong>Ország:</strong> Peru<br><br><strong>KBFX:</strong> Qt4/C++ "
+"fejlesztő<br><br><strong>Email:</strong> saenzac@mail.kbfx.org"
+
+#: configdialog/kbfxconfigdlgabout.ui.h:68
+msgid ""
+"<strong>Name:</strong> Christoffer Brodd-Reijer (Ephracis)"
+"<br><br><strong>Country:</strong> Sweden<br><br><strong>KBFX:</strong> "
+"library developer for Raptor<br><br><strong>Email:</strong> ephracis@mail."
+"kbfx.org"
+msgstr ""
+"<strong>Név:</strong> Christofer Brodd-Reijer (Ephracis)"
+"<br><br><strong>Ország:</strong> Svédország<br><br><strong>KBFX:</strong> "
+"Raptor könyvtár fejlesztője<br><br><strong>Email:</strong> ephracis@mail."
+"kbfx.org"
+
+#: configdialog/kbfxconfigdlgbutton.ui.h:63
+msgid ""
+"<p align='center'>Image cannot be used as a pressed button skin!</p><p "
+"align='center'>Will use default pressed button skin.</p>"
+msgstr ""
+"<p align='center'>A választott kép nem használható mint lenyomott állapotú "
+"gomb képe!</p><p align='center'>Az alapértelmezettet fogom használni.</p>"
+
+#: configdialog/kbfxconfigdlgbutton.ui.h:84
+msgid ""
+"<p align='center'>Image cannot be used as a normal button skin!</p><p "
+"align='center'>Will use default normal button skin.</p>"
+msgstr ""
+"<p align='center'>A választott kép nem használható mint normál állapotú gomb "
+"képe!</p><p align='center'>Az alapértelmezettet fogom használni.</p>"
+
+#: configdialog/kbfxconfigdlgbutton.ui.h:105
+msgid ""
+"<p align='center'>Image cannot be used as a hover button skin!</p><p "
+"align='center'>Will use default hover button skin.</p>"
+msgstr ""
+"<p align='center'>A választott kép nem használható mint fókuszált állapotú "
+"gomb képe!</p><p align='center'>Az alapértelmezettet fogom használni.</p>"
+
+#: configdialog/kbfxconfigdlgbutton.ui.h:147
+msgid "Panel Resize is 'OFF'"
+msgstr "Eszköztár átméretezés \"KI\""
+
+#: configdialog/kbfxconfigdlglayout.ui.h:16
+msgid "User Properties"
+msgstr "Felhasználó tulajdonságai"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:17
+msgid "* Top Bar Properties"
+msgstr "* Felső sáv tulajdonságai"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:18
+msgid "* Bottom Bar Properties"
+msgstr "* Alsó sáv tulajdonságai"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:20
+msgid "* List Box Properties"
+msgstr "* Lista doboz tulajdonságai"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:21
+msgid "Search Box Properties"
+msgstr "Keresődoboz tulajdonságai"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:22
+msgid "* Item Properties"
+msgstr "* Elemek tulajdonságai"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:24
+msgid "* Main Menu Properties"
+msgstr "* Főmenü tulajdonságai"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:25
+msgid "Water Effect Properties"
+msgstr "Víz effektus tulajdonságai"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:209
+msgid "Face Position X"
+msgstr "Arckép X pozíciója"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:210
+msgid "Face Position Y"
+msgstr "Arckép Y pozíciója"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:211
+msgid "User Name Position X"
+msgstr "Felhasználónév X pozíciója"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:212
+msgid "User Name Position Y"
+msgstr "Felhasználónév Y pozíciója"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:213
+msgid "Face Box Position X"
+msgstr "Arckép doboz X pozíciója"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:214
+msgid "Face Box Position Y"
+msgstr "Arckép doboz Y pozíciója"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:215
+msgid "Face Box Height"
+msgstr "Arckép doboz magassága"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:216
+msgid "Face Box Width"
+msgstr "Arckép doboz szélessége"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:217
+msgid "Hide User Name"
+msgstr "Felhasználónév elrejtése"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:235
+msgid "* Top Bar Height"
+msgstr "* Felső sáv magassága"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:241
+msgid "Top Bar Width"
+msgstr "Felső sáv szélessége"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:266
+msgid "* Bottom Bar Height"
+msgstr "* Alsó sáv magassága"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:272
+msgid "Bottom Bar Width"
+msgstr "Alsó sáv szélessége"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:322
+msgid "* List Box Position X"
+msgstr "* Lista doboz X pozíciója"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:323
+msgid "* List Box Position Y"
+msgstr "* Lista doboz Y pozíciója"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:326
+msgid "List Box Height"
+msgstr "Lista doboz magassága"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:327
+msgid "* List Box Width"
+msgstr "* Lista doboz szélessége"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:345
+msgid "Search Box Position X"
+msgstr "Keresődoboz X pozíciója"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:346
+msgid "Search Box Position Y"
+msgstr "Keresődoboz Y pozíciója"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:349
+msgid "Search Box Height"
+msgstr "Keresődoboz magassága"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:350
+msgid "Search Box Width"
+msgstr "Keresődoboz szélessége"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:368
+msgid "* Item Position X"
+msgstr "* Elem X pozíciója"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:369
+msgid "* Item Position Y"
+msgstr "* Elem Y pozíciója"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:370
+msgid "Icon Size in Item"
+msgstr "Elem ikonjának mérete"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:372
+msgid "Item Height"
+msgstr "Elem magassága"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:373
+msgid "* Item Width"
+msgstr "* Elem szélessége"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:374
+msgid "Comment Margin in Item"
+msgstr "Megjegyzés margó az elemben"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:376
+msgid "No Comments in Item"
+msgstr "Nincs megjegyzés az elemben"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:417
+msgid "* Main Menu Height"
+msgstr "* Főmenü magassága"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:421
+msgid "* Main Menu Width"
+msgstr "* Főmenü szélessége"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:425
+msgid "Contracted Menues"
+msgstr "Összevont menük"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:441
+msgid "Water Effect Frame Rate"
+msgstr "Víz effektus képkockasebessége"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:450
+msgid "Enabled Water Effect"
+msgstr "Víz effektus engedélyezve"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:495
+msgid "Select folder to export kbfxlayoutrc file"
+msgstr "Add meg a kbfxlayoutrc fájl exportjának célkönyvtárát"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:583
+msgid ""
+"<p align='center'>The Layout configuration of the KBFX Theme <strong>%1</"
+"strong> has been exported successfully!</p>"
+msgstr ""
+"<p align='center'>A(z) <strong>%1</strong> téma elrendezésének beállítása "
+"sikeresen exportálva!</p>"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:584
+msgid "KBFX Layout Export Ready"
+msgstr "KBFX elrendezés exportja kész"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:651
+msgid ""
+"<p align='center'>The Layout configuration of the KBFX Theme <strong>%1</"
+"strong> is ready!</p><p align='center'>Be sure to click the <strong>Apply</"
+"strong> button in order the changes to become active!</p>"
+msgstr ""
+"<p align='center'>A(z) <strong>%1</strong> téma elrendezése kész!</p><p "
+"align='center'>Feltétlenül nyomd meg az <strong>Alkalmazás</strong> gombot, "
+"hogy érvényesítsd a változtatásokat!</p>"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:652
+msgid "KBFX Layout Ready"
+msgstr "KBFX elrendezés kész"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:658
+msgid ""
+"<p align='center'>KBFX will calculate the necessary values using the present "
+"values for:</p><p align='center'><strong>* Main Menu Height</strong> and "
+"<strong>* Main Menu Width</strong><br><strong>* Bottom Bar Height</strong> "
+"and <strong>* Top Bar Height</strong><br></p><p align='center'>So be sure "
+"that you have entered their values as you desire!</p><p "
+"align='center'><strong>NOTE:</strong> Have in mind that the Layout of the "
+"theme also depends on the sizes of the images! So if the theme does not look "
+"like as you desire either change the images' sizes to smaller width OR "
+"change <strong>* Main Menu Width</strong> to higher value!</p>"
+msgstr ""
+"<p align='center'>A KBFX a jelenlegi értékek alapján beállítja a "
+"következőket:</p><p align='center'><strong>* Főmenü magassága</strong> és "
+"<strong>* Főmenü szélessége</strong><br><strong>* Alsó sor magassága</"
+"strong> és <strong>* Felső sor magassága</strong><br></p><p "
+"align='center'>Győződj meg róla, hogy mindennek a kívánt értéket adtad meg!</"
+"p><p align='center'><strong>Figyelem:</strong>Vedd figyelembe, hogy a téma "
+"elrendezése a használt képek méretétől is függ! Tehát, ha a téma nem úgy néz "
+"ki, ahogy szeretted volna, akkor állítsd a képeket kisebb méretűre VAGY "
+"állítsd a <strong>* Főmenü magasságát</strong> nagyobbra!</p>"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:664
+msgid "Prepare Layout for the KBFX theme"
+msgstr "Elrendezés előkészítése a KBFX témához"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:665
+msgid "Prepare"
+msgstr "Elkészítés"
+
+#: configdialog/kbfxconfigdlgplugins.ui.h:15
+msgid "Left Panel"
+msgstr "Bal panel"
+
+#: configdialog/kbfxconfigdlgplugins.ui.h:16
+msgid "Right Panel"
+msgstr "Jobb panel"
+
+#: configdialog/kbfxconfigdlgplugins.ui.h:79
+#: configdialog/kbfxconfigdlgplugins.ui.h:85
+msgid "<p align='center'>Not Implemented yet.</p>"
+msgstr "<p align='center'>Még nincs implementálva.</p>"
+
+#: configdialog/kbfxconfigdlgmain.ui.h:34
+msgid "<p align='center'>Not implemented yet.</p>"
+msgstr "<p align='center'>Még nincs implementálva.</p>"
+

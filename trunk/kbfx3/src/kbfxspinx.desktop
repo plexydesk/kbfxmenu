@@ -1,0 +1,17 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=KBFX Spinx
+Comment=K-Menu Replacement
+Comment[de]=K-Menü- Nachfolger
+Comment[el]=Αντικαταστάτης του K-Μενού
+Comment[et]=K-menüü asendus
+Comment[fr]=Remplacement du menu K
+Comment[nl]=K-Menu-vervanging
+Comment[pt]=Substituto do Menu K
+Comment[pt_BR]=Substituto do Menu K
+Comment[sv]=Ersättning av K-menyn
+Icon=kbfx
+X-KDE-Library=libkbfxspinx
+X-KDE-UniqueApplet=true
+
+

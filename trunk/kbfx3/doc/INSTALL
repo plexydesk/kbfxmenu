@@ -1,0 +1,203 @@
+############################################
+#                                          #
+#     INSTALL file for KBFX > 0.4.9.2      #
+#                                          #
+############################################
+Last update: 03/03/2007
+
+Installation Notes by PhobosK
+
+
+
+
+1. Requirements :
+=================
+
+- Cmake  ( http://www.cmake.org ) - min. version 2.4.2
+- KDE3 and Qt3 sources - header files/devel packages
+- Strigi ( http://strigi.sf.net )  - header files/devel packages needed too
+				     (optional package)
+
+
+
+2. Compilation Instructions :
+=============================
+
+ 2.1. Unpack the sources of KBFX with (x.y.z-XXXXXXXX represents the version of
+      the KBFX package, for example : 0.4.9.3-20070117):
+
+    > tar xjvf kbfx-x.y.z-XXXXXXXX.tar.bz2
+
+ 2.2. Change into the new directory:
+
+    > cd kbfx-x.y.z-XXXXXXXX/
+
+ 2.3. Start the configuration and the compilation using the command:
+
+    > ./build.sh
+
+	Note for Mandriva < 2007 users:
+	===============================
+	The build script (by default) enables the use of "menudrake"
+	instead of "kmenuedit". If you want to prevent this behavior then
+	pass ONE of these options to the build script:
+	"--menudrake-off" OR "-m"
+
+	Notes for other building options:
+	=================================
+	"--prefix" OR "-p"  to install KBFX in a different than the default folder
+			    (default is KDE install folder) for example:
+			    > ./build.sh -p /home/user
+	"--strigi" OR "-s"  to enable Strigi support in KBFX
+			    (default is no Strigi support)
+	"--kde4" OR "-k"    to build KBFX for KDE4
+			    (default is for KDE3)
+	"--verbose" OR "-v" to make the build script give more verbose information
+	"--nocheck" OR "-n" to make the build script not to check if an old KBFX
+			    version is installed (default is to check)
+
+
+
+3. Using the "checkinstall" application for building KBFX packages :
+====================================================================
+
+"checkinstall" DOES NOT work with cmake correctly up to this moment. :(
+It can be used with additional commands in order to "work properly".
+Here is the procedure to follow as user (NOT as ROOT) in order to obtain
+the necessary distribution package.
+NOTE: - x.y.z-XXXXXXXX represents the version of the KBFX package,
+        in this example it is: 0.4.9.3-20070117
+      - in the example here the version string is replaced only in the
+        checkinstall comand but you have to do that everywhere the
+        "x.y.z-XXXXXXXX" string is met
+
+    > cd /tmp
+    > tar xjvf kbfx-x.y.z-XXXXXXXX.tar.bz2
+    > cd kbfx-x.y.z-XXXXXXXX/
+    > mkdir -p build/package
+    > cd build
+    > export DESTDIR=/tmp/kbfx-x.y.z-XXXXXXXX/build/package
+    > cmake  ../ -DCMAKE_INSTALL_PREFIX=`kde-config --prefix`
+    > make install DESTDIR=/tmp/kbfx-x.y.z-XXXXXXXX/build/package
+    > find package/|sed s#^package/#./# > installed_files.txt
+    > cd package/
+    > su
+    > checkinstall -nodoc --pkgname="kbfx" --pkgversion="0.4.9.3" --pkgrelease="20070117" \
+      --exclude="/" --include=../installed_files.txt --pakdir=/tmp/kbfx-0.4.9.3-20070117 sleep 1
+
+When ready, "checkinstall" will show you the folder where the prepared package
+is, like in this Mandriva Example:
+
+**********************************************************************
+
+ Done. The new package has been saved to
+
+ /tmp/kbfx-0.4.9.3-20070117/kbfx-0.4.9.3-20070117.i386.rpm
+ You can install it in your system anytime using:
+
+      rpm -i kbfx-0.4.9.3-20070117.i386.rpm
+
+**********************************************************************
+
+Of course the best way to make RPM packages is to use the "kbfx.spec" file provided
+in the KBFX sources like described bellow.
+
+
+
+4. RPM Building Instructions (Mandriva, Fedora, Suse) :
+=======================================================
+
+If you prefer manipulate a RPM, you can build it with the following commands:
+
+ 4.1. Build the RPM
+
+    > rpmbuild -tb kbfx-x.y.z-XXXXXXXX.tar.bz2
+
+   or (for Mandriva)
+
+    > rpmbuild --rebuild kbfx-x.y.z-XXXXXXXX-mdv20070.src.rpm
+
+   or (for Fedora)
+
+    > rpmbuild --rebuild kbfx-x.y.z-XXXXXXXX-FCx.src.rpm
+
+   or (for SuSe)
+
+    > rpmbuild --rebuild kbfx-x.y.z-XXXXXXXX-suseXXX.src.rpm
+
+ 4.2. If succeed, you will found the rpm in /usr/src/rpm/RPMS (for Mandriva)
+      or /usr/src/redhat/RPMS (for Fedora) or /usr/src/packages/RPMS (for Suse)
+      according to the platform you have.
+
+ 4.3. Install the rpm as usually by:
+    > rpm -Uvh kbfx-x.y.z-XXXXXXXX.rpm
+
+	Notes for building RPM from KBFX SVN versions :
+	===============================================
+	- Follow these commands in the sources directory:
+		> ./build.sh
+		> Answer "N" to the question if you want to install KBFX
+		> cd build
+		> make dist
+	- A file "kbfx-x.y.z-XXXXXXXX.tar.bz2" will be created in the build
+	  directory.
+	- Proceed with the steps described in 4.1., 4.2., 4.3.
+
+
+
+5. Gentoo users:
+================
+
+In order to use the strigi engine in KBFX you have to do these steps:
+ - Copy the "strigi-X.X.X.ebuild" and the "kbfx-0.4.9.X.ebuild" (from the sources
+   directory) to your local portage tree as needed
+   OR use the "kbfx-0.4.9.X-portage-overlay.tar.bz2"
+ - Set the flag "strigi" for the kbfx ebuild
+ - Emerge "clucene"
+ - Emerge "kbfx"
+
+There is a Layman overlay resource on the SourceForge SVN.
+You can add it by this command:
+    > layman -f -o https://kbfx.svn.sourceforge.net/svnroot/kbfx/layman/kbfx-overlay.xml \
+      -a kbfx
+After you add the "kbfx" overlay you can use it as usual.
+
+
+
+6. Getting SVN version:
+=======================
+
+To download the latest development source, you need to go to KDE SVN
+and download it from there. The current SVN address of the repository is:
+svn://anonsvn.kde.org/home/kde/trunk/playground/base/kbfx_plasma
+
+Here are the instructions on how to get a copy of the SVN Repository:
+
+ 6.1. Install your distribution's package named "subversion"
+      OR download and install it from: http://subversion.tigris.org
+
+ 6.2. Create a folder where you will compile/install KBFX and enter in it.
+      For example do this:
+
+    > mkdir -p ~/usr/src/svn
+    > cd ~/usr/src/svn
+
+ 6.3. Checkout the SVN version of KBFX in this way and proceed as follows:
+
+    > svn co svn://anonsvn.kde.org/home/kde/trunk/playground/base/kbfx_plasma
+    > cd  kbfx_plasma
+
+ 6.4. Proceed with the compilation/installation of KBFX as described in 2.3.
+
+    > ./build.sh
+
+ 6.5. If you want always to have the latest version of KBFX you may leave
+      the folder ~/usr/src/svn/kbfx_plasma intact for future use.
+      When you want to update the source files of KBFX you just need to do
+      "svn up" in this folder, delete the folder ~/usr/src/svn/kbfx_plasma/build
+      and do the step described in 2.3. i.e:
+
+    > cd ~/usr/src/svn/kbfx_plasma
+    > svn up
+    > rm -fR build
+    > ./build.sh

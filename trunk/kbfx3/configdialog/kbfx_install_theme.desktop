@@ -1,0 +1,22 @@
+[Desktop Entry]
+Encoding=UTF-8
+ServiceTypes=application/x-kbfxtheme
+Actions=kbfx_install_theme
+
+[Desktop Action kbfx_install_theme]
+Icon=kbfxconfigapp
+Exec=kbfxconfigapp --install %u
+Name=Install KBFX Theme Package
+Name[bg]=Инсталиране на пакета KBFX Theme
+Name[da]=Installér KBFX-temapakke
+Name[de]=KBFX Theme-Paket installieren
+Name[el]=Εγκατάσταση του πακέτου θέματος KBFX
+Name[es]=Instalar paquete con el tema KBFX
+Name[et]=KBFX teemapaketi paigaldamine
+Name[fr]=Installer le paquet des thèmes KBFX
+Name[ja]=KBFX テーマパッケージをインストール
+Name[nl]=KBFX-themapakket installeren
+Name[pt]=Instalar o Pacote de Tema do KBFX
+Name[pt_BR]=Instalar Pacote do Tema KBFX
+Name[sv]=Installera KBFX-temapaket
+

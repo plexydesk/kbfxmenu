@@ -1,0 +1,23 @@
+[Desktop Entry]
+Encoding=UTF-8
+ServiceTypes=inode/directory
+Actions=kbfx_prepare_theme
+
+[Desktop Action kbfx_prepare_theme]
+Icon=kbfxconfigapp
+Exec=kbfxconfigapp --prepare %u
+Name=Prepare KBFX Theme Package
+Name[bg]=Подготовка на пакета KBFX Theme
+Name[da]=Opret KBFX-temapakke
+Name[de]=KBFX Theme-Paket vorbereiten
+Name[el]=Προετοιμασία του πακέτου θέματος KBFX
+Name[es]=Preparar paquete con el tema KBFX
+Name[et]=KBFX teemapaketi ettevalmistamine
+Name[fr]=Preparer le paquet des thèmes KBFX
+Name[ga]=Ullmhaigh Pacáiste Téama KBFX
+Name[ja]=KBFX テーマパッケージを準備
+Name[nl]=KBFX-themapakket voorbereiden
+Name[pt]=Preparar o Pacote de Tema do KBFX
+Name[pt_BR]=Preparar Pacote do Tema KBFX
+Name[sv]=Skapa KBFX-temapaket
+

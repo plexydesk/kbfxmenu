@@ -1,0 +1,16 @@
+Begin3
+Title:          $APPNAME$ -- KBFX Configuration Utility
+Version:        $VERSION$
+Entered-date:   
+Description:    
+Keywords:       KDE Qt
+Author:         PhobosK <phobosk@mail.kbfx.org>
+Maintained-by:  PhobosK <phobosk@mail.kbfx.org>
+Home-page:	http://www.kbfx.org
+Alternate-site: 
+Primary-site:   ftp://ftp.kde.org/pub/kde/unstable/apps/utils
+                xxxxxx  kbfxconfigapp-0.1.tar.gz
+                xxx     kbfxconfigapp-0.1.lsm
+Platform:       Linux. Needs KDE
+Copying-policy: $LICENSE$
+End

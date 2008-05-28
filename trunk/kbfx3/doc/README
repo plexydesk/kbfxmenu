@@ -1,0 +1,44 @@
+ KBFX Preface:
+ ============
+  KBFX is an alternative to the classical K-Menu button and it's menu.
+It improves the user experience by enabling the user to set a bigger (and
+thus more visible) start button and by finally replacing the Win95-like
+K-Menu with the Spinx bar.
+If you still want the old menu, because you're used to it, it is still
+available as an option in KBFX.
+
+
+ Team/Credits
+ ============
+The KBFX team is small, but very active. The members are:
+  Siraj Razick: Maintainer, initiator of KBFX, Developer, Project Admin
+  Mensur Zahirovic (nookie): Web-development, Q&A, Graphics, Bug Hunter,
+  			     Project Admin
+  Nathanael Gogniat (dracor): Documentation
+  PhobosK: Package & Release Manager, Quality Assurance, Bug Hunter,
+  	   Mandriva Packages, Project Admin, Developer QT/C++
+  Johnny Henry Sáenz Acuña (scarebyte): Developer QT4/C++, Debian Packages
+  Fathi Boudra (fabo): Developper QT/C++, Debian Packages
+  Pascal Jungblut (Jongking): Development support
+
+Special thanks goes to:
+  Akhmad Fathonih, Asif Ali Rizwaan, Dominik, Victor, Ron (bfman), Steady
+
+We would also like to thank everyone who has contributed to KBFX by using
+it and sending feedback and bugs and everyone who has contributed button
+designs or ideas.
+
+
+ Other Useful Info
+ =================
+For Installation Instructions:
+	see INSTALL
+For useful howtoes:
+	see HOWTO
+For known bugs:
+	see KNOWN_BUGS
+Project Homepage:
+	http://www.kbfx.org
+Project Releases:
+	http://sourceforge.net/project/showfiles.php?group_id=141258
+

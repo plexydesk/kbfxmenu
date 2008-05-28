@@ -1,0 +1,2456 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.2-Based Variant V1.1//EN" "dtd/kdex.dtd" [
+  <!ENTITY kbfxconfigapp "<application>KBFX Configurator @APPLICATION_VERSION@</application>">
+  <!ENTITY kappname "&kbfxconfigapp;"><!-- Do *not* replace kappname-->
+  <!ENTITY package "kde-module"><!-- kdebase, kdeadmin, etc -->
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % English "INCLUDE"><!-- change language only here -->
+
+
+  <!-- Do not define any other entities; instead, use the entities
+       from kde-genent.entities and $LANG/user.entities. -->
+]>
+
+<!-- ................................................................ -->
+
+<!-- The language must NOT be changed here. -->
+
+<book lang="&language;">
+
+<bookinfo>
+	<title>The &kbfxconfigapp; Handbook</title>
+
+	<authorgroup>
+		<author>
+			<firstname>Siraj</firstname>
+			<othername></othername>
+			<surname>Razick</surname>
+			<affiliation>
+				<address><email>siraj@kdemail.net</email></address>
+			</affiliation>
+		</author>
+
+		<author>
+			<firstname></firstname>
+			<othername></othername>
+			<surname>PhobosK</surname>
+			<affiliation>
+				<address><email>phobosk@mail.kbfx.org</email></address>
+			</affiliation>
+		</author>
+
+		<author>
+			<firstname>Mensur</firstname>
+			<othername>Nookie</othername>
+			<surname>Zahirovic</surname>
+			<affiliation>
+				<address><email>nookie@mail.kbfx.org</email></address>
+			</affiliation>
+		</author>
+
+		<author>
+			<firstname>Nathanael</firstname>
+			<othername></othername>
+			<surname>Gogniat</surname>
+			<affiliation>
+				<address><email>nathanael@mail.kbfx.org</email></address>
+			</affiliation>
+		</author>
+	</authorgroup>
+
+	<!-- TRANS:ROLES_OF_TRANSLATORS -->
+
+	<copyright>
+		<year>2007</year>
+		<holder><link linkend="kbfx_team">KBFX Team</link></holder>
+	</copyright>
+
+	<!-- Translators: put here the copyright notice of the translation -->
+	<!-- Put here the FDL notice.  Read the explanation in fdl-notice.docbook
+	     and in the FDL itself on how to use it. -->
+	<legalnotice>&FDLNotice;</legalnotice>
+
+	<!-- Date and version information of the documentation
+	Don't forget to include this last date and this last revision number, we
+	need them for translation coordination !
+	Please respect the format of the date (YYYY-MM-DD) and of the version
+	(V.MM.LL), it could be used by automation scripts.
+	Do NOT change these in the translation. -->
+
+	<date>@APPLICATION_DATE@</date>
+	<releaseinfo>@APPLICATION_VERSION@</releaseinfo>
+
+	<!-- Abstract about this handbook -->
+
+	<abstract>
+		<para>
+			KBFX is an alternative to the classical K-Menu button and it's menu.
+		</para>
+
+		<para>
+			It improves the user experience by enabling the user to set a bigger (and
+			thus more visible) start button and by finally replacing the Win95-like K-Menu.
+			But if you still want the old menu, because you're used to it, it is still
+			available as an option in KBFX. We recommend, however, that you give the Spinx
+			bar a try.
+		</para>
+	</abstract>
+
+	<!-- This is a set of Keywords for indexing by search engines.
+	Please at least include KDE, the KDE package it is in, the name
+	 of your application, and a few relevant keywords. -->
+
+	<keywordset>
+		<keyword>KDE</keyword>
+		<keyword>kbfxconfigapp</keyword>
+		<keyword>KBFX</keyword>
+		<keyword>Menu</keyword>
+		<keyword>Configurator</keyword>
+	</keywordset>
+</bookinfo>
+
+<!-- The contents of the documentation begin here. -->
+
+<chapter id="introduction">
+	<title>Introduction</title>
+
+	<para>
+		KBFX is an alternative to the classical K-Menu button and it's menu.
+		It improves the user experience by enabling the user to set a bigger (and
+		thus more visible) start button and by finally replacing the Win95-like K-Menu.
+		But if you still want the old menu, because you're used to it, it is still
+		available as an option in KBFX. We recommend, however, that you give the Spinx
+		bar a try.
+	</para>
+
+	<para>&#160;</para>
+
+	<sect1 id="kbfx-features">
+		<title>KBFX features</title>
+
+		<para>
+			Main KBFX features:
+		</para>
+
+		<orderedlist>
+			<listitem>
+				<para>
+					Using Plugins.
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					Selecting an Application Group.
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					Scroll up and down the application list.
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					Type and locate an Application.
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					Logout of the Desktop.
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					Lock the Desktop.
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					Launch the KBFX Configurator (the KBFX settings manager).
+				</para>
+			</listitem>
+		</orderedlist>
+
+		<para>
+			Extra KBFX features:
+		</para>
+
+		<orderedlist>
+			<listitem>
+				<para>
+					Double buffered Widgets to minimize flicker.
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					Animated scroll bars.
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					New Tooltip.
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					New Control Manager.
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					Drag &#038; Drop Applications' Items support.
+				</para>
+			</listitem>
+
+		</orderedlist>
+	</sect1>
+
+	<sect1 id="kbfx-history">
+		<title>KBFX History</title>
+
+		<para>
+			KBFX was started on June 5th 2005 as a hobbyist project by Siraj Razick, born out of a spontaneous idea.
+		</para>
+
+		<para>
+			The reason was that Siraj didn't like the old K-Menu, which was quite a clone of the old Win95 Start menu. So he started coding.
+			The first step provided merely the possibility to call the K-Menu via a button, that could have a different shape and size than the original K-Menu button, which has always been an icon of a square size. To change the default KBFX button, one still had to copy an image file to a certain location.
+			After the first post in mid-June 05, KBFX has spread rapidly and it was nice to see that until end of June, there were already a dozen posts on kde-look with buttons and builds.
+		</para>
+
+		<para>
+			Mensur Zahirovic (called Nookie) joined Siraj on 5th of august, after Siraj met him on yahoo. Nookie is responsible for the Web-development and the Q&#038;A. He also arranged the site www.kbfx.org, that replaces the previous site www.linuxlots.com/~siraj/plugin/kde.
+		</para>
+
+		<para>
+			After that, things began to speed up.
+			Now KBFX is no longer just another button design for the K-Menu, but provides an alternative to it, that is in fact more sophisticated than the XP-Start menu.
+		</para>
+	</sect1>
+
+	<sect1 id="kbfx-development">
+		<title>KBFX Development</title>
+
+		<para>
+			KBFX version 0.4.9.3 is a complete rewrite of the old KBFX code eliminating all the negative points of the previous versions.
+		</para>
+
+		<para>
+			At the start we had a list of end requirements for version 0.4.9.3 and we developed each of the feature units, testing each and every class as it was developed.
+			Apart from unit testing, the quality assurance managers periodically checked the quality of the product and the new releases that were made to the KBFX source repository.
+			The Q&#038;A always checked the product against the requirements that we had set to maximize quality.
+			This way of development helped us to discover tons of bugs and fix them instantly, and so we debut with a rather clean and bug free KBFX.
+		</para>
+
+		<para>
+			It was really helpful to see many users around the world checking out the development release of KBFX from SVN, reporting and posting problems encountered and helping to add more stability and compatibility between distributions.
+			Because of this, we know the supported platforms even before KBFX is 0.4.9.3 is released.
+		</para>
+
+		<para>
+			KBFX has been tested to work with all GCC3.x and GCC4.x compilers.
+			It has been tested on systems running the distributions of Gentoo, Debian, Ubuntu, Suse, Slackware, Mango, Mandrake, PCLinuxOS and Fedora core.
+			Unfortunately, compiling on FreeBSD systems is yet to be tested, but we plan to port KBFX to FreeBSD and PcBSD.
+		</para>
+	</sect1>
+
+	<sect1 id="kbfx-concepts">
+		<title>KBFX Concepts</title>
+
+		<para>
+			The KBFX Spinx Menu does not try to copy the WinXP Start menu.
+			It is based on a different approach and concept.
+			Following, the concepts of the traditional hierarchical structure and the new, flat indexed menu are described and compared, although the new menu structure is quite intuitive.
+		</para>
+
+		<para>&#160;</para>
+
+		<sect2>
+			<title>Hierarchical (Traditional) menu structure</title>
+
+			<para>
+				The KDE K-Menu is a good example of a flat hierarchical menu.
+				It organizes application shortcuts in a tree link structure, where it can expand and open a submenu, with entries displayed based on some logical order.
+				This order may be task oriented, type oriented or just ordered alphabetically.
+				To find and launch an application, the user needs to navigate through the submenus, until he reaches the leaf (leaf node).
+				This approach is a direct adoption of the Microsoft Windows Start Menu. They introduced it with Windows 95/98/ME/NT/2000. This was certainly a huge usability advantage compared to the Windows 3.1 System with the program manager, but a lot has changed since these days. The Windows XP Start Menu is still based on this concept, although it is enhanced by the functionalities to pin applications to the left column and the automatically pinned most used applications.
+				But still, a user must move the mouse over the half screen, if his menu has many submenus with other submenus, and the application is not one of his most used or pinned applications.
+			</para>
+
+			<para>&#160;</para>
+		</sect2>
+
+
+		<sect2>
+			<title>Flat indexed menu structure</title>
+
+			<para>
+				The KBFX Spinx Menu uses a different approach – the flat indexed menu.
+				With this type of menu it's very easy to navigate.
+				On the left hand side, you are given the application categories.
+				They can be task oriented or type oriented. On the right (middle) side of the menu, there are all the available applications listed that belong to the activated category.
+				The advantage is evident - the menu reduces the mouse paths, so you can locate your applications very fast. The user sees all the categories at a glance and he can pick it without having to travel along a long list until he finds the end leaf.
+				The speed of use is further enhanced by moving the most used and recently used applications on the top index, so that the most used applications are just one click away.
+			</para>
+		</sect2>
+	</sect1>
+</chapter>
+
+
+<chapter id="using-kbfx">
+	<title>Using KBFX</title>
+
+	<para>&#160;</para>
+
+	<sect1 id="howto-button">
+		<title>Starting KBFX</title>
+
+		<para>
+			The KBFX menu button is a starting point for the menu. It first has to be added to a kicker's panel.
+			To add the KBFX Menu to a panel, proceed as following:
+		</para>
+
+		<procedure>
+			<step>
+				<para>
+					Right-click on the kicker's panel, on which you want to place the KBFX button.
+				</para>
+			</step>
+
+			<step>
+				<para>
+					Select "Add Applet to Panel..." in the context menu.
+				</para>
+			</step>
+
+			<step>
+				<para>
+					Select "KBFX Spinx".
+				</para>
+			</step>
+
+			<step>
+				<para>
+					A tooltip appears "KBFX Spinx Added".
+				</para>
+			</step>
+
+			<step>
+				<para>
+					If you move your mouse over the button, a tooltip appears (turned off
+					in the default configuration).
+				</para>
+			</step>
+
+			<step>
+				<para>
+					If you want to skin the KBFX Start Button see <link linkend="kbfx_button">this section</link>.
+				</para>
+			</step>
+
+			<step>
+				<para>
+					If you want to, you can now remove the K-Menu button and move the KBFX to the desired place on the panel. To open the menu, just click on the button.
+				</para>
+			</step>
+		</procedure>
+	</sect1>
+
+	<sect1 id="howto-menu">
+		<title>Using the Spinx Menu</title>
+
+		<screenshot>
+			<screeninfo>Here's a screenshot of the Spinx Menu</screeninfo>
+
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="preview.png" format="PNG"/>
+				</imageobject>
+
+				<textobject>
+					<phrase>Screenshot of the the Spinx Menu</phrase>
+				</textobject>
+			</mediaobject>
+		</screenshot>
+
+		<para>
+			The Spinx Menu looks (depending on the skin) like the picture above.
+			It consists of following elements.
+			<orderedlist>
+				<listitem>
+					<para>
+						The picture in the upper left corner is your "dude" icon.
+					</para>
+				</listitem>
+
+				<listitem>
+					<para>
+						In the left and right columns of the menu, the plugins are displayed.
+						Click on a plugin section, to display it's content in the middle column.
+						If you click on the plugin's name you can contract its sections.
+					</para>
+				</listitem>
+
+				<listitem>
+					<para>
+						In the middle column of the menu, the menu items of the selected plugin section are displayed.
+						Usually the menu items are grouped.
+						If you click on a group it will contract.
+						There is an <link linkend="kbfx_layout">option</link> in the KBFX Configurator to start all these groups contracted.
+					</para>
+					<para>
+						You CAN drag and drop items FROM this part of the menu to your desktop, konqueror etc.
+					</para>
+					<para>
+						You CAN NOT drag and drop items TO this part of the menu.
+					</para>
+				</listitem>
+
+				<listitem>
+					<para>
+						The arrows above and below the middle column are used to scroll up and down in the middle column.
+					</para>
+				</listitem>
+
+				<listitem>
+					<para>
+						In the upper right corner, you find a search field, which can help you finding a menu item.
+						It is "search as you tipe" field.
+						If you want to clear the search (or the search term) double click on the search icon in the field.
+						If you type a command in the search field and press "Enter", the command will be started as if it has been typed in the "Run command..." dialog of K-menu.
+					</para>
+				</listitem>
+
+				<listitem>
+					<para>
+						In the lower right corner, you find two buttons, one to log out and one to lock the desktop.
+					</para>
+				</listitem>
+			</orderedlist>
+		</para>
+	</sect1>
+
+	<sect1 id="howto-configure">
+		<title>How to configure KBFX</title>
+
+		<para>
+			Here you can find how to use the KBFX Configurator.
+		</para>
+
+		<para>&#160;</para>
+
+		<sect2>
+			<title><anchor id="kbfx_themes" />Choose the KBFX Theme</title>
+
+			<screenshot>
+				<screeninfo>Here's a screenshot of the Themes Section of the KBFX Configurator</screeninfo>
+
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="../common/kbfx-themes.jpg" format="JPG"/>
+					</imageobject>
+
+					<textobject>
+						<phrase>Screenshot of the Themes Section of the KBFX Configurator</phrase>
+					</textobject>
+				</mediaobject>
+			</screenshot>
+
+			<para>
+				<variablelist>
+					<varlistentry>
+						<term>Select default folder</term>
+						<listitem>
+							<para>
+								Here you can select the folder in which you keep all your themes.
+							</para>
+						</listitem>
+					</varlistentry>
+				</variablelist>
+			</para>
+
+			<para>
+				The other options are self explanatory and have tooltips that can help you use them.
+			</para>
+
+			<para>&#160;</para>
+		</sect2>
+
+		<sect2>
+			<title><anchor id="kbfx_button" />Skin the KBFX Button</title>
+
+			<screenshot>
+				<screeninfo>Here's a screenshot of the Start Button Section of the KBFX Configurator</screeninfo>
+
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="../common/kbfx-startbutton.jpg" format="JPG"/>
+					</imageobject>
+
+					<textobject>
+						<phrase>Screenshot of the Start Button Section of the KBFX Configurator</phrase>
+					</textobject>
+				</mediaobject>
+			</screenshot>
+
+			<para>
+				Here you can skin the button. There are three fields to fill.
+				The first field is the field for the path to the picture for the default button state (Normal).
+				The second field is for the picture of the button in pressed state (Pressed).
+				The third field is for the picture of the button in hovered state (Hover).
+				You can drag and drop images on the "Preview" place or on the file selector field of each button.
+				The selected design can be seen in the preview area. Press the "Apply" button to apply the selected look.
+			</para>
+
+			<tip>
+				<para>
+					You can skin the KBFX Start Button by selecting three images (Normal, Pressed and Hover) in any file manager, drag and drop them on the KBFX Start Button. In order this to work the images have to have in their name the respective state of the button, i.e. "pressed", "hover" or "normal". Here is an example of valid file names for the button: my_hover_dButton.png, my_pressed_dButton.png, my_normal_dButton.png .
+				</para>
+			</tip>
+
+			<variablelist>
+				<varlistentry>
+					<term>Button Fade Transition Effect</term>
+					<listitem>
+						<para>
+							This allows you to turn ON or OFF the fade effect for the KBFX button. This effect makes transitions between the three images (normal, hover, pressed) animated. Here you can set the time for the fade effect in msec. This time should be greater than 20 msec and less than 1000 msec. If set to 0 the effect will be disabled.
+						</para>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+
+			<para>&#160;</para>
+
+			<para>
+				The other options are self explanatory and have tooltips that can help you use them.
+			</para>
+
+			<para>&#160;</para>
+		</sect2>
+
+		<sect2>
+			<title><anchor id="kbfx_fonts" />Set the Fonts of the KBFX Theme</title>
+
+			<screenshot>
+				<screeninfo>Here's a screenshot of the Fonts Section of the KBFX Configurator</screeninfo>
+
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="../common/kbfx-fonts.jpg" format="JPG"/>
+					</imageobject>
+
+					<textobject>
+						<phrase>Screenshot of the Fonts Section of the KBFX Configurator</phrase>
+					</textobject>
+				</mediaobject>
+			</screenshot>
+
+			<para>
+				Here you can configure all the fonts (colors, points, style etc.) for the current theme.
+			</para>
+
+			<para>
+				<variablelist>
+					<varlistentry>
+						<term>EXPORT KBFXFONTRC FILE</term>
+						<listitem>
+							<para>
+								Use this button to export your font settings in order to share it with other KBFX users or if you want to create a theme by yourself (how to create your own themes you can find out in <link linkend="howto-themes">this chapter</link>).
+							</para>
+						</listitem>
+					</varlistentry>
+				</variablelist>
+			</para>
+
+			<important>
+				<para>
+					In the font settings for the tooltip only "Font Name" and "Font Color" are used.
+					The other settings like "Font Style" and "Font size" are not used.
+					This may change in future versions.
+				</para>
+			</important>
+
+			<para>
+				The other options are self explanatory and have tooltips that can help you use them.
+			</para>
+
+			<para>&#160;</para>
+		</sect2>
+
+		<sect2>
+			<title><anchor id="kbfx_layout" />Set the Layout of the KBFX Theme</title>
+
+			<screenshot>
+				<screeninfo>Here's a screenshot of the Layout Section of the KBFX Configurator</screeninfo>
+
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="../common/kbfx-layout.jpg" format="JPG"/>
+					</imageobject>
+
+					<textobject>
+						<phrase>Screenshot of the Layout Section of the KBFX Configurator</phrase>
+					</textobject>
+				</mediaobject>
+			</screenshot>
+
+			<para>
+				Here you can configure all the layout options for the current theme.
+			</para>
+
+			<para>
+				<variablelist>
+					<varlistentry>
+						<term>Make it 2/3 Panels buttons</term>
+						<listitem>
+							<para>
+								Use these buttons to force KBFX to auto-configure the current theme to the listed layouts.
+							</para>
+						</listitem>
+					</varlistentry>
+
+					<varlistentry>
+						<term>EXPORT KBFXLAYOUTRC FILE</term>
+						<listitem>
+							<para>
+								Use this button to export your layout settings in order to share it with other KBFX users or if you want to create a theme by yourself (how to create your own themes you can find out in <link linkend="howto-themes">this chapter</link>).
+							</para>
+						</listitem>
+					</varlistentry>
+				</variablelist>
+			</para>
+
+			<para>
+				The other options are self explanatory and have tooltips that can help you use them.
+			</para>
+
+			<para>&#160;</para>
+		</sect2>
+
+		<sect2>
+			<title><anchor id="kbfx_plugins" />Set the KBFX Plugins</title>
+
+			<screenshot>
+				<screeninfo>Here's a screenshot of the Plugins Section of the KBFX Configurator</screeninfo>
+
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="../common/kbfx-plugins.jpg" format="JPG"/>
+					</imageobject>
+
+					<textobject>
+						<phrase>Screenshot of the Plugins Section of the KBFX Configurator</phrase>
+					</textobject>
+				</mediaobject>
+			</screenshot>
+
+			<para>
+				Here you can configure the plugins KBFX will use and where to place them - on  the left or on the right column of the KBFX Menu.
+			</para>
+
+			<para>
+				The other options are self explanatory and have tooltips that can help you use them.
+			</para>
+
+			<para>&#160;</para>
+		</sect2>
+
+		<sect2>
+			<title><anchor id="kbfx_tooltip" />Set the Tooltip of the KBFX Button</title>
+
+			<screenshot>
+				<screeninfo>Here's a screenshot of the Tooltip Section of the KBFX Configurator</screeninfo>
+
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="../common/kbfx-tooltip.jpg" format="JPG"/>
+					</imageobject>
+
+					<textobject>
+						<phrase>Screenshot of the Tooltip Section of the KBFX Configurator</phrase>
+					</textobject>
+				</mediaobject>
+			</screenshot>
+
+			<para>
+				Here you can select if the tooltip is on or off and if the tooltip animation is on or off.
+				In the field for the Tooltip text, you can change the tooltip text that will appear in the Tooltip balloon.
+			</para>
+
+			<para>
+				The other options are self explanatory and have tooltips that can help you use them.
+			</para>
+
+			<para>&#160;</para>
+		</sect2>
+
+		<sect2>
+			<title><anchor id="kbfx_style" />Set the Style of the KBFX Menu</title>
+
+			<screenshot>
+				<screeninfo>Here's a screenshot of the Menu Style Section of the KBFX Configurator</screeninfo>
+
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="../common/kbfx-style.jpg" format="JPG"/>
+					</imageobject>
+
+					<textobject>
+						<phrase>Screenshot of the Menu Style Section of the KBFX Configurator</phrase>
+					</textobject>
+				</mediaobject>
+			</screenshot>
+
+			<para>
+				Here you can select, whether you want to work with the KBFX SPINX or the KDE MENU.
+				You just have to select the according option and press the "Apply" button.
+			</para>
+		</sect2>
+	</sect1>
+</chapter>
+
+<chapter id="faq">
+	<title>Questions and Answers</title>
+
+	<qandaset id="faqlist">
+		<qandaentry>
+			<question>
+				<para>
+					I have a question that is not covered by this documentation. Where I can get an answer?
+				</para>
+			</question>
+
+			<answer>
+				<para>
+					You can search the <ulink url="http://www.kbfx.org/forum">KBFX Forum</ulink> for an answer OR you can ask your question in the forum.
+				</para>
+			</answer>
+		</qandaentry>
+
+		<qandaentry>
+			<question>
+				<para>
+					How can I contact you live?
+				</para>
+			</question>
+
+			<answer>
+				<para>
+					Come to the #kbfx channel on irc.freenode.org
+				</para>
+			</answer>
+		</qandaentry>
+	</qandaset>
+</chapter>
+
+
+<chapter id="kbfx_about">
+	<title>Authors, Credits and License</title>
+
+	<para>
+		&kbfxconfigapp;
+	</para>
+
+	<para>&#160;</para>
+
+	<para>
+		Program Copyright (c) 2007 <link linkend="kbfx_team">KBFX Team</link>.
+	</para>
+
+	<para>&#160;</para>
+
+	<para>
+		<anchor id="kbfx_team" />KBFX Team Managers:
+		<itemizedlist>
+			<listitem>
+				<para>
+					Siraj Razick <email>siraj@kdemail.net</email>
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					PhobosK <email>phobosk@kdemail.net</email>
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					Mensur Zahirovic <email>nookie@mail.kbfx.org</email>
+				</para>
+			</listitem>
+
+
+			<listitem>
+				<para>
+					Nathanael Gogniat <email>nathanael@mail.kbfx.org</email>
+				</para>
+			</listitem>
+		</itemizedlist>
+	</para>
+
+	<para>&#160;</para>
+
+	<para>
+		Translations:
+		<itemizedlist>
+			<listitem>
+				<para>
+					Ferenc Stelcz <email>ferenc@stelcz.hu</email> - Hungary (HU)
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					Divilinux <email>divilinux@mail.kbfx.org</email> - Italy (IT)
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					Lexus <email>lexus@mail.kbfx.org</email> - Bulgaria (BG)
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					PhobosK <email>phobosk@kdemail.net</email> - Bulgaria (BG)
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					Monkey 9 <email>monkey9@iae.nl</email> - Netherlands (NL)
+				</para>
+			</listitem>
+		</itemizedlist>
+	</para>
+
+	<para>&#160;</para>
+
+	<para>
+		Contributors and Credits:
+		<itemizedlist>
+			<listitem>
+				<para>
+					Darwin M. Bautista <email>djclue917@gmail.com</email> - 001.patch
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					Revaline C. Regendra <email>regendra_mail7@yahoo.com</email> -
+					Author of the Launch button in the default "KBFX Silk TTP" theme.
+				</para>
+
+				<para>
+					Copyright (c) 2006 Revaline^Studio
+
+					<ulink url="http://www.kde-look.org/content/show.php?content=36399">
+						Revaline's Launch Menu v4.0
+					</ulink>
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					Petri Damstén <email>damu@iki.fi</email> - Author of the KMFFontChooser class.
+					<ulink url="http://www.iki.fi/damu/software/kmediafactory/">KMediaFactory</ulink>
+				</para>
+			</listitem>
+		</itemizedlist>
+	</para>
+
+	<para>&#160;</para>
+
+	<para>
+		Documentation Copyright (c) 2007 PhobosK <email>phobosk@mail.kbfx.org</email>
+	</para>
+
+	<para>&#160;</para>
+
+	<!-- TRANS:CREDIT_FOR_TRANSLATORS -->
+
+	&underFDL;               <!-- FDL: do not remove -->
+
+	<para>&#160;</para>
+
+	&underGPL;        	 <!-- GPL License -->
+</chapter>
+
+<appendix id="installation">
+	<title>Installation</title>
+
+	<sect1 id="getting-kbfxconfigapp">
+		<title>How to obtain KBFX</title>
+
+		<para>
+			KBFX can be downloaded from <ulink url="http://sourceforge.net/project/showfiles.php?group_id=141258">SourceForge project pages</ulink>.
+		</para>
+
+		<para>
+			Sometimes development versions are uploaded in a <ulink url="http://kbfx.sourceforge.net/testing/">separate space on SourceForge</ulink>.
+		</para>
+
+		<para>
+			The SVN address of the KBFX project is on the <ulink url="svn://anonsvn.kde.org/home/kde/trunk/playground/base/kbfx_plasma">KDE SVN servers</ulink>.
+		</para>
+	</sect1>
+
+	<sect1 id="requirements">
+		<title>Requirements</title>
+
+		<para>
+			In order to successfully compile and use KBFX, you need at least &kde; 3.4.X and also you need:
+		</para>
+
+		<itemizedlist>
+			<listitem>
+				<para>
+					<ulink url="http://www.cmake.org">Cmake</ulink> - min. version 2.4.2
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					KDE3 and Qt3 sources - header files/devel packages
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					<ulink url="http://strigi.sf.net">Strigi</ulink> -this package is OPTIONAL and is used for files inline search
+				</para>
+			</listitem>
+		</itemizedlist>
+
+		<para>&#160;</para>
+
+		<para>
+			You can find the most recent KBFX's list of changes at <ulink url="http://websvn.kde.org/trunk/playground/base/kbfx_plasma/doc/ChangeLog?view=markup">KDE SVN</ulink>.
+		</para>
+	</sect1>
+
+	<sect1 id="compilation">
+		<title>Compilation and Installation</title>
+
+		<procedure>
+			<step>
+				<para>
+					Unpack the sources of KBFX with (x.y.z-XXXXXXXX represents the version of
+		the KBFX package, for example 0.4.9.3-20070117):
+				</para>
+				<screen>
+> tar xjvf kbfx-x.y.z-XXXXXXXX.tar.bz2
+				</screen>
+			</step>
+
+			<step>
+				<para>
+					Change into the new directory:
+				</para>
+
+				<screen>
+> cd kbfx-x.y.z-XXXXXXXX/
+				</screen>
+			</step>
+
+			<step>
+				<para>
+					Start the configuration and the compilation using the command:
+				</para>
+
+				<screen>
+> ./build.sh
+				</screen>
+			</step>
+		</procedure>
+
+		<para>&#160;</para>
+
+		<note>
+			<title>Note for Mandriva &#060; 2007 users:</title>
+
+			<para>
+				    The build script (by default) enables the use of <command>menudrake</command>
+				    instead of <command>kmenuedit</command>.
+				    If you want to prevent this behavior then pass ONE of these options to the build script: <command>--menudrake-off</command> OR <command>-m</command>
+			</para>
+		</note>
+
+		<para>&#160;</para>
+
+		<note>
+			<title>Other building options:</title>
+
+			<itemizedlist>
+				<listitem>
+					<para>
+						<command>--prefix</command> OR <command>-p</command> to install KBFX in a different than the default folder (default is KDE install folder) for example:
+						<screen>
+> ./build.sh -p /home/user
+						</screen>
+					</para>
+				</listitem>
+
+				<listitem>
+					<para>
+						<command>--strigi</command> OR <command>-s</command> to enable Strigi support in KBFX (default is no Strigi support)
+					</para>
+				</listitem>
+
+				<listitem>
+					<para>
+						<command>--kde4</command> OR <command>-k</command> to build KBFX for KDE4 (default is for KDE3)
+					</para>
+				</listitem>
+
+				<listitem>
+					<para>
+						<command>--verbose</command> OR <command>-v</command> to make the build script give more verbose information
+					</para>
+				</listitem>
+
+				<listitem>
+					<para>
+						<command>--nocheck</command> OR <command>-n</command> to make the build script not to check if an old KBFX version is installed (default is to check)
+					</para>
+				</listitem>
+			</itemizedlist>
+		</note>
+	</sect1>
+
+	<sect1 id="checkinstall">
+		<title>Using <command>checkinstall</command></title>
+
+		<para>
+			<command>checkinstall</command> is an application used to build distribution specific packages from sources.
+		</para>
+
+		<para>
+			<command>checkinstall</command> DOES NOT work with cmake correctly up to this moment. :(
+		</para>
+
+		<para>
+			It can be used with additional commands in order to "work properly".
+			Here is the procedure to follow as user (NOT as ROOT) in order to obtain
+			the necessary distribution package.
+		</para>
+
+		<note>
+			<itemizedlist>
+				<listitem>
+					<para>
+						x.y.z-XXXXXXXX represents the version of the KBFX package, in this example it is: 0.4.9.3-20070117
+					</para>
+				</listitem>
+
+				<listitem>
+					<para>
+						In the example here the version string is replaced only in the checkinstall command but you have to do that everywhere the "x.y.z-XXXXXXXX" string is met.
+					</para>
+				</listitem>
+			</itemizedlist>
+			<para>
+			</para>
+		</note>
+
+		<screen>
+> cd /tmp
+> tar xjvf kbfx-x.y.z-XXXXXXXX.tar.bz2
+> cd kbfx-x.y.z-XXXXXXXX/
+> mkdir -p build/package
+> cd build
+> export DESTDIR=/tmp/kbfx-x.y.z-XXXXXXXX/build/package
+> cmake  ../ -DCMAKE_INSTALL_PREFIX=`kde-config --prefix`
+> make install DESTDIR=/tmp/kbfx-x.y.z-XXXXXXXX/build/package
+> find package/|sed s#^package/#./# > installed_files.txt
+> cd package/
+> su
+> checkinstall -nodoc --pkgname="kbfx" --pkgversion="0.4.9.3" \
+--pkgrelease="20070117" --exclude="/" --include=../installed_files.txt \
+--pakdir=/tmp/kbfx-0.4.9.3-20070117 sleep 1
+		</screen>
+
+		<para>
+			When ready, "checkinstall" will show you the folder where the prepared package is, like in this Mandriva Example:
+		</para>
+
+		<screen>
+**********************************************************************
+
+Done. The new package has been saved to
+
+/tmp/kbfx-0.4.9.3-20070117/kbfx-0.4.9.3-20070117.i386.rpm
+You can install it in your system anytime using:
+
+rpm -i kbfx-0.4.9.3-20070117.i386.rpm
+
+**********************************************************************
+		</screen>
+
+		<para>
+			Of course the best way to make RPM packages is to use the "kbfx.spec" file provided in the KBFX sources like described bellow.
+		</para>
+	</sect1>
+
+	<sect1 id="rpmbuilding">
+		<title>RPM Building Instructions (Mandriva, Fedora, Suse)</title>
+
+		<para>
+			If you prefer manipulate a RPM, you can build it with the following commands:
+		</para>
+
+		<procedure>
+			<step>
+				<para>
+					<anchor id="rpm_1" />Build the RPM:
+				</para>
+
+				<screen>
+> rpmbuild -tb kbfx-x.y.z-XXXXXXXX.tar.bz2
+				</screen>
+
+				<para>or (for Mandriva)</para>
+
+				<screen>
+> rpmbuild --rebuild kbfx-x.y.z-XXXXXXXX-mdv20070.src.rpm
+				</screen>
+
+				<para>or (for Fedora)</para>
+
+				<screen>
+> rpmbuild --rebuild kbfx-x.y.z-XXXXXXXX-FCx.src.rpm
+				</screen>
+
+				<para>or (for SuSe)</para>
+
+				<screen>
+> rpmbuild --rebuild kbfx-x.y.z-XXXXXXXX-suseXXX.src.rpm
+				</screen>
+			</step>
+
+			<step>
+				<para>
+					<anchor id="rpm_2" />If succeed, you will found the rpm in /usr/src/rpm/RPMS (for Mandriva) or /usr/src/redhat/RPMS (for Fedora) or /usr/src/packages/RPMS (for Suse) according to the platform you have.
+				</para>
+			</step>
+
+			<step>
+				<para>
+					<anchor id="rpm_3" />Install the rpm as usually by:
+				</para>
+
+				<screen>
+> rpm -Uvh kbfx-x.y.z-XXXXXXXX.rpm
+				</screen>
+			</step>
+		</procedure>
+
+		<para>&#160;</para>
+
+		<note>
+			<title>Building RPM from KBFX SVN versions:</title>
+
+			<itemizedlist>
+				<listitem>
+					<para>
+						Follow these commands in the sources directory:
+					</para>
+					<screen>
+> ./build.sh
+					</screen>
+
+					<para>
+						Answer "N" to the question if you want to install KBFX.
+					</para>
+
+					<screen>
+> cd build
+> make dist
+					</screen>
+				</listitem>
+
+				<listitem>
+					<para>
+						A file "kbfx-x.y.z-XXXXXXXX.tar.bz2" will be created in the build directory.
+					</para>
+				</listitem>
+
+				<listitem>
+					<para>
+						Proceed with the steps described in <link linkend="rpm_1">1.</link>, <link linkend="rpm_2">2.</link>, <link linkend="rpm_3">3</link>.
+					</para>
+				</listitem>
+			</itemizedlist>
+		</note>
+	</sect1>
+
+	<sect1 id="gentoo">
+		<title>Gentoo users</title>
+
+		<para>
+			In order to use the strigi engine in KBFX you have to do these steps:
+		</para>
+
+		<procedure>
+			<step>
+				<para>
+					Copy the "strigi-X.X.X.ebuild" and the "kbfx-0.4.9.X.ebuild" (from the sources directory) to your local portage tree as needed OR use the "kbfx-0.4.9.X-portage-overlay.tar.bz2"
+				</para>
+			</step>
+
+			<step>
+				<para>
+					Set the flag "strigi" for the kbfx ebuild
+				</para>
+			</step>
+
+			<step>
+				<para>
+					Emerge "clucene"
+				</para>
+			</step>
+
+			<step>
+				<para>
+					Emerge "kbfx"
+				</para>
+			</step>
+		</procedure>
+
+		<para>&#160;</para>
+
+		<para>
+			There is a Layman overlay resource on the SourceForge SVN.
+			You can add it by this command:
+		</para>
+
+		<screen>
+> layman -f -o https://kbfx.svn.sourceforge.net/svnroot/kbfx/layman/kbfx-overlay.xml \
+  -a kbfx
+		</screen>
+
+		<para>
+			After you add the "kbfx" overlay you can use it as usual.
+		</para>
+
+	</sect1>
+
+	<sect1 id="svn">
+		<title>SVN version</title>
+
+		<para>
+			To download the latest development source, you need to go to <ulink url="svn://anonsvn.kde.org/home/kde/trunk/playground/base/kbfx_plasma">KDE SVN</ulink> and download it from there. The current SVN address of the repository is: <ulink url="svn://anonsvn.kde.org/home/kde/trunk/playground/base/kbfx_plasma">svn://anonsvn.kde.org/home/kde/trunk/playground/base/kbfx_plasma</ulink>
+		</para>
+
+		<para>
+			Here are the instructions on how to get a copy of the SVN Repository:
+		</para>
+
+		<procedure>
+			<step>
+				<para>
+					Install your distribution's package named "subversion" OR download and install it from <ulink url="http://subversion.tigris.org">subversion's homepage</ulink>
+				</para>
+			</step>
+
+			<step>
+				<para>
+					Create a folder where you will compile/install KBFX and enter in it. For example do this:
+				</para>
+
+				<screen>
+> mkdir -p ~/usr/src/svn
+> cd ~/usr/src/svn
+				</screen>
+			</step>
+
+			<step>
+				<para>
+					Checkout the SVN version of KBFX in this way and proceed as follows:
+				</para>
+
+				<screen>
+> svn co svn://anonsvn.kde.org/home/kde/trunk/playground/base/kbfx_plasma
+> cd  kbfx_plasma
+				</screen>
+			</step>
+
+			<step>
+				<para>
+					Proceed with the compilation/installation of KBFX:
+				</para>
+
+				<screen>
+> ./build.sh
+				</screen>
+			</step>
+
+			<step>
+				<para>
+					If you want always to have the latest version of KBFX you may leave the folder "~/usr/src/svn/kbfx_plasma" intact for future use.
+					When you want to update the source files of KBFX you just need to do <command>svn up</command> in this folder, delete the folder "~/usr/src/svn/kbfx_plasma/build" and start the <command>./build.sh</command> script i.e:
+				</para>
+
+				<screen>
+> cd ~/usr/src/svn/kbfx_plasma
+> svn up
+> rm -fR build
+> ./build.sh
+				</screen>
+			</step>
+		</procedure>
+	</sect1>
+</appendix>
+
+<appendix id="kbfx-howto">
+	<title>How To</title>
+
+
+	<sect1 id="kbfx-howto-themes">
+		<title><anchor id="howto-themes" />How to create themes for KBFX</title>
+
+		<para>
+			So you want to create your own themes for KBFX 0.4.9.3?
+		</para>
+
+		<para>
+			The guide is done in a simple manner and we hope that you will easily and
+			simply create themes for KBFX 0.4.9.3. If you don't like something in this
+			guide, please feel free to contact us at IRC on irc.freenode.org
+			on channel #kbfx
+		</para>
+
+		<important>
+			<itemizedlist>
+				<listitem>
+					<para>
+						The values for Width and Height are only our suggested values.
+						You can use whatever values you feel are appropriate for your theme.
+					</para>
+				</listitem>
+
+				<listitem>
+					<para>
+						If ANY of these images are missing KBFX will use the image with the
+						same name from the "default" theme.
+					</para>
+				</listitem>
+
+				<listitem>
+					<para>
+						In order to be used by the Configurator and by KBFX, every theme for
+						0.4.9.3 MUST HAVE a file in it's folder named "version-2" !
+					</para>
+				</listitem>
+			</itemizedlist>
+		</important>
+
+		<para>&#160;</para>
+
+		<sect2 id="kbfx-howto-images">
+			<title>Images in KBFX</title>
+
+			<screenshot>
+				<screeninfo>Here's a screenshot of all the images used in KBFX Menu</screeninfo>
+
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="../common/kbfx-maindescription.jpg" format="JPG"/>
+					</imageobject>
+
+					<textobject>
+						<phrase>Screenshot of all the images used in KBFX Menu</phrase>
+					</textobject>
+				</mediaobject>
+			</screenshot>
+
+			<para>
+				This image is showing you all the images which are used in KBFX 0.4.9.3.
+				The most simple way to create a theme at this point is to take some of the images from the "default" theme and just change colors on some and see how that effects your menu.
+			</para>
+
+			<important>
+				<para>
+					DO NOT EVER CHANGE ANY IMAGE IN THE DEFAULT FOLDER!
+				</para>
+
+				<para>
+					The images there are used as fallback when there is a missing image in your own theme.
+					We suggest rather to work with a copy folder of the default theme (the name of the folder containing your theme of course should be not "default" ;) ).
+				</para>
+			</important>
+
+			<para>&#160;</para>
+
+			<variablelist>
+				<varlistentry>
+					<term>topbg.png</term>
+
+					<listitem>
+						<para>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="topbg.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>topbg.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+						</para>
+
+						<para>
+							This is an image that is at the top of the menu.
+						</para>
+
+						<para>
+							Width = 504px and Height = 95px
+						</para>
+
+						<para>&#160;</para>
+					</listitem>
+				</varlistentry>
+
+				<varlistentry>
+					<term>dudebox.png</term>
+
+					<listitem>
+						<para>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="dudebox.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>dudebox.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+						</para>
+
+						<para>
+							This is the background image where your personal image is displayed.
+						</para>
+
+						<para>
+							Width = 95px and Height = 88px
+						</para>
+
+						<para>&#160;</para>
+					</listitem>
+				</varlistentry>
+
+				<varlistentry>
+					<term>menu_top_image_person.png</term>
+
+					<listitem>
+						<para>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="menu_top_image_person.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>menu_top_image_person.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+						</para>
+
+						<para>
+							This image is used for theme's default personal image.
+						</para>
+
+						<para>
+							Width = 48px and Height = 48px
+						</para>
+
+						<para>&#160;</para>
+					</listitem>
+				</varlistentry>
+
+				<varlistentry>
+					<term>find.png</term>
+
+					<listitem>
+						<para>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="find.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>find.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+						</para>
+
+						<para>
+							This is a small image displayed in the search field.
+						</para>
+
+						<para>
+							Width = 22px and Height = 21px
+						</para>
+
+						<para>&#160;</para>
+					</listitem>
+				</varlistentry>
+
+				<varlistentry>
+					<term><anchor id="rhstile" />rhstile.png</term>
+
+					<listitem>
+						<para>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="rhstile.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>rhstile.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+						</para>
+
+						<para>
+							This is normal image displayed in categories.
+						</para>
+
+						<para>
+							Width = 132px and Height = 23px
+						</para>
+
+						<para>&#160;</para>
+					</listitem>
+				</varlistentry>
+
+				<varlistentry>
+					<term>rhshovertile.png</term>
+
+					<listitem>
+						<para>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="rhshovertile.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>rhshovertile.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+						</para>
+
+						<para>
+							This is a hover image for categories. Used as hover image for <link linkend="rhstile">rhstile.png</link>
+						</para>
+
+						<para>
+							Width = 132px and Height = 23px
+						</para>
+
+						<para>&#160;</para>
+					</listitem>
+				</varlistentry>
+
+				<varlistentry>
+					<term>scrollnormal.png / scrollnormalbot.png</term>
+
+					<listitem>
+						<para>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="scrollnormal.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>scrollnormal.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+						</para>
+
+						<para>
+							These images are used as top and bottom scrollbars.
+						</para>
+
+						<para>
+							Width = 240px and Height = 10px
+						</para>
+
+						<para>&#160;</para>
+					</listitem>
+				</varlistentry>
+
+				<varlistentry>
+					<term>separator.png / indexseparator.png</term>
+
+					<listitem>
+						<para>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="separator.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>separator.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+						</para>
+
+						<para>
+							These are the separator images which separate your different subcategories.
+						</para>
+
+						<para>
+							Width = 240px and Height = 27px
+						</para>
+
+						<para>&#160;</para>
+					</listitem>
+				</varlistentry>
+
+				<varlistentry>
+					<term>tilenormal.png</term>
+
+					<listitem>
+						<para>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="tilenormal.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>tilenormal.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+						</para>
+
+						<para>
+							This is the normal image where your applications are showed.
+						</para>
+
+						<para>
+							Width = 240px and Height = 46px
+						</para>
+
+						<para>&#160;</para>
+					</listitem>
+				</varlistentry>
+
+				<varlistentry>
+					<term>tilehover.png</term>
+
+					<listitem>
+						<para>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="tilehover.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>tilehover.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+						</para>
+
+						<para>
+							This is the hover image where your applications are showed.
+						</para>
+
+						<para>
+							Width = 240px and Height = 46px
+						</para>
+
+						<para>&#160;</para>
+					</listitem>
+				</varlistentry>
+
+				<varlistentry>
+					<term>listboxbg.png</term>
+
+					<listitem>
+						<para>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="listboxbg.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>listboxbg.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+						</para>
+
+						<para>
+							This is the background under the categories.
+							It can be viewed on description on both sides of the menu.
+						</para>
+
+						<para>
+							Width = 108px and Height = 23px
+						</para>
+
+						<para>&#160;</para>
+					</listitem>
+				</varlistentry>
+
+				<varlistentry>
+					<term>middleboxbg.png</term>
+
+					<listitem>
+						<para>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="middleboxbg.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>middleboxbg.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+						</para>
+
+						<para>
+							This is the background of the middle part of the menu.
+						</para>
+
+						<para>
+							Width = 200px and Height = 270px
+						</para>
+
+						<para>&#160;</para>
+					</listitem>
+				</varlistentry>
+
+				<varlistentry>
+					<term>botbg.png</term>
+
+					<listitem>
+						<para>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="botbg.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>botbg.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+						</para>
+
+						<para>
+							This is the background image at the bottom of the menu.
+						</para>
+
+						<para>
+							Width = 504px and Height = 38px
+						</para>
+
+						<para>&#160;</para>
+					</listitem>
+				</varlistentry>
+
+				<varlistentry>
+					<term>lock.png</term>
+
+					<listitem>
+						<para>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="lock.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>lock.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+						</para>
+
+						<para>
+							This is the lock image.
+						</para>
+
+						<para>
+							Width = 84px and Height = 38px
+						</para>
+
+						<para>&#160;</para>
+					</listitem>
+				</varlistentry>
+
+				<varlistentry>
+					<term>lockhover.png</term>
+
+					<listitem>
+						<para>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="lockhover.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>lockhover.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+						</para>
+
+						<para>
+							This is the lock hover image.
+						</para>
+
+						<para>
+							Width = 84px and Height = 38px
+						</para>
+
+						<para>&#160;</para>
+					</listitem>
+				</varlistentry>
+
+				<varlistentry>
+					<term>logout.png</term>
+
+					<listitem>
+						<para>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="logout.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>logout.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+						</para>
+
+						<para>
+							This is the logout image.
+						</para>
+
+						<para>
+							Width = 84px and Height = 38px
+						</para>
+
+						<para>&#160;</para>
+					</listitem>
+				</varlistentry>
+
+				<varlistentry>
+					<term>logouthover.png</term>
+
+					<listitem>
+						<para>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="logouthover.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>logouthover.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+						</para>
+
+						<para>
+							This is the logout hover image.
+						</para>
+
+						<para>
+							Width = 84px and Height = 38px
+						</para>
+
+						<para>&#160;</para>
+					</listitem>
+				</varlistentry>
+
+				<varlistentry>
+					<term>mask.png</term>
+
+					<listitem>
+						<para>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="mask.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>mask.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+						</para>
+
+						<para>
+							This is deciding what size your menu will have when users install it and which will be the transparent parts of the menu (through the alpha mask of the png image).
+							Of course the size can be controlled later by the configuration of KBFX.
+						</para>
+
+						<para>
+							Width = 504px and Height = 513px
+						</para>
+
+						<para>&#160;</para>
+					</listitem>
+				</varlistentry>
+
+				<varlistentry>
+					<term>logo.png</term>
+
+					<listitem>
+						<para>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="logo.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>logo.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+						</para>
+
+						<para>
+							This is used as a theme's or author's logo shown in the Information box of the KBFX Configurator.
+							You can put whatever image you want and it will be scaled to 100px width by 100px height.
+						</para>
+
+						<para>
+							Width = 100px and Height = 100px
+						</para>
+
+						<para>&#160;</para>
+					</listitem>
+				</varlistentry>
+
+				<varlistentry>
+					<term>preview.png</term>
+
+					<listitem>
+						<para>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="preview.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>preview.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+						</para>
+
+						<para>
+							This should be a snapshot of the working KBFX theme.
+							It is used in the configuration application in order the user to see what the theme will look like.
+						</para>
+
+						<para>
+							Width = 170px and Height = 205px
+						</para>
+
+						<para>&#160;</para>
+					</listitem>
+				</varlistentry>
+
+				<varlistentry>
+					<term>normal.png / hover.png / pressed.png</term>
+
+					<listitem>
+						<para>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="normal.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>normal.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="hover.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>hover.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+							<inlinemediaobject>
+								<imageobject>
+									<imagedata fileref="pressed.png" format="PNG" />
+								</imageobject>
+								<textobject>
+									<phrase>pressed.png</phrase>
+								</textobject>
+							</inlinemediaobject>
+						</para>
+
+						<para>
+							These are the KBFX Buttons for the kicker panel that are used in the theme.
+							Width and Height - as you like, but preferably Height not to be too much.
+						</para>
+
+						<para>&#160;</para>
+					</listitem>
+				</varlistentry>
+			</variablelist>
+
+			<para>
+				More information can be found on our homepage <ulink url="http://www.kbfx.org/staticpages/index.php?page=howto0493">here</ulink>
+			</para>
+
+			<para>&#160;</para>
+		</sect2>
+
+		<sect2 id="kbfx-howto-rcfiles">
+			<title>"kbfxfontrc" and "kbfxlayoutrc" files</title>
+
+			<para>
+				Every theme MAY have two configuration files named:
+			</para>
+
+			<itemizedlist>
+				<listitem>
+					<para>
+						<link linkend="kbfx-kbfxfontrc">kbfxfontrc</link> - configures the fonts properties that the theme uses.
+					</para>
+				</listitem>
+
+				<listitem>
+					<para>
+						<link linkend="kbfx-kbfxlayoutrc">kbfxlayoutrc</link> - configures the layout of the theme, the KBFX button and some other properties of the theme.
+					</para>
+				</listitem>
+			</itemizedlist>
+
+
+			<para>
+				If one or both of these files don't exist, KBFX internal configuration
+				options will be used for fonts and layout.
+				All the properties and values are separated between different Sections
+				in the way showed below:
+			</para>
+
+			<literallayout>
+	[Section]
+	property = value
+			</literallayout>
+
+			<para>
+				When you want to prepare a theme, have in mind that every change that you make in the "KBFX Configurator" is kept in files in your home KDE directory.
+			</para>
+
+			<para>
+				Usually these files are in the folder <emphasis>~/.kde/share/apps/kbfx/themerc</emphasis>
+				and are named:
+			</para>
+
+			<itemizedlist>
+				<listitem>
+					<para>
+						THEMENAME_layoutrc
+					</para>
+				</listitem>
+
+				<listitem>
+					<para>
+						THEMENAME_fontrc
+					</para>
+				</listitem>
+			</itemizedlist>
+
+
+			<para>
+				So if you want to ship your theme settings from the "KBFX Configurator", the best
+				thing to do is to use the buttons:
+				"EXPORT KBFXFONTRC FILE" (<link linkend="kbfx_fonts">"Fonts" section of the Configurator</link>)
+				and
+				"EXPORT KBFXLAYOUTRC FILE" (<link linkend="kbfx_layout">"Layout section" of the Configurator</link>)
+				and put the exported files in your theme folder.
+			</para>
+
+			<important>
+				<itemizedlist>
+					<listitem>
+						<para>
+							Pay close attention to the case of the properties and Sections names
+				because the configuration is CASE SENSITIVE!
+						</para>
+					</listitem>
+
+					<listitem>
+						<para>
+							The order of the sections in the file is not important!
+						</para>
+					</listitem>
+
+					<listitem>
+						<para>
+							Have in mind that the Layout of the theme also depends on the sizes of the images!
+						</para>
+					</listitem>
+				</itemizedlist>
+			</important>
+
+			<para>&#160;</para>
+
+			<sect3 id="kbfx-kbfxfontrc">
+				<title>File kbfxfontrc</title>
+
+				<important>
+					<itemizedlist>
+						<listitem>
+							<para>
+								It's best the colors to be represented in RGB format.
+							</para>
+						</listitem>
+
+						<listitem>
+							<para>
+								Font Properties should constrain to QFont class representation.
+							</para>
+						</listitem>
+
+						<listitem>
+							<para>
+								The values bellow are the default ones.
+							</para>
+						</listitem>
+					</itemizedlist>
+				</important>
+
+				<literallayout>
+	[Fonts]
+	TooltipText=0,0,0
+	TooltipTextFont=Arial,8,-1,5,50,0,0,0,0,0
+	ApplicationText=0,0,0
+	ApplicationTextFont=Arial,8,-1,5,50,0,0,0,0,0
+	CommentText=128,125,0
+	CommentTextFont=Arial,8,-1,5,50,0,0,0,0,0
+	GroupText=0,0,0
+	GroupTextFont=Arial,8,-1,5,50,0,0,0,0,0
+	UserName=255,255,255
+	UserNameFont=Arial,10,-1,5,75,0,0,0,0,0
+	SeparatorColor=0,0,0
+	SeparatorFont=Arial,8,-1,5,50,0,0,0,0,0
+	PluginColor=0,0,0
+	PluginFont=Arial,8,-1,5,50,0,0,0,0,0
+	LineColor=255,220,125
+	# This is if the font when you hover on an item will be bold
+	HoverBold = false
+				</literallayout>
+
+				<para>&#160;</para>
+			</sect3>
+
+			<sect3 id="kbfx-kbfxlayoutrc">
+				<title>File kbfxlayoutrc</title>
+
+				<important>
+					<itemizedlist>
+						<listitem>
+							<para>
+								The values bellow are the default ones.
+							</para>
+						</listitem>
+					</itemizedlist>
+				</important>
+
+				<literallayout>
+	[KbfxButton]
+	# Time in msec for which the button
+	# to fade in/out
+	FadeTime=75
+	# The three properties below describe the
+	# paths to the theme's buttons.
+	# KBFX uses the normal.png/hover.png/pressed.png
+	# that are in the theme's folder by default.
+	# So we recommend NOT to use the below three
+	# properties!
+	Normal = KBFX Normal Button Full Path
+	Hover = KBFX Hover Button Full Path
+	Press = KBFX Pressed Button Full Path
+
+	[TopBar]
+	# Face Position X
+	DudeX=-1
+	# Face Position Y
+	DudeY=-1
+	# Face Box Height
+	FaceH=64
+	# Face Box Width
+	FaceW=65
+	# Face Box Position X
+	FaceX=27
+	# Face Box Position Y
+	FaceY=8
+	# User Name Position X
+	UserNameX=130
+	# User Name Position Y
+	UserNameY=32
+	# Hide User Name
+	DisableUserName=false
+	# Top Bar Height
+	Height=95
+	# THE PROPERTIES BELOW ARE NOT USED FOR NOW
+	# Top Bar Width
+	Width=504
+	# Top Bar Position X
+	X=0
+	# Top Bar Position Y
+	Y=0
+
+	[BottomBar]
+	# Bottom Bar Height
+	Height=38
+	# THE PROPERTIES BELOW ARE NOT USED FOR NOW
+	# Bottom Bar Width
+	Width=504
+	# Bottom Bar Position X
+	X=0
+	# Bottom Bar Position Y
+	Y=428
+
+	[Scrollbars]
+	# THIS SECTION IS NOT USED FOR NOW
+	# Bottom Scroll Bar Position X
+	ScrollBarBotX=108
+	# Bottom Scroll Bar Position Y
+	ScrollBarBotY=95
+	# Top Scroll Bar Position X
+	ScrollBarTopX=108
+	# Top Scroll Bar Position Y
+	ScrollBarTopY=95
+
+	[ListBox]
+	# List Box Position X
+	X=0
+	# List Box Position Y
+	Y=95
+	# List Box Width
+	Width=132
+	# THE PROPERTIES BELOW ARE NOT USED FOR NOW
+	# List Box Height
+	Height=275
+
+	[SearchBox]
+	# Search Box Height
+	Height=22
+	# Search Box Width
+	Width=240
+	# Search Box Position X
+	X=130
+	# Search Box Position Y
+	Y=48
+
+	[ItemView]
+	# Item Position X
+	X=132
+	# Item Position Y
+	Y=95
+	# Item Width
+	Width=240
+	# THE PROPERTIES BELOW ARE NOT USED FOR NOW
+	# Item Height
+	Height=275
+
+	[ItemProperties]
+	# Comment Margin in Item
+	CommentMargin=66
+	# Icon Size in Item
+	IconSize=32
+	# No Comments in Item
+	NoComments=false
+
+	[ToolBar]
+	# THIS SECTION IS NOT USED FOR NOW
+	# Tool Bar Button Normal Size
+	ButtonNormalSize=48
+	# Tool Bar Button Pressed Size
+	ButtonPressedSize=48
+
+	[MainMenu]
+	# Main Menu Height
+	UserMenuHeight=513
+	# Main Menu Width
+	UserMenuWidth=504
+	# Contracted Menues
+	ContractedMenu=false
+
+				</literallayout>
+
+				<para>&#160;</para>
+			</sect3>
+
+		</sect2>
+
+		<sect2 id="kbfx-howto-versionfile">
+			<title>"version-2" file</title>
+
+			<important>
+				<itemizedlist>
+					<listitem>
+						<para>
+							This file is OBLIGATORY to exist, though it can be empty.
+							It is used to designate that the theme is in the new format and the properties that are in the file are used in the KBFX Configurator for showing the user some info about the theme.
+						</para>
+					</listitem>
+
+					<listitem>
+						<para>
+							The values in this file cannot be overwritten by the KBFX Configurator.
+						</para>
+					</listitem>
+
+					<listitem>
+						<para>
+							If existing, the file should contain information about the theme's version, author's name, author's email and a homepage for the theme.
+						</para>
+					</listitem>
+
+					<listitem>
+						<para>
+							The unspecified fields are replaced with the string - "Not Specified".
+						</para>
+					</listitem>
+
+					<listitem>
+						<para>
+							The values bellow are self explanatory and are just an example.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</important>
+
+			<literallayout>
+	[ThemeGeneral]
+	ThemeVersion=0.51
+	AuthorName=Nookie
+	AuthorEmail=nookie@no_spam.org
+	Homepage=http://www.kbfx.org
+			</literallayout>
+
+			<para>&#160;</para>
+
+			<para>
+				Now we wish you all good luck when creating themes.
+				We are looking forward to all your good looking themes out there for the KBFX!
+			</para>
+
+			<para>&#160;</para>
+		</sect2>
+	</sect1>
+
+	<sect1 id="kbfx-howto-kbfxthemefile">
+		<title>How to create a ".kbfxtheme" file</title>
+
+		<para>
+			The ".kbfxtheme" file is a simple archive file (.tar.gz or .tar.bz2) that should contain at least these elements:
+		</para>
+
+		<itemizedlist>
+			<listitem>
+				<para>
+					One or more theme folders with all the necessary images/files inside.
+					Have in mind that the name of the theme is the name of the folder.
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					In the theme(s) folder(s) there should be an image named "preview.png" that serves as a live preview of the look of the theme.
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					In the theme(s) folder(s) there should be a file named "version-2"
+				</para>
+			</listitem>
+
+			<listitem>
+				<para>
+					The extension of the archive should be ".kbfxtheme"
+				</para>
+			</listitem>
+		</itemizedlist>
+
+		<para>
+			You can create ".kbfxtheme" file following these instructions (there is an option in Konqueror's rightclick "Actions" menu for preparing KBFX Theme Package OR you can create the ".kbfxtheme" file manually as described bellow):
+		</para>
+
+		<procedure>
+			<step>
+				<para>
+					Create a folder with a name that is identical to the name you want for your theme.
+				</para>
+			</step>
+
+			<step>
+				<para>
+					Put the necessary images/files inside it (see the above instructions for the images part).
+				</para>
+			</step>
+
+			<step>
+				<para>
+					Create an archive of the folder (with ark/tar etc).
+				</para>
+			</step>
+
+			<step>
+				<para>
+					Rename the archive file to ".kbfxtheme" and you are ready.
+				</para>
+			</step>
+		</procedure>
+	</sect1>
+
+	<sect1 id="kbfx-howto-helpus">
+		<title>How to help us out for KBFX</title>
+
+		<para>
+			You can help us for the KBFX releases with the translation of the interface.
+			For this purpose please download the <ulink url="http://prdownloads.sourceforge.net/kbfx/kbfxconfigapp.pot?download">kbfxconfigapp.pot</ulink> file from SourceForge and use <ulink url="http://kbabel.kde.org/">KBabel</ulink> or <ulink url="http://www.poedit.org/">poEdit</ulink> to make the translation.
+		</para>
+
+		<para>
+			Next send the .po file to my mail <email>phobosk@mail.kbfx.org</email>.
+		</para>
+
+		<tip>
+			<para>
+				Another way to get a .pot file is to use the command: <command>make package-messages</command> just after the configuration of the compilation process is done.
+			</para>
+		</tip>
+
+		<para>&#160;</para>
+
+		<para>
+			Thanks in advance for this help.
+		</para>
+	</sect1>
+</appendix>
+
+<appendix id="kbfx-links">
+	<title>Useful links</title>
+
+	<para>
+		<ulink url="http://www.kbfx.org">KBFX Homepage</ulink>
+	</para>
+
+	<para>
+		<ulink url="http://sourceforge.net/projects/kbfx">KBFX SourceForge project page</ulink>
+	</para>
+
+	<para>
+		<ulink url="http://sourceforge.net/project/showfiles.php?group_id=141258">KBFX Releases</ulink>
+	</para>
+
+	<para>
+		<ulink url="http://www.kbfx.org/forum/">KBFX Forum</ulink>
+	</para>
+
+	<para>
+		<ulink url="http://bugs.kbfx.org">KBFX Bugs</ulink>
+	</para>
+</appendix>
+&documentation.index;
+</book>
+
+<!--
+Local Variables:
+mode: sgml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+
+vim:tabstop=2:shiftwidth=2:expandtab
+-->
+
