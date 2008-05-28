@@ -1,5 +1,10 @@
 #! /bin/sh
 
+#
+#  comment here!!! by fernie lopez!
+#
+
+
 CMAKE_OPT_PREFIX_KDE3="-DCMAKE_INSTALL_PREFIX:PATH=`kde-config --prefix 2>/dev/null` "
 CMAKE_OPT_PREFIX_KDE4="-DCMAKE_INSTALL_PREFIX:PATH=`kde4-config --prefix 2>/dev/null` "
 CMAKE_OPT_PREFIX=""
