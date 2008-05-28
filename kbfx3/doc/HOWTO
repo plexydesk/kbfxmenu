@@ -1,0 +1,411 @@
+How to apply the Menu button
+============================
+
+The menu button is starting point for the menu.
+It first has to be added to the panel.
+To add the KBFX Menu to the panel, proceed as following:
+  Right-click on the panel, on which you want to place the KBFX button
+  Select "Add Applet to panel" in the context menu
+  Select "KBFX Spinx"
+A tooltip appears "KBFX Spinx Added"
+If you move your mouse over the button, a tooltip appears (turned off
+in the default configuration).
+If you want to, you can now remove the K-Menu button and move the KBFX
+to the desired place on the panel.
+To open the menu, just click on the button.
+
+
+
+How to create themes for KBFX 0.4.9.3
+=====================================
+
+So you want to create your own themes for KBFX 0.4.9.3?
+The guide is done in a simple manner and we hope that you will easily and
+simply create themes for KBFX 0.4.9.3. If you don't like something in this
+guide, please feel free to contact us at IRC on irc.freenode.org
+on channel #kbfx
+
+NOTE: - The values for Width and Height are only our suggested values.
+        You can use whatever values you feel are appropriate for your theme.
+      - If ANY of these images are missing KBFX will use the image with the
+	same name from the "default" theme.
+      - In order to be used by the Configurator and by KBFX, every theme for
+        0.4.9.3 MUST HAVE a file in it's folder named "version-2" !
+
+ topbg.png
+ ---------
+ This is an image that is at the top of the menu.
+ Width = 504px
+ Height = 95px
+
+ dudebox.png
+ -----------
+ This is the background image where your personal image is displayed.
+ Width = 95px
+ Height = 88px
+
+ menu_top_image_person.png
+ -------------------------
+ This image is used for theme's default personal image.
+ Width = 48 px
+ Height = 48 px
+
+ find.png
+ --------
+ This is a small image displayed in the search field.
+ Width = 22px
+ Height = 21px
+
+ rhstile.png
+ -----------
+ This is normal image displayed in categories.
+ Width = 132px
+ Height = 23px
+
+ rhshovertile.png
+ ----------------
+ This is a hover image for categories.Used as hover image for rhstile.png
+ Width = 132px
+ Height = 23px
+
+ scrollnormal.png / scrollnormalbot.png
+ --------------------------------------
+ These images are used as top and bottom scrollbars.
+ Width = 240px
+ Height = 10px
+
+ separator.png / indexseparator.png
+ ----------------------------------
+ These are the separator images which separate your different subcategories.
+ Width = 240px
+ Height = 27px
+
+ tilenormal.png
+ --------------
+ This is the normal image where your applications are showed.
+ Width = 240px
+ Height = 46px
+
+ tilehover.png
+ -------------
+ This is the hover image where your applications are showed.
+ Width = 240px
+ Height = 46px
+
+ listboxbg.png
+ -------------
+ This is the background under the categories. It can be viewed on description
+ on both sides of the menu.
+ Width = 108px
+ Height = 23px
+
+ middleboxbg.png
+ ---------------
+ This is the background of the middle part of the menu.
+ Width = 200px
+ Height = 270px
+
+ botbg.png
+ ---------
+ This is the background image at the bottom of the menu.
+ Width = 504px
+ Height = 38px
+
+ lock.png
+ --------
+ This is the lock image.
+ Width = 84px
+ Height = 38px
+
+ lockhover.png
+ -------------
+ This is the lock hover image.
+ Width = 84px
+ Height = 38px
+
+ logout.png
+ ----------
+ This is the logout image.
+ Width = 84px
+ Height = 38px
+
+
+ logouthover.png
+ ---------------
+ This is the logout hover image.
+ Width = 84px
+ Height = 38px
+
+ mask.png
+ --------
+ This is deciding what size your menu will have when users install it
+ and which will be the transparent parts of the menu (through the alpha
+ mask of the png image). Of course the size can be controlled later by
+ the configuration of KBFX.
+ Width = 504px
+ Height = 513px
+
+ logo.png
+ ---------
+ logo.png is used as a theme's or author's logo shown in the Information box of
+ the KBFX Configurator. You can put whatever image you want and it will be scaled
+ to 100px width by 100px height.
+ Width = up to 100 px
+ Height = up to 100 px
+
+ preview.png
+ -----------
+ preview.png should be a snapshot of the working KBFX theme. It is used in the
+ configuration application in order the user to see what the theme will look like.
+ Width = 170 px
+ Height = 205 px
+
+ normal.png / hover.png / pressed.png
+ ------------------------------------
+ These are the KBFX Buttons for the kicker panel that are used in the theme.
+ Width and Height - as you like, but preferably Height not to be too much.
+
+
+More information can be found on:
+ http://www.kbfx.org/staticpages/index.php?page=howto0493
+
+
+
+How to write theme's kbfxfontrc and kbfxlayoutrc files
+======================================================
+
+  Every theme MAY have two configuration files named:
+
+kbfxfontrc - configures the fonts properties that the theme uses
+kbfxlayoutrc - configures the layout of the theme, the KBFX button
+               and some other properties of the theme
+
+  If one or both of these files don't exist, KBFX internal configuration
+options will be used for fonts and layout.
+  All the properties and values are separated between different Sections
+in the way showed below:
+
+[Section]
+property = value
+
+  When you want to prepare a theme, have in mind that every change that you
+make in the "KBFX Configurator" is kept in files in your home KDE directory.
+Usually these files are here:
+	~/.kde/share/apps/kbfx/themerc
+and are named:
+	THEMENAME_layoutrc
+	THEMENAME_fontrc
+So if you want to ship your theme settings from the "KBFX Configurator", the best
+thing to do is to use the buttons: "EXPORT KBFXFONTRC FILE" ("Fonts" section of the
+Configurator) and "EXPORT KBFXLAYOUTRC FILE" ("Layout section" of the Configurator)
+and put the exported files in your theme folder.
+
+NOTE:  - Pay close attention to the case of the properties and Sections names
+	 because the configuration is CASE SENSITIVE!
+       - The order of the sections in the file is not important!
+       - Have in mind that the Layout of the theme also depends on the sizes of
+         the images!
+
+
+ File kbfxfontrc
+ ---------------
+ It's best the colors to be represented in RGB format.
+ Font Properties should constrain to QFont class representation.
+ The values bellow are the default ones:
+
+  [Fonts]
+  TooltipText=0,0,0
+  TooltipTextFont=Arial,8,-1,5,50,0,0,0,0,0
+  ApplicationText=0,0,0
+  ApplicationTextFont=Arial,8,-1,5,50,0,0,0,0,0
+  CommentText=128,125,0
+  CommentTextFont=Arial,8,-1,5,50,0,0,0,0,0
+  GroupText=0,0,0
+  GroupTextFont=Arial,8,-1,5,50,0,0,0,0,0
+  UserName=255,255,255
+  UserNameFont=Arial,10,-1,5,75,0,0,0,0,0
+  SeparatorColor=0,0,0
+  SeparatorFont=Arial,8,-1,5,50,0,0,0,0,0
+  PluginColor=0,0,0
+  PluginFont=Arial,8,-1,5,50,0,0,0,0,0
+  LineColor=255,220,125
+  # This is if the font when you hover on an item will be bold
+  HoverBold = false
+
+ File kbfxlayoutrc
+ -----------------
+ The values bellow are the default ones:
+
+  [KbfxButton]
+  # Time in msec for which the button
+  # to fade in/out
+  FadeTime=75
+  # The three properties below describe the
+  # paths to the theme's buttons.
+  # KBFX uses the normal.png/hover.png/pressed.png
+  # that are in the theme's folder by default.
+  # So we recommend NOT to use the below three
+  # properties!
+  Normal = KBFX Normal Button Full Path
+  Hover = KBFX Hover Button Full Path
+  Press = KBFX Pressed Button Full Path
+
+  [TopBar]
+  # Face Position X
+  DudeX=-1
+  # Face Position Y
+  DudeY=-1
+  # Face Box Height
+  FaceH=64
+  # Face Box Width
+  FaceW=65
+  # Face Box Position X
+  FaceX=27
+  # Face Box Position Y
+  FaceY=8
+  # User Name Position X
+  UserNameX=130
+  # User Name Position Y
+  UserNameY=32
+  # Hide User Name
+  DisableUserName=false
+  # Top Bar Height
+  Height=95
+  # THE PROPERTIES BELOW ARE NOT USED FOR NOW
+  # Top Bar Width
+  Width=504
+  # Top Bar Position X
+  X=0
+  # Top Bar Position Y
+  Y=0
+
+  [BottomBar]
+  # Bottom Bar Height
+  Height=38
+  # THE PROPERTIES BELOW ARE NOT USED FOR NOW
+  # Bottom Bar Width
+  Width=504
+  # Bottom Bar Position X
+  X=0
+  # Bottom Bar Position Y
+  Y=428
+
+  [Scrollbars]
+  # THIS SECTION IS NOT USED FOR NOW
+  # Bottom Scroll Bar Position X
+  ScrollBarBotX=108
+  # Bottom Scroll Bar Position Y
+  ScrollBarBotY=95
+  # Top Scroll Bar Position X
+  ScrollBarTopX=108
+  # Top Scroll Bar Position Y
+  ScrollBarTopY=95
+
+  [ListBox]
+  # List Box Position X
+  X=0
+  # List Box Position Y
+  Y=95
+  # List Box Width
+  Width=132
+  # THE PROPERTIES BELOW ARE NOT USED FOR NOW
+  # List Box Height
+  Height=275
+
+  [SearchBox]
+  # Search Box Height
+  Height=22
+  # Search Box Width
+  Width=240
+  # Search Box Position X
+  X=130
+  # Search Box Position Y
+  Y=48
+
+  [ItemView]
+  # Item Position X
+  X=132
+  # Item Position Y
+  Y=95
+  # Item Width
+  Width=240
+  # THE PROPERTIES BELOW ARE NOT USED FOR NOW
+  # Item Height
+  Height=275
+
+  [ItemProperties]
+  # Comment Margin in Item
+  CommentMargin=66
+  # Icon Size in Item
+  IconSize=32
+  # No Comments in Item
+  NoComments=false
+
+  [ToolBar]
+  # THIS SECTION IS NOT USED FOR NOW
+  # Tool Bar Button Normal Size
+  ButtonNormalSize=48
+  # Tool Bar Button Pressed Size
+  ButtonPressedSize=48
+
+  [MainMenu]
+  # Main Menu Height
+  UserMenuHeight=513
+  # Main Menu Width
+  UserMenuWidth=504
+  # Contracted Menues
+  ContractedMenu=false
+
+ File version-2
+ --------------
+
+ This file is obligatory to exist, though it can be empty.
+ It is used to designate that the theme is in the new format and the
+ properties that are in the file are used in the KBFX Configurator for
+ showing the user some info about the theme.
+ The values in this file cannot be overwritten by the KBFX Configurator.
+ If existing, the file should contain information about the theme's version,
+ author's name, author's email and a homepage for the theme.
+ The unspecified fields are replaced with the string - "Not Specified".
+ The values bellow are self explanatory and are just an example:
+
+  [ThemeGeneral]
+  ThemeVersion=0.51
+  AuthorName=Nookie
+  AuthorEmail=nookie@no_spam.org
+  Homepage=http://www.kbfx.org
+
+
+
+ How to create a ".kbfxtheme" file for 0.4.9.3
+ =============================================
+
+The ".kbfxtheme" file is a simple archive file (.tar.gz or .tar.bz2) that should
+contain at least these elements:
+- one or more theme folders with all the necessary images/files inside. Have in mind
+  that the name of the theme is the name of the folder.
+- in the theme(s) folder(s) there should be an image named preview.png that serves
+  as a live preview of the look of the theme.
+- in the theme(s) folder(s) there should be a file named version-2
+- the extension of the archive should be ".kbfxtheme"
+
+You can create ".kbfxtheme" file following these instructions (there is
+an option in Konqueror's rightclick "Actions" menu for preparing KBFX Theme Package
+OR you can create the ".kbfxtheme" file manually as described bellow):
+- Create a folder with a name that is identical to the name you want for your theme.
+- Put the necessary images/files inside it (see the above instructions for the images part).
+- Create an archive of the folder (with ark/tar etc).
+- Rename the archive file to ".kbfxtheme" and you are ready.
+
+
+ How to help us out
+ ==================
+
+You can help us for the KBFX releases with the translation of the interface.
+For this purpose please download the kbfxconfigapp.pot file from SourceForge:
+http://sourceforge.net/project/showfiles.php?group_id=141258&package_id=210120 .
+Another way to get a .pot file is to use the command "make package-messages"
+just after the configuration of the compilation process is done.
+Then use KBabel (http://kbabel.kde.org/) or poEdit (http://www.poedit.org/) to make the translation.
+Next send the .po file to my mail - phobosk@mail.kbfx.org
+Thanks in advance for this help.

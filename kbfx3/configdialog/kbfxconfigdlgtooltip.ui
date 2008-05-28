@@ -1,0 +1,719 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>KbfxConfigDlgTooltip</class>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>KbfxConfigDlgTooltip</cstring>
+    </property>
+    <property name="enabled">
+        <bool>true</bool>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>648</width>
+            <height>526</height>
+        </rect>
+    </property>
+    <property name="sizePolicy">
+        <sizepolicy>
+            <hsizetype>1</hsizetype>
+            <vsizetype>1</vsizetype>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+    </property>
+    <property name="caption">
+        <string>KBFX Control Center</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <property name="spacing">
+            <number>10</number>
+        </property>
+        <property name="resizeMode">
+            <enum>Minimum</enum>
+        </property>
+        <widget class="KActiveLabel" row="0" column="0">
+            <property name="name">
+                <cstring>kActiveLabel37</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>3</hsizetype>
+                    <vsizetype>0</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="minimumSize">
+                <size>
+                    <width>0</width>
+                    <height>29</height>
+                </size>
+            </property>
+            <property name="maximumSize">
+                <size>
+                    <width>32767</width>
+                    <height>29</height>
+                </size>
+            </property>
+            <property name="paletteForegroundColor">
+                <color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>255</blue>
+                </color>
+            </property>
+            <property name="paletteBackgroundPixmap">
+                <pixmap>image0</pixmap>
+            </property>
+            <property name="focusPolicy">
+                <enum>NoFocus</enum>
+            </property>
+            <property name="textFormat">
+                <enum>AutoText</enum>
+            </property>
+            <property name="text">
+                <string>&lt;b&gt;&lt;h3&gt;&lt;p align="center"&gt;Tooltip ON or OFF&lt;/p&gt;&lt;/h3&gt;&lt;/b&gt;</string>
+            </property>
+        </widget>
+        <widget class="QGroupBox" row="1" column="0">
+            <property name="name">
+                <cstring>groupBox24</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>3</hsizetype>
+                    <vsizetype>1</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="frameShape">
+                <enum>StyledPanel</enum>
+            </property>
+            <property name="title">
+                <string>Turn off or on the tooltip</string>
+            </property>
+            <property name="alignment">
+                <set>AlignVCenter</set>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>10</number>
+                </property>
+                <widget class="QLayoutWidget" row="0" column="0">
+                    <property name="name">
+                        <cstring>layout21</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>layout6</cstring>
+                            </property>
+                            <vbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="KActiveLabel">
+                                    <property name="name">
+                                        <cstring>kActiveLabel4</cstring>
+                                    </property>
+                                    <property name="sizePolicy">
+                                        <sizepolicy>
+                                            <hsizetype>3</hsizetype>
+                                            <vsizetype>1</vsizetype>
+                                            <horstretch>0</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="text">
+                                        <string>Turn your tooltip off or on. &lt;br&gt;You can see the current status of the tooltip to the right.</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLayoutWidget">
+                                    <property name="name">
+                                        <cstring>layout4</cstring>
+                                    </property>
+                                    <hbox>
+                                        <property name="name">
+                                            <cstring>unnamed</cstring>
+                                        </property>
+                                        <spacer>
+                                            <property name="name">
+                                                <cstring>spacer4_2</cstring>
+                                            </property>
+                                            <property name="orientation">
+                                                <enum>Horizontal</enum>
+                                            </property>
+                                            <property name="sizeType">
+                                                <enum>Minimum</enum>
+                                            </property>
+                                            <property name="sizeHint">
+                                                <size>
+                                                    <width>24</width>
+                                                    <height>1</height>
+                                                </size>
+                                            </property>
+                                        </spacer>
+                                        <widget class="QPushButton">
+                                            <property name="name">
+                                                <cstring>KbfxTooltipOnButton</cstring>
+                                            </property>
+                                            <property name="sizePolicy">
+                                                <sizepolicy>
+                                                    <hsizetype>1</hsizetype>
+                                                    <vsizetype>1</vsizetype>
+                                                    <horstretch>0</horstretch>
+                                                    <verstretch>0</verstretch>
+                                                </sizepolicy>
+                                            </property>
+                                            <property name="focusPolicy">
+                                                <enum>WheelFocus</enum>
+                                            </property>
+                                            <property name="text">
+                                                <string>Turn the tooltip "OFF"</string>
+                                            </property>
+                                            <property name="toggleButton">
+                                                <bool>true</bool>
+                                            </property>
+                                            <property name="on">
+                                                <bool>true</bool>
+                                            </property>
+                                        </widget>
+                                        <spacer>
+                                            <property name="name">
+                                                <cstring>spacer5_2</cstring>
+                                            </property>
+                                            <property name="orientation">
+                                                <enum>Horizontal</enum>
+                                            </property>
+                                            <property name="sizeType">
+                                                <enum>Expanding</enum>
+                                            </property>
+                                            <property name="sizeHint">
+                                                <size>
+                                                    <width>1</width>
+                                                    <height>1</height>
+                                                </size>
+                                            </property>
+                                        </spacer>
+                                    </hbox>
+                                </widget>
+                            </vbox>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>KbfxTooltipOnPixmapLabel</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>0</hsizetype>
+                                    <vsizetype>0</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>120</width>
+                                    <height>80</height>
+                                </size>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>120</width>
+                                    <height>80</height>
+                                </size>
+                            </property>
+                            <property name="frameShape">
+                                <enum>GroupBoxPanel</enum>
+                            </property>
+                            <property name="pixmap">
+                                <pixmap>image1</pixmap>
+                            </property>
+                            <property name="scaledContents">
+                                <bool>true</bool>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="QGroupBox" row="7" column="0">
+            <property name="name">
+                <cstring>groupBox3</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>3</hsizetype>
+                    <vsizetype>1</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="frameShape">
+                <enum>StyledPanel</enum>
+            </property>
+            <property name="title">
+                <string>Tooltip Text</string>
+            </property>
+            <property name="alignment">
+                <set>AlignVCenter</set>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>10</number>
+                </property>
+                <widget class="QLayoutWidget" row="0" column="1">
+                    <property name="name">
+                        <cstring>layout19</cstring>
+                    </property>
+                    <vbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="KActiveLabel">
+                            <property name="name">
+                                <cstring>kActiveLabel6</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>3</hsizetype>
+                                    <vsizetype>1</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="text">
+                                <string>Type the text which you want to be displayed in the tooltip.</string>
+                            </property>
+                        </widget>
+                        <spacer>
+                            <property name="name">
+                                <cstring>spacer9</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Vertical</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Minimum</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>1</width>
+                                    <height>19</height>
+                                </size>
+                            </property>
+                        </spacer>
+                    </vbox>
+                </widget>
+                <widget class="KTextEdit" row="0" column="0">
+                    <property name="name">
+                        <cstring>KbfxTooltipTextEdit</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>1</hsizetype>
+                            <vsizetype>0</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                        <size>
+                            <width>0</width>
+                            <height>100</height>
+                        </size>
+                    </property>
+                    <property name="maximumSize">
+                        <size>
+                            <width>32767</width>
+                            <height>100</height>
+                        </size>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>WheelFocus</enum>
+                    </property>
+                    <property name="frameShape">
+                        <enum>StyledPanel</enum>
+                    </property>
+                    <property name="vScrollBarMode">
+                        <enum>AlwaysOff</enum>
+                    </property>
+                    <property name="hScrollBarMode">
+                        <enum>AlwaysOff</enum>
+                    </property>
+                    <property name="textFormat">
+                        <enum>PlainText</enum>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="KActiveLabel" row="6" column="0">
+            <property name="name">
+                <cstring>kActiveLabel37_2_2</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>3</hsizetype>
+                    <vsizetype>0</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="minimumSize">
+                <size>
+                    <width>0</width>
+                    <height>29</height>
+                </size>
+            </property>
+            <property name="maximumSize">
+                <size>
+                    <width>32767</width>
+                    <height>29</height>
+                </size>
+            </property>
+            <property name="paletteForegroundColor">
+                <color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>255</blue>
+                </color>
+            </property>
+            <property name="paletteBackgroundPixmap">
+                <pixmap>image0</pixmap>
+            </property>
+            <property name="focusPolicy">
+                <enum>NoFocus</enum>
+            </property>
+            <property name="textFormat">
+                <enum>AutoText</enum>
+            </property>
+            <property name="text">
+                <string>&lt;b&gt;&lt;h3&gt;&lt;p align="center"&gt;Tooltip personal text&lt;/p&gt;&lt;/h3&gt;&lt;/b&gt;</string>
+            </property>
+        </widget>
+        <widget class="QGroupBox" row="4" column="0">
+            <property name="name">
+                <cstring>groupBox26</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>3</hsizetype>
+                    <vsizetype>1</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="frameShape">
+                <enum>StyledPanel</enum>
+            </property>
+            <property name="title">
+                <string>Tooltip animation</string>
+            </property>
+            <property name="alignment">
+                <set>AlignVCenter</set>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>10</number>
+                </property>
+                <property name="spacing">
+                    <number>0</number>
+                </property>
+                <widget class="QLayoutWidget" row="0" column="0">
+                    <property name="name">
+                        <cstring>layout20</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>layout9</cstring>
+                            </property>
+                            <vbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="KActiveLabel">
+                                    <property name="name">
+                                        <cstring>kActiveLabel5</cstring>
+                                    </property>
+                                    <property name="sizePolicy">
+                                        <sizepolicy>
+                                            <hsizetype>3</hsizetype>
+                                            <vsizetype>1</vsizetype>
+                                            <horstretch>0</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="text">
+                                        <string>Turn your tooltip animation off or on. &lt;br&gt;You can see the current status of the tooltip to the right.</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLayoutWidget">
+                                    <property name="name">
+                                        <cstring>layout8</cstring>
+                                    </property>
+                                    <hbox>
+                                        <property name="name">
+                                            <cstring>unnamed</cstring>
+                                        </property>
+                                        <spacer>
+                                            <property name="name">
+                                                <cstring>spacer4</cstring>
+                                            </property>
+                                            <property name="orientation">
+                                                <enum>Horizontal</enum>
+                                            </property>
+                                            <property name="sizeType">
+                                                <enum>Minimum</enum>
+                                            </property>
+                                            <property name="sizeHint">
+                                                <size>
+                                                    <width>26</width>
+                                                    <height>1</height>
+                                                </size>
+                                            </property>
+                                        </spacer>
+                                        <widget class="QPushButton">
+                                            <property name="name">
+                                                <cstring>KbfxTooltipAnimationButton</cstring>
+                                            </property>
+                                            <property name="sizePolicy">
+                                                <sizepolicy>
+                                                    <hsizetype>1</hsizetype>
+                                                    <vsizetype>1</vsizetype>
+                                                    <horstretch>0</horstretch>
+                                                    <verstretch>0</verstretch>
+                                                </sizepolicy>
+                                            </property>
+                                            <property name="focusPolicy">
+                                                <enum>WheelFocus</enum>
+                                            </property>
+                                            <property name="text">
+                                                <string>Turn the animation "ON"</string>
+                                            </property>
+                                            <property name="toggleButton">
+                                                <bool>true</bool>
+                                            </property>
+                                        </widget>
+                                        <spacer>
+                                            <property name="name">
+                                                <cstring>spacer5</cstring>
+                                            </property>
+                                            <property name="orientation">
+                                                <enum>Horizontal</enum>
+                                            </property>
+                                            <property name="sizeType">
+                                                <enum>Expanding</enum>
+                                            </property>
+                                            <property name="sizeHint">
+                                                <size>
+                                                    <width>1</width>
+                                                    <height>1</height>
+                                                </size>
+                                            </property>
+                                        </spacer>
+                                    </hbox>
+                                </widget>
+                            </vbox>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>KbfxTooltipAnimationPixmapLabel</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>0</hsizetype>
+                                    <vsizetype>0</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>120</width>
+                                    <height>80</height>
+                                </size>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>120</width>
+                                    <height>80</height>
+                                </size>
+                            </property>
+                            <property name="frameShape">
+                                <enum>GroupBoxPanel</enum>
+                            </property>
+                            <property name="pixmap">
+                                <pixmap>image2</pixmap>
+                            </property>
+                            <property name="scaledContents">
+                                <bool>true</bool>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+            </grid>
+        </widget>
+        <spacer row="5" column="0">
+            <property name="name">
+                <cstring>spacer6</cstring>
+            </property>
+            <property name="orientation">
+                <enum>Vertical</enum>
+            </property>
+            <property name="sizeType">
+                <enum>MinimumExpanding</enum>
+            </property>
+            <property name="sizeHint">
+                <size>
+                    <width>1</width>
+                    <height>1</height>
+                </size>
+            </property>
+        </spacer>
+        <widget class="KActiveLabel" row="3" column="0">
+            <property name="name">
+                <cstring>kActiveLabel37_2</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>3</hsizetype>
+                    <vsizetype>0</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="minimumSize">
+                <size>
+                    <width>0</width>
+                    <height>29</height>
+                </size>
+            </property>
+            <property name="maximumSize">
+                <size>
+                    <width>32767</width>
+                    <height>29</height>
+                </size>
+            </property>
+            <property name="paletteForegroundColor">
+                <color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>255</blue>
+                </color>
+            </property>
+            <property name="paletteBackgroundPixmap">
+                <pixmap>image0</pixmap>
+            </property>
+            <property name="focusPolicy">
+                <enum>NoFocus</enum>
+            </property>
+            <property name="textFormat">
+                <enum>AutoText</enum>
+            </property>
+            <property name="text">
+                <string>&lt;b&gt;&lt;h3&gt;&lt;p align="center"&gt;Tooltip animation ON or OFF&lt;/p&gt;&lt;/h3&gt;&lt;/b&gt;</string>
+            </property>
+        </widget>
+        <spacer row="2" column="0">
+            <property name="name">
+                <cstring>spacer6_2</cstring>
+            </property>
+            <property name="orientation">
+                <enum>Vertical</enum>
+            </property>
+            <property name="sizeType">
+                <enum>MinimumExpanding</enum>
+            </property>
+            <property name="sizeHint">
+                <size>
+                    <width>1</width>
+                    <height>1</height>
+                </size>
+            </property>
+        </spacer>
+    </grid>
+</widget>
+<customwidgets>
+</customwidgets>
+<images>
+    <image name="image0">
+        <data format="XPM.GZ" length="4075">789ced974b6fda401446f7fc0a8bec5095601eb64755174d7080a669d3b48b4a5517e33134a1101230e151f5bfd7f7bbc3f8510bb29a45d5b331e77e77c6c6067b7cd670bede5c3b8db3da3291c9bd72d49d5c388d78359b6dbf7d7ff3ab5677dda6d3124e2770dcfaab5afdd651ce4953785d11937e822acf63bd81c67bfd0c1d793eeb47ad8118917e20755d4f8a31e935d4f394c48ede4395df941dd277a4adaedf9501e995568f75001dfb9154a443ad8ab547da96412bc2cc97465ba4a1d636a77da348df9276ba818c3cd273a33ee985d688d30d69d7156e14916e8de230d65a5b9cee8c22fd028dfd91c05409ab08549374611407b9d42a387d328af459abe4746514e99cd40b645375491f8c62bf8f5a5d4e6746914e49fdb64c2f12e94fad3eeb049a9e7485eb7baf3566bd23a5b31ce3c4fe808aa813e3fa8ea02af263ec68ac35603d85c642ffea147494a6b80ab156c17a422a9afb34d22a631ca4d41ab19e5a058767157ce52a22a6322bb51debc95a69830b5445cc5466a5b6633d592b6df0fba962cc5466a5b6633d592b6df003b60afe4156c15ff810938c5ca9f4a16c93228509714b39c43423572a7d28dbb4486142dce2521e8acce78f9a3983da3c5f6152a7b17a8afdb042cb1c33cef6e0760d160ccbd290243a5824cb65be6cf449b35a9961cf29694752985383470fd86c36db941d581bb84a6cd6eb7cd9e82ea3d4b11fbacb83e7668173f07705a58b14aeec4378aeab3032ad16356dc753be17863d260cc34ba26f2a3daa6429d337a50c1a13f6fb61a99a178cc5aa63301c0e98a1fe3434952c435533a8e04094efc02ae8a55c8117b7578fc732cc2a58075a050b51ab60256c15acccad825703abfcdfe3bfb3c75babe045d52a78ddb34afdf7ebda1f4394dd1e</data>
+    </image>
+    <image name="image1">
+        <data format="XPM.GZ" length="24290">789ced9ac97223390e86eff5148ee6ad6282ad5d99313107effbbe7b620e205392f75d96ec8e79f761823fac4c6a71754c3bfb20252efd89e0f203205272d7ef3fe7cef6b6e77efefee3e5955eafec9cbda4e7b99f49f7eeeefddffff9d71f3f7e2b574a735169ae12d7e72abffde3c76fd498b373aac44fcae68cb95cb2e00e38f14cf3e016f8c57319fef689b9526e820d38c27a3be018f34fc1062ce3588f763d5708eb6d32572b15f007b88af5851be01e18e731af9eab35f00db88efd2230e6d33e18f3690d0c3d84f5abd06357996b15c4c73e80dbe0c47355e27d012e83b7c1d06756c0a2cfc7b756833f55c1d0637d7eea5589d72b18f1b5976089afdfbf5ec77ee4e35b6f08bf81b1bf5d666ed4102f7b0f967c6bb0e4fb148cf3985d30ce6336c0526fcf9eeb327e0b96710596fa2b83115f3af2dc90719f8f4613f1a645b0d48fcf67b38e71fb089678c760a9970a18facd1158ea6bc17343eaaf0f96fa697a6e221e7406967c6c81e5bead8345cfbbe748f42c83253efe3e470da9a77330e2637c3d47120fb30516ff65b0e87f078bfe17b0e8bb068bfe042cf7fbc47324eceb378aa55f7499e386d4eb1558ead582110f5307231e06fe11ce47188fe53e1f82e57efa7a23c9875d01a35e6d0f2cfebede48f4185f4f14497d2e8125fe779e6339af3f3f91dcd703b0f4175f5f64249fbe7ec8caf93c9bcf7c1c7b8e251f3e7e86e47e19b0d48bd76712b9cfcf60b9bf9e6d84f3da3658eaa5e639967e54f24c523f876019f7fdce1aa9871658eadbdf1f6ba5df1f83e5bcbeffd944eea38f6f12497dbc83a57e7c7f4a3ef37b0b96784460c947152cfa7c3e1212f6f72d917c9845b0e8c37e56f81e2cf9b804cbfdd060399f7fdfb448f24b60a92f7f5f5a46780f2cf5b606163df36079bff8fbd996f3db3bb0f4bb0e58eaa909967e5606cbf9381e655790e045b0d44b1f2cf1e3fe59e68799f555f84959f37da8f2c37ce4b95602ef83cb9e89eba95aabb63cab75701b7ce559e6930213c68fc006fc01b6d80febd512701f8cfdf4a9e73ad623ce6fb5ee5e887ebd08dc04ef802370171c637edb7303fa540d5c015f80111fb50dae8157c175b006e33c5ad6c379f43118e7d177609c479d82259e4b9e9b389f7e07cbfad0df14bd2dcf91e4af0996f9bb60e8d325b0c4f7008cfd35f4c532ff0a8cf9e4b9d194f337c192ef5d30f2a97c3d3522c9c73258e6bf80a53e6ec032dfd75f2396f904c67efa042cf5137b2689f71918fbe96db0ccdf02637f8df391d4e71b58d6bff56ca59e3c3723a98f6330f2433e3feef585f10a58eaad0c967af3e76992d4e70a58fcdfc1b2df1d58ea31014b7df8fbd43492cfba672b8cf358e9071b60aca7d73c27d84f5f83a51e173cb7a43eb8bf55ddf70bec1f83259f0db0f49373b0d4ffa66789b77af66cc4bf0d967af5f73fb252cf55cf89dc8743b08cfbfee35eafe017b0c463052cf99f074bfe719eb6ac7703c679c8e7238ea59e7dbc63a937f2f18b251f64c1883f19b0e4770d8cf5c8d7bffbfa86f133b0d4cf2158ea611e2cf707fb25725f0fc012ef45cf2da9bf27b09ce7122cebe3bc2de977e760b95f7b60a98757b0e4fbdeb3c45f75c052ef0a2cf5d7004b7d5e8065ff1db0dcf74db0e4c3f73f4a84fdf9a825fd68032ce30b60c487fc79ddf737b0bf6f46e2451a2cf9a882255e2760e90fbe7edcd72f9c97d7af9553e3717e9fd7f8e1718e5fad951a8ff3fba2ce0f8f733eea36351ee7fbdfe087c7f9bc8d38353e0f7fdf6ef2c3feacdfb50f67eccff98feaa931737ea2666aeccfefd7881f668e6f6452e3f5f9fc7125359ecffd3caea796b2e1fcc4fcf07cae9fd8a6c6fe5cef544a8d99f7a34a6aeccfef5be287f7e37e4c496aeccff56c4aa931733d197e98397e26492d65cbf7d3b452e371eedf7c1c7f3eae17cb0f33f713db4e8df7e7f745d2488de7b37ef7f5d719fb73fe127e783f5ebf554a8dfd391f9c5eceb7e2f3b41aa971bcb8ffb5f8617f7e7fb4cba931f378bb965acafbbc5f9b1fcfd36533cdd36133cdd36133cdd36133cdd36133cdd36133cdd36133cdd36133cdd36133cdd3617f9d66ad3469a3eda7258e5b7fb7beefd2acdbbae3345eea2b7dad6f3eedd6f19dbed70fba3d71f6a37eca442ab527fd387146e7d77dbf47b3d374efd43d8fb11737f6aabb13e63fe9b760ce9b7e9ae0dfd3fd5ff5fd0ecd9ca377fda1e727da82cb77675cb6597338e34e2f4ed43cf02c58b35e72777659affc92ad8e53ed340fafb1e63ac3b818f5f47ac673b948cd2ec789ded09bbf6c4ef518cd5b23bd1f26681ef86d15a7d9f5ad27bdad77fe94ed8e523d669d3dbd3fba3bb1e681df76819a1ff4c1d0390fdd6747e8a7c7fa648492d3e17bea349f8d8cd0d9683581e6315e7fbd667793d7f5b9bec859c9f567d26578b4dcfd5dd795c0a7aacd48cd1723ad36aa93b1e6814f719a135dd78d9c35877b948b8cd1d1905ff0de729ae3c0472c1a8e10340f7ce26234eb25a555fea131fd6951af2b93f3b43af47952891af7b4863b59aa39e39114a439516dd5c9d8a5ba52d7637c1fd44dceb7a35aea36d07c1778e4560e3b196b1e78dc15a199f7bccfd9831afbfd4f975d3c9e72decf3a19d27c3fd6863405fb17a399d48b7acd5957bd8df7573dd50ffcafa4d341f37b66ec3df075abe73b99eea98fac7f219a8d9a570b195bd4f713fd955acaf92fa8654d39cd2b99b155b51678cfe73b196b1e8cae7cbf6657abeb6a23679baa3771467ac6fc8cdc7727a7792b33b6ad7602ef0db59bed64c17a057c0fd32d77aabd9ced67b33672cebd3ac8cd38cc668e350fc6b6034eedc0c5f9b3473acd4799b12234933a5627393bd5ea8b39469de5e7689bd37c9e19bb70515d57a5608ff2e05dc89a0723e7dfaf593daa8aaae6acf6d55f435c17ab07738ef4e77d709a1bf9d5dcfbad19f85755a497329a079f370ac8f3938a49e74ce989f779d49c6c9cf2a37e441ba26017236f38dd2395f12fe07b984ec8fa7f75f6695f6a568fd40ae6b4b39aa9138ee845ba0c662474e53b196b1e7cda2944f335dde4eceb3c13dd0673f29aef8647824f53bba787b493b1e6c1a7057c27a1477aa2e79cbdd05773baf416cce90dfa1ef5e97d78843e689e1682598b697dd3abdb71f0d93bf5bf5df3122dd34acebed4ac7ab41acc59cb695e1f35421bb419cc727ba95bd63cf864bd00cd7ddaa2ed9ced7c99e7e139bbb43766745f34ebb2b67410cc3b7475f6ea761c7cb2f5fd9a5dce8ee83867fb5fbd9f5d6d9c04734e0771729acf46af46e7b41fcc3ba60b2ab9d9033e2b20cf5d2afb7f4dfc6955aa7d31e791eac19c4666b44fcdcc48948d6030965aeceef969869bdfaf592b8a8cce99a2097fb14fcd9031b91936fb3d8cfa26198c059a3fe8d4b486f63bcd50f2fd9a4ddb74cc65ceae68e9ff99e1345f67c66ef2378536cc6d30dbf964fefbfafb35bb4c5b7367ee33f66026fe1f23aa99a79cffbd79ce5686d3fc92197bcd6bd6655725dd607e76ff97223453d73c9bb79cf5065d78d854cff403ff8ec9fcb5d0697ecf8cbd861d914ae635989fb502decfee0c7be6c3cce76c61d22f68f3681673de4b94ab0ba7793933ba32fc16083cf2b65c84e6b40f9b55b396b175d3a18f31be1b6623e7bbe6783350b49519dd1ea1f9c3ecb83dd6465a01ef67cedca6d9357b39db1fbd339dbbd31ee43c0f4df01706a7793f333e423347ee28d8f18b9dff6acddcc78ecd49ce4e7592fdcb1e9fb464ce86fda834a4f93c337e314a3377b252b092b7f3a234bbfc5d98726015f7a3b72bddc96cd292f3a9063eb5ec9bf953733de3315233c76f78c7d4ea45694e7f539a8669061699d89c512335f7b54385e396aca1f361cdd6667c9271df6469697845e76f8bd36c5bdadab6edfc29bba48d115afaf62ae33356b3bdb6c6de0cad79559ce6b4bedd196eeddd2fdb7dfeff5fe4340fbc1ec6ff62a10dfb38b46aa19ad33b669fecb37df9257b1dad983577337e1334a79dccbe05eb768bd59ce6da5578cff6bfb077fb314e316bceae30413347793e58bb57b466fee5d3b71f76c12e8eb125bbec7efb0f75ae9ce6958cffeae45fe3ae93e5f75a295e736af69a965ca75e73b69eb10dc79bee4dbe3979761a35dfeb531b5f0fd9bd32d61ff70df07b35a7a6cbd4d549709aeea4df1e7f9fcdfe8deb74d84cf374d84cf374d84cf374d84cf374d84cf374d84cf374d84cf374d8546afeef3f7ffc0fea16a67b</data>
+    </image>
+    <image name="image2">
+        <data format="XPM.GZ" length="24050">789ced5ad96e1b3b127dcf5718e15b30e0d5be60300f71bcc471bcc64e6c0fe6a1c86e79b725cb6b2ee6df873ce5ae16db962cb6ef600690fae03e9c5b2cb24eb158a492fcf169e1607b63e1d31f1f86b7747b6a17ec09dd2c7c4aee2e2f9ffef9af7ffcf9e163b55659e854166afebf8f7ffbf091b616ec82aae0f3dc1c801b47abb037c06dc60d795ec5e7b935e02d67c77ca60ade16be02dec938fd062799ff0a5cd6b3e79ed7aa8ed761bf07c787f92ec01b32ff097853e6c77ab57cfd4df054e683be7a4df83a783d1baf2d73ffc17e032ef3db14dceb6962fe16785738f251f7eb353c576bccb3f934f25defc9fc3f3cf772381e8d7c34aa1e58af0feee36d812bf046c6e99cb9ffb0fe217833b31be86bb424be45f0b6f04770d1a3b0df8dae0b8fe3bf04a72c5ef55d38ec7a1fdc64767b0b9eb8f9dab0df81a71e58ef97e73e3cb69b6df0aac4db036f66f1d00373ffc18efd698a1e75cf3c8b878ec0458fde652ef9de01ef66fb63f6c0adc46b987b60fc003cc9c613afeff793d7ef82f784d73c6f55326eb09f2dd1a7b69867f19a53f07c7fef8577c1b17eab9e71dd619ef95be4abe5eba1037e229cc76f3397f138bfad66365e5f32cff263dae0adcc4e43e6fe03473db7f2faa909c778837a6e7584a35e5a5d592f61ee81f93e8393ecc79270ae0ff48b96c9b83a602ef9e5fc48bda965e692df33f034b3db4be1043bc7d3cbec04fd5ecef3f982beb6ec9f7e642ee719f96ed7a4be7e82d7253f47c259ef067843ea1b7adb52cf84f3d996fc2a5e0f1fec385fedfcbcf2fa721ecd03730fc487f3dc36723ed0afdaf9f95c672ef1f37c52df84fdebe4f5fb93b9d43bce53a726fb817ae9e47a117f47f4da6be1385f6a85b9f8a3df759a52ff67c279fc2df36cbc1e30f7c0789ccf8ecfa7c1f863e6d2af98b73db01ef2d3e964e3f50173c917c7830f76ce87f447cdf14b7f24239cfb19fa4fc764f5a66f98cbf86de61ee0e8a71de947664d38fb9f32977e5c11cefa797e5fcf0938ee4b7ffc9e39f477ab92cf6be6927ff4b36e4dec7de61e888fe7ab4bbfee08e7f19ab9d40fcf27fd884e994b7e504f5dd95fbdc35cf29f08e7f3c7f1363db01ece6bb795d909ef8f6ede8f7684733d3499cbfa388f5dd97ff315bc9be55bed3197fc3c31f71fecec4f62473febca7eab55e6725ed0cfbab25f6699b90738f6af9b88ff90b9f8e33c74e57c1adcffdd9e8c37ccc58ef78a6fa7cff5d3622ef54bcc3d301ef544d5ac5ef41e73d90fec37c9fda4d798cb7ba12e9cf7eb9eb90738fa1dc9fd45bc9ed487bd13dec3f845e6723f219fd4ccf6cb5e09e7f10fcce57cac0be77ac4fb83e47eb3a7c2e14f782f525e3f77c279bd4438de330af5401dc937ea93ba325e0bc778ea3177e3b99fa3de8864bda6701ecff9c7078ef71f19f1ff029ef78b7de1eccff14bbf374a38d70beb4f3c60c7fb84d26cffcd3770e9271af7bba978c08ef58df41383fe6ca41f18dcb726efdf37cca59ed1af4d4bf287fe6424df1af7af917e6c904f23f9d547cca5fef0fe35d27f09f934f979e4f88dd4a762ee3f70d497b1529f3c9fe44bb3dec4031cfdd0c8fb5e2d0ae77e3c64ee81f9701f989ef4c333e66e3cbfb7906f5b157bca5cecd06f6bb2ffe81f367fef35994b7e5bc2f9bec779b379fe8f8473be50cf56ce87423d59e99784fdb4f2be539bcc33bb423d5be9979ae3478303875e2bf79ffa2c9ccf27f26ff1c18efe66f3fe877e65f3fe76cfdc03f3e33e48e4fdad711f2472bf69c49bc87b45ed0ae7f723fa5392e7e35838c78f789396dcdf249cef8307e61ee0789f24d21f14f291487e544738bf2ffacc3d60e7f829b32bd46b92df27e8678995fdc57d9ae4f9da16cef572cddc7fb0a3de925e6637e8df69c50376d47b5a95f382fa48e5bdabee84b31de73f95dfcf0afd39cdebf182b90738fa699ad723fa63daf2c07c783fa46dd93f8e4ff2a9a13fcdeb0df7712af9d1d097ca79d6a8cf547e1f689c9f3495f3cef3e3831df7752abfd735ce73af221cf5d9cb7f0f1c32f700879e5ec3c3f31de4a7878ff96c61ae793630d73c1b986b9e0dcc35cf06e69a670373cdb381b9e6d9c05cf36c60ae79365046b3569ab4d15690389efeaf95fcb734eb9e3e761a4ff4a93ed3e7820bc72ff595bed6bd89de7d3d18c9d47418e8fe7b7ddfa3d969bad2377a3806b7ce76a7ef27f80ff4c358ef7178d083f7fa96d58c3c3fea27fd7b223ebbfd3e1eb7db6e86c537fc5f62513497f62da7597f716776492f4f859571aa5ddcd3ce9163493497f62da3d9ed71a257f5d7a9e1548fd53cfd2c8c51cd257de335bbbe35d06bfa5b14d65f535d629e6fce63f05edf129aaff577bd51c0a6fb7f5bcfdd715befbcb06fe85dfde315cd7baf8c9c8c3dd15cda3756b33bc9fbfaa7fe15e0c0f567d287cf2352777ef7f551614c459b57358f8ea946dc55eff08dd69ce89aae0768bcec512e3346375f8c2bdc5b2e865630a2adef26d7d85fe31ba7d969e9e8ee28941ed39f7ee87da58291548c4a0f94993c6292e6f2be919a1365553282546fa971b7efb53a0ec626ea449d16e23e0bece7519a4bfbc6685617ea525d05b856af9e104475e8f2310846dfe8a410f730b0c7692eed1ba35993ba557701eed5c3f8b9d4a37a0ac7bbde7e18c4fd3bb07f8ed25cda374ab3518beacb0896f4d5c4b8945a0ec67f512b9a82b85703ebd728cda57da7d7ac0fd59afa16605d3d4e9acb9d85ef058f8dd11bd2c5bd115837a33497f68dd09caa2db51d606774d75ef5b952bb81c78fd15bdac5bd1758f7a33497f68dd04ceaa7fa15e040ab372233ea30f4d1b610f7a8f528527349dfe935abbeaaa86a80da5b7f1ae2ba58bde0d35017237137035b6bc21baaf04bfc3dbe11fb3c506dd5093012ffd43edd3c4faf58c78274b88feff18dd09cd0f3bf8fcdbeb735ab3e99d087eca8664a68da2f2d6a2eef1ba5b947c7a398629f894e429f82e6d382753cce5e682eed3bbd663aa70bba0c7045d79335539f06059f9bbcefd1906e0bd6f1b8a3e04cbec73742f3033dd25380df6f69568ff4b9e0136a5e2c58c7e3cb0bcda57d23340f69899603bca9f9159f155a9d601d8faf2f3497f69d5eb3dbb335fa1660fdadfbd9d5c6f782cf489e5cdc1b816d93b6c6e29eb60b9a4bfb46ec739f766837c00fda7b43f339ed177cb682b87f06b65f93f7a3a0b9b4eff49ab5a2033a0c7044637f493e47764f95c0a33afa0e7371d7026b254a7369dfe935539d1ad40cd0a209bf24dff67071b7036b274a7369dfe935bb9db6d4357a04ca4cfc8d417bc604e3b5b1a39541439304d634467379df18cdd4373d731ce024efc22fa11ecd6938deed7b3d88fb2cb09f47692eed1ba579d55c98cb0057937e411b32d7c1e83e9d17e21e04f69b28cda57d6334fb3e6c86e6760477d43063d6320fe631187bebf85321eedf81fd7394e6d2be719acd9359345f022cd1f0d591cb66c5ac06235fbc0c5cdc4b93474cd45cda374eb3ef6366cd7c0bb0ae93d13fd94344db6eff5f8c2bbe0c5cdcdf83111b519a4bfbc66a76fbb769b60ad876f7703feb4ee6891edc989dc298ddd19b59e2fe118cd989d25cda3756b3ff4d69f6cc7e013fcd2f73c02f3d73688e5ed82ba66a965f89bb16ce12a5b9b46fbc665377f5dd30cd28b4cc2baf1717773b1815f52629ef1baf19f55d35dd887fbca2c2bfbfc8e3b6343ace74633497f72da3d9f7286bacb5c954485f578cb87bc1c8e328cda57dcb69f67badad3db1a76fe0cc9e8f538cb8c3192ea23497f62dabd9a9be77eb9edb4b7b3506d7b6ef4efe8bce15c43d083ca2de61e57dcb6bf6b0437aa02d7beb7037827bc7cf9ddea7c9de3e6b31bfedff2adff769f6d087d4d749b0fed0ddd6137e7bfcbf61fe6f5c670373cdb381b9e6d9c05cf36c60ae793630d73c1b986b9e0dcc35cf066652f3bffffee13f7e30472b</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>KbfxTooltipAnimationButton</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>KbfxConfigDlgTooltip</receiver>
+        <slot>KbfxTooltipAnimationButtonToggled(bool)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxTooltipOnButton</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>KbfxConfigDlgTooltip</receiver>
+        <slot>KbfxTooltipOnButtonToggled(bool)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxTooltipTextEdit</sender>
+        <signal>textChanged()</signal>
+        <receiver>KbfxConfigDlgTooltip</receiver>
+        <slot>KbfxTooltipTextEditTextChanged()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="global" impldecl="in declaration">kbfxconfig.h</include>
+    <include location="global" impldecl="in declaration">kdebug.h</include>
+    <include location="local" impldecl="in implementation">kbfxconfigdlgtooltip.ui.h</include>
+</includes>
+<variables>
+    <variable access="public">QPixmap img_on;</variable>
+    <variable access="public">QPixmap img_off;</variable>
+</variables>
+<slots>
+    <slot>KbfxTooltipAnimationButtonToggled( bool )</slot>
+    <slot>KbfxTooltipTextEditTextChanged()</slot>
+    <slot>KbfxTooltipOnButtonToggled( bool )</slot>
+    <slot>ChangeForm()</slot>
+</slots>
+<functions>
+    <function access="private" specifier="non virtual">init()</function>
+</functions>
+<layoutdefaults spacing="6" margin="0"/>
+<includehints>
+    <includehint>kactivelabel.h</includehint>
+    <includehint>kactivelabel.h</includehint>
+    <includehint>kactivelabel.h</includehint>
+    <includehint>ktextedit.h</includehint>
+    <includehint>kactivelabel.h</includehint>
+    <includehint>kactivelabel.h</includehint>
+    <includehint>kactivelabel.h</includehint>
+</includehints>
+</UI>

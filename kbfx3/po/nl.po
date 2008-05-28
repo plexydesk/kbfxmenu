@@ -1,0 +1,1551 @@
+# translation of nl.po to
+# translation of kbfxconfigapp.po to
+# translation of kbfx.po to
+# This file is put in the public domain.
+#
+# Monkey 9 <monkey9@iae.nl>, 2006, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: nl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-03-01 11:46+0200\n"
+"PO-Revision-Date: 2007-03-06 21:47+0100\n"
+"Last-Translator: Monkey 9 <monkey9@iae.nl>\n"
+"Language-Team:  <nl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: _translatorinfo.cpp:1
+#, fuzzy
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Monkey 9"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "monkey9@iae.nl"
+
+#: kbfxlib/common/kbfxfontchooser.cpp:38
+msgid "Font..."
+msgstr "Lettertype..."
+
+#: configdialog/kbfxconfigapp.cpp:28
+msgid "<p align='center'>%1</p>"
+msgstr "<p align='center'>%1</p>"
+
+#: configdialog/kbfxconfigapp.cpp:29
+msgid "You are running: <b>KBFX "
+msgstr "U gebruikt: <b>KBFX "
+
+#: configdialog/kbfxconfigapp.cpp:30
+msgid ""
+"<br><p align='center'><font color='#ff0000'>The connection to the KBFX News "
+"Section on www.kbfx.org is broken.</font><br><br>If you want you can check "
+"the latest news for KBFX from here:<br><a href='http://www.kbfx.org/'>KBFX "
+"News</a></p>"
+msgstr ""
+"<br><p align='center'><font color='#ff0000'>De verbinding naar de KBFX Niews "
+"Sectie op www.kbfx.org is kapot.</font><br><br>Als je wilt kun je vanaf hier "
+"het laatste nieuws voor KBFX controleren:<br><a href='http://www.kbfx."
+"org/'>KBFX News</a></p>"
+
+#: configdialog/kbfxconfigapp.cpp:35
+msgid ""
+"<font size='+1'><b>KBFX start button</b><br></font><b>Tip! </b>You have 3 "
+"options to select for your KBFX start button.You have to select <i>(Normal, "
+"Pressed, Hover)</i> images. <br>Down below you can also see a preview of the "
+"images you have selected."
+msgstr ""
+"<font size='+1'><b>KBFX start knop</b><br></font><b>Tip! </b>Er zijn 3 "
+"opties om je KBFX startknop te selecteren. Je dient <i>(Normaal, "
+"Ingedrukt, Muis-over)</i> afbeeldingen te kiezen.<br>Hier beneden kun je ook een voorbeeld zien van de afbeeldingen, die je hebt gekozen."
+
+#: configdialog/kbfxconfigapp.cpp:40
+msgid ""
+"<font size='+1'><b>About KBFX</b><br></font><b>Tip! </b>Here you can find "
+"information about the KBFX Project and all the people involved in it."
+msgstr ""
+"<font size='1'><b>Over KBFX</b><br></font><b>Tip!</b>Hier kun je informatie "
+"vinden over het KBFX Project en alle betrokkenen."
+
+#: configdialog/kbfxconfigapp.cpp:43
+msgid ""
+"<font size='+1'><b>KBFX font settings</b><br></font><b>Tip! </b>Here you can "
+"set the fonts of the current theme.<br>If you don't have any 'kbfxfontrc' "
+"file don't worry about that.<br>When done just hit 'Apply' button and KBFX "
+"will save the 'kbfxfontrc' file."
+msgstr ""
+"<font size='+1'><b>Kbfx lettertype instellingen</b><br></font><b>Tip!</b>Hier kan men "
+"de lettertypen. voor het huidige thema instellen.<br>Als je geen 'kbfxfontrc' hebt "
+"maak je daarover dan niet bezorgd.<br>Wanneer gereed enkel op 'Toepassen'klikken en KBFX "
+"zal de kbfxfontrc opslaan."
+
+#: configdialog/kbfxconfigapp.cpp:48
+msgid ""
+"<font size='+1'><b>KBFX Layout</b><br></font><b>Tip! </b>Here you can "
+"configure the Look and Feel of your KBFX menu.<br>The most important "
+"settings that are used with the '<strong>Make it...</strong>' buttons are "
+"marked with '<strong>*</strong>'<br>Have in mind that the Layout of the "
+"theme also depends on the sizes of the images!<br>"
+msgstr ""
+"<font size='+1'><b>KBFX Opmaak</b><br></font><b>Tip! </b>Hier kun je "
+"het uiterlijk en thema van je KBFX menu instellen <br>De belangrijkste instellingen "
+"die gebruikt worden met de '<strong>Maken...</strong>' knoppen zijn "
+"gemarkeerd met '<strong>*</strong>'<br>Houd in gedachten dat de opmaak van het "
+"thema ook afhangt van de afmetingen van de plaatjes!<br>"
+
+#: configdialog/kbfxconfigapp.cpp:53
+msgid ""
+"<font size='+1'><b>KBFX Plugins</b><br></font><b>Tip! </b>Here you can "
+"select what plugins will be enabled and in which panel of the KBFX menu."
+msgstr ""
+"<font size='+1'><b>KBFX Plugins</b><br></font><b>Tip!</b>Hier kun je "
+"kiezen welke plugins gebruikt zullen worden en in welk paneel van het KBFX menu"
+
+#: configdialog/kbfxconfigapp.cpp:56
+msgid ""
+"<font size='+1'><b>Menu Type</b><br></font><b>Tip! </b>Please select which "
+"kind of menu you would like to use."
+msgstr ""
+"<font size='+1'><b>Menu Type</b><br></font><b> Tip!</b>Kies "
+"welk soort menu je wilt gebruiken."
+
+#: configdialog/kbfxconfigapp.cpp:59
+msgid ""
+"<font size='+1'><b>KBFX Themes</b><br></font><b>Tip! </b>To keep it simple "
+"place all your themes inside one folder.<br>Then create different folders "
+"inside that folder with different names.<br>KBFX will then read those "
+"folders as themes."
+msgstr ""
+"<font size='+1'><b>Kbfx Thema's</b><br></font><br><b> Tip!</b>Voor alle eenvoud "
+"plaats je alle thema's in een map in aparte mappen <br>met "
+"eigen naam. KBFX zal die dan lezen als thema's."
+
+#: configdialog/kbfxconfigapp.cpp:64
+msgid ""
+"<font size='+1'><b>KBFX tooltip settings</b><br></font><b>Tip! </b>Here you "
+"can configure the behaviour of KBFX's own tooltip."
+msgstr ""
+"<font size='+1'><b>KBFX hulpballon instellingen</b><br></font>Tip! </b>Hier "
+"kun je het gedrag van KBFX's eigen hulpballon instellen."
+
+#: configdialog/kbfxconfigapp.cpp:93
+msgid "Themes"
+msgstr "Thema's"
+
+#: configdialog/kbfxconfigapp.cpp:105 rc.cpp:230
+#, no-c-format
+msgid "Start Button"
+msgstr "Start Knop"
+
+#: configdialog/kbfxconfigapp.cpp:121 rc.cpp:239
+#, no-c-format
+msgid "Menu Style"
+msgstr "Menu Stijl"
+
+#: configdialog/kbfxconfigapp.cpp:130 rc.cpp:242
+#, no-c-format
+msgid "Tooltip"
+msgstr "Tooltip"
+
+#: configdialog/kbfxconfigapp.cpp:141
+msgid "Layout"
+msgstr "Opmaak"
+
+#: configdialog/kbfxconfigapp.cpp:151 rc.cpp:248
+#, no-c-format
+msgid "Plugins"
+msgstr "Plugins"
+
+#: configdialog/kbfxconfigapp.cpp:240
+msgid "No default settings here ;)"
+msgstr "geen standaard instellingen hier;)"
+
+#: configdialog/kbfxconfigapp.cpp:412
+msgid "<p align='center'>Could not create this KBFX theme package.</p>"
+msgstr "<p align='center'>Kon dit KBFX thema pakket niet aanmaken.</p>"
+
+#: configdialog/kbfxconfigapp.cpp:424
+msgid "<p align='center'>KBFX Theme <strong>%1</strong> prepared</p>."
+msgstr "<p align='center'>KBFX Thema <strong>%1</strong> voorbereid</p>."
+
+#: configdialog/kbfxconfigapp.cpp:425
+msgid "KBFX Theme Ready"
+msgstr "KBFX Thema klaar"
+
+#: configdialog/main.cpp:33
+msgid "KBFX Configuration Utility"
+msgstr "KBFX Configuratie Programma"
+
+#: configdialog/main.cpp:39
+msgid "kbfxconfigapp"
+msgstr "kbfxconfiguratieprogramma"
+
+#: configdialog/main.cpp:52
+msgid "Install KBFX theme from <URL>"
+msgstr "Installeer KBFX thema van <URL>"
+
+#: configdialog/main.cpp:53
+msgid "Prepare KBFX theme from folder <URL>"
+msgstr "Bereid KBFX thema uit map voor <URL>"
+
+#: src/kbfxspinx.cpp:228
+msgid "This is an about box"
+msgstr "Dit is een informatievenster"
+
+#: src/kbfxspinx.cpp:233
+msgid "This is a help box"
+msgstr "Dit is een helpvenster"
+
+#: src/kbfxspinx.cpp:357
+msgid "Remove KBFX from Pannel"
+msgstr "Verwijder KBFX uit het paneel"
+
+#: src/kbfxspinx.cpp:359
+msgid "Reload KBFX"
+msgstr "Herlaad KBFX"
+
+#: src/kbfxspinx.cpp:362
+msgid "Configure KBFX"
+msgstr "Stel KBFX in"
+
+#: src/kbfxspinx.cpp:364
+msgid "Edit Applications Menu"
+msgstr "Bewerk toepassingen menu"
+
+#: src/kbfxbutton.cpp:270
+msgid ""
+"Invalid images were dropped!\n"
+"Cannot set the KBFX button to use these images!"
+msgstr ""
+"Ongeldige plaatjes niet gebruikt!\n"
+"Kan de KBFX knop niet instellen om deze plaatjes te gebruiken!"
+
+#: src/kbfxbutton.cpp:272
+msgid "Error setting KBFX button images"
+msgstr "Foute instelling KBFX knop plaatjes"
+
+#: rc.cpp:3
+#, no-c-format
+msgid "KBFX Button"
+msgstr "KBFX Knop"
+
+#: rc.cpp:6
+#, no-c-format
+msgid ""
+"To change KBFX button skin, simply browse to the image you want OR just "
+"Drag&Drop the images to their respective place."
+msgstr ""
+"Om de 'Skin' van de KBFX knop te veranderen: blader naar de afbeelding die "
+"je wilt gebruiken OF Drag&Drop de afbeeldingen naar hun respectievelijke "
+"plaatsen."
+
+#: rc.cpp:9
+#, no-c-format
+msgid "Livepreview"
+msgstr "'Live'voorbeeld"
+
+#: rc.cpp:12
+#, no-c-format
+msgid ""
+"<b>Tip!</b> To see live preview, hover or press the preview image with your "
+"mouse."
+msgstr ""
+"<b> Tip!</b> Om het 'live' voorbeeld te zien, mouse-over of druk de "
+"voorbeeld afbeelding in met je muis."
+
+#: rc.cpp:15
+#, no-c-format
+msgid "KBFX Button live preview"
+msgstr "KBFX Knop 'live' voorbeeld"
+
+#: rc.cpp:18
+#, no-c-format
+msgid "Here you can see the live preview of the KBFX Button."
+msgstr "'Live' voorbeeld van de KBFX Knop."
+
+#: rc.cpp:21
+#, no-c-format
+msgid "Resize Panel"
+msgstr "Grootte Werkbalk Wijzigen"
+
+#: rc.cpp:24
+#, no-c-format
+msgid ""
+"<b>Tip!</b> This button resizes the panel on which the KBFX button is to "
+"button's height or width."
+msgstr ""
+"<b>Tip!</b> Deze knop wijzigt de hoogte van de werkbalk tot de hoogte "
+"van de KBFX knop."
+
+#: rc.cpp:27 configdialog/kbfxconfigdlgbutton.ui.h:141
+#, no-c-format
+msgid "Panel Resize is 'ON'"
+msgstr "Werkbalk formaat wijzigen 'AAN'"
+
+#: rc.cpp:32
+#, no-c-format
+msgid "<h3><p align=\"center\">Preview of selected images</p></h3>"
+msgstr "<h3><p align=\"center\"> Voorbeeld van de geselecteerde afbeeldingen</p></h3>"
+
+#: rc.cpp:35
+#, no-c-format
+msgid "\"PRESSED\" IMAGE SELECTION"
+msgstr "\"INGEDRUKT\"AFBEELDING SELECTIE"
+
+#: rc.cpp:38
+#, no-c-format
+msgid "Please select \"pressed\" image."
+msgstr "Selecteer \"ingedrukt\"afbeelding."
+
+#: rc.cpp:41 rc.cpp:65 rc.cpp:89
+#, no-c-format
+msgid "image/jpeg image/png image/x-xpm image/gif"
+msgstr "afbeelding/jpeg afbeelding/png afbeelding/x-xpm afbeelding/gif"
+
+#: rc.cpp:44
+#, no-c-format
+msgid "The Pressed Button Skin Image"
+msgstr "Ingedrukte Knop Skin Afbeelding"
+
+#: rc.cpp:47
+#, no-c-format
+msgid "Here you can choose the Pressed Button Skin Image"
+msgstr "Ingedrukte Knop Skin Afbeelding kiezen"
+
+#: rc.cpp:50 rc.cpp:74 rc.cpp:98
+#, no-c-format
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: rc.cpp:53
+#, no-c-format
+msgid "Pressed Button Skin"
+msgstr "Ingedrukte Knop Skin"
+
+#: rc.cpp:56
+#, no-c-format
+msgid "Here you can Drag&Drop the Pressed Button Skin Image."
+msgstr "Hier kun je Drag&Drop de Ingedrukte Knop Skin Afbeelding."
+
+#: rc.cpp:59
+#, no-c-format
+msgid "\"NORMAL\" IMAGE SELECTION"
+msgstr "\"NORMAAL\" AFBEELDINGS KEUZE"
+
+#: rc.cpp:62
+#, no-c-format
+msgid "Please select \"normal\" image."
+msgstr "selecteer \"normaal\" afbeelding."
+
+#: rc.cpp:68
+#, no-c-format
+msgid "The Normal Button Skin Image"
+msgstr "Normaal Knop Skin Afbeelding"
+
+#: rc.cpp:71
+#, no-c-format
+msgid "Here you can choose the Normal Button Skin Image"
+msgstr "Normaal Knop Skin Afbeelding kiezen"
+
+#: rc.cpp:77
+#, no-c-format
+msgid "Normal Button Skin"
+msgstr "Normaal knop skin"
+
+#: rc.cpp:80
+#, no-c-format
+msgid "Here you can Drag&Drop the Normal Button Skin Image."
+msgstr "Drag&Drop de Normaal Knop Skin Afbeelding."
+
+#: rc.cpp:83
+#, no-c-format
+msgid "\"HOVER\" IMAGE SELECTION"
+msgstr "\"MOUSE-OVER\" AFBEELDINGS KEUZE"
+
+#: rc.cpp:86
+#, no-c-format
+msgid "Please select \"hover\" image."
+msgstr "selecteer \"mouse-over\" afbeelding."
+
+#: rc.cpp:92
+#, no-c-format
+msgid "The Hover Button Skin Image"
+msgstr "De Mouse-Over Knop Skin Afbeelding"
+
+#: rc.cpp:95
+#, no-c-format
+msgid "Here you can choose the Hover Button Skin Image"
+msgstr "Mouse-Over Knop Skin Afbeelding kiezen"
+
+#: rc.cpp:101
+#, no-c-format
+msgid "Hover Button Skin"
+msgstr "Mouse-over Knop Skin"
+
+#: rc.cpp:104
+#, no-c-format
+msgid "Here you can Drag&Drop the Hover Button Skin Image."
+msgstr "Drag&Drop de Mouse-over Knop Skin Afbeelding."
+
+#: rc.cpp:107
+#, no-c-format
+msgid "<h3><p align=\"center\">Please select KBFX button's images</p></h3>"
+msgstr "<h3><p align=\"center\">Selecteer afbeelding voor de KBFX knop</p></h3>"
+
+#: rc.cpp:110 rc.cpp:179 rc.cpp:296 rc.cpp:404 rc.cpp:440 rc.cpp:461
+#, no-c-format
+msgid "KBFX Control Center"
+msgstr "KBFX Configuratie Centrum"
+
+#: rc.cpp:113
+#, no-c-format
+msgid "<b><h3><p align=\"center\">Layout options</p></h3></b>"
+msgstr "<b><h3><p align=\"center\">Opmaak opties</p></h3></b>"
+
+#: rc.cpp:116
+#, no-c-format
+msgid "EXPORT KBFXLAYOUTRC FILE"
+msgstr "EXPORT KBFXOPMAAKRC BESTAND"
+
+#: rc.cpp:119
+#, no-c-format
+msgid "Export the kbfxlayoutrc file to a folder"
+msgstr "Exporeer het kbfxopmaakrc bestand naar een map"
+
+#: rc.cpp:122 rc.cpp:473
+#, no-c-format
+msgid "Setup fonts for your KBFX"
+msgstr "Stel de lettertypen voor je KBFX in"
+
+#: rc.cpp:125 rc.cpp:476
+#, no-c-format
+msgid "Theme that is edited:"
+msgstr "Thema wat bewerkt is"
+
+#: rc.cpp:128 rc.cpp:479
+#, no-c-format
+msgid "<p align=\"left\"><b>default</b></p>"
+msgstr "<p align=\"left\"><b>standaard</b></p>"
+
+#: rc.cpp:131 rc.cpp:482
+#, no-c-format
+msgid "Please select the theme you want to edit"
+msgstr "Selecteer het thema om te bewerken"
+
+#: rc.cpp:134
+#, no-c-format
+msgid "Select the Layout property to change"
+msgstr "Selekteer de opmaakeigenschappen om te veranderen"
+
+#: rc.cpp:137
+#, no-c-format
+msgid "Make it 2 panels (Left \"ON\")"
+msgstr "Maak 2 panelen (Links \"AAN\")"
+
+#: rc.cpp:140
+#, no-c-format
+msgid "Make it 2 panels (Right \"ON\")"
+msgstr "Maak 2 panelen (Rechts \"AAN\")"
+
+#: rc.cpp:143
+#, no-c-format
+msgid "Make it 3 panels"
+msgstr "Maak 3 panelen"
+
+#: rc.cpp:146
+#, no-c-format
+msgid "textLabel1"
+msgstr "tekstLabel1"
+
+#: rc.cpp:149
+#, no-c-format
+msgid "textLabel2"
+msgstr "tekstLabel2"
+
+#: rc.cpp:152
+#, no-c-format
+msgid "textLabel3"
+msgstr "tekstLabel3"
+
+#: rc.cpp:155
+#, no-c-format
+msgid "textLabel4"
+msgstr "tekstLabel4"
+
+#: rc.cpp:158
+#, no-c-format
+msgid "checkBox1"
+msgstr "Keuzevakje1"
+
+#: rc.cpp:161
+#, no-c-format
+msgid "textLabel5"
+msgstr "tekstLabel5"
+
+#: rc.cpp:164
+#, no-c-format
+msgid "textLabel6"
+msgstr "tekstLabel6"
+
+#: rc.cpp:167
+#, no-c-format
+msgid "textLabel7"
+msgstr "tekstLabel7"
+
+#: rc.cpp:170
+#, no-c-format
+msgid "textLabel8"
+msgstr "tekstLabel8"
+
+#: rc.cpp:173
+#, no-c-format
+msgid "checkBox2"
+msgstr "Keuzevakje2"
+
+#: rc.cpp:176
+#, no-c-format
+msgid "C&ustom"
+msgstr "&Aanpassen"
+
+#: rc.cpp:182
+#, no-c-format
+msgid "<b><h3><p align=\"center\">Plugins options</p></h3></b>"
+msgstr "<h3><p align=\"center\"> Voorbeeld van de geselecteerde afbeeldingen</p></h3></b>"
+
+#: rc.cpp:185
+#, no-c-format
+msgid "Select KBFX Panel"
+msgstr "Kies KBFX paneel"
+
+#: rc.cpp:188 rc.cpp:191
+#, no-c-format
+msgid "Plugin to configure"
+msgstr "Plugin om in te stellen"
+
+#: rc.cpp:194
+#, no-c-format
+msgid "Please select the panel you want to configure:          "
+msgstr "Selecteer het paneel om te bewerken:          "
+
+#: rc.cpp:197
+#, no-c-format
+msgid "&Available Plugins:"
+msgstr "Beschikb&are plugins:"
+
+#: rc.cpp:200
+#, no-c-format
+msgid "&Enabled Plugins:"
+msgstr "Plugins di&e aanstaan:"
+
+#: rc.cpp:203
+#, no-c-format
+msgid "&Configure Plugin"
+msgstr "&Bewerk plugin"
+
+#: rc.cpp:206
+#, no-c-format
+msgid "Alt+C"
+msgstr "Alt+C"
+
+#: rc.cpp:209 rc.cpp:212
+#, no-c-format
+msgid "Configure the selected plugin"
+msgstr "Bewerk de geselecteerde plugin"
+
+#: rc.cpp:215
+#, no-c-format
+msgid "&Plugin Information"
+msgstr "&Plugin informatie"
+
+#: rc.cpp:218
+#, no-c-format
+msgid "Alt+P"
+msgstr "Alt+P"
+
+#: rc.cpp:221 rc.cpp:224
+#, no-c-format
+msgid "Information about the selected plugin"
+msgstr "Informatie over de geselecteerde plugin"
+
+#: rc.cpp:227
+#, no-c-format
+msgid "KBFX Configurator Application"
+msgstr "KBFX Configuratie Programma"
+
+#: rc.cpp:233
+#, no-c-format
+msgid "KBFX Themes"
+msgstr "KBFX Thema's"
+
+#: rc.cpp:245
+#, no-c-format
+msgid "Search Engine"
+msgstr "Zoekmachine"
+
+#: rc.cpp:251
+#, no-c-format
+msgid "About KBFX"
+msgstr "Info over KBFX"
+
+#: rc.cpp:254
+#, no-c-format
+msgid ""
+"<br><p align=\"center\"><br><br><br>If you want you can check the latest "
+"news for KBFX from here:<br><a href=\"http://www.kbfx.org/\">KBFX News</a></"
+"p>"
+msgstr ""
+"<br><p align=\"center\"><br><br><br> Als je het laatste nieuws van KBFX wilt "
+"zien van hier:<br><a href=\"http://www.kbfx.org/\">KBFX Nieuws</a></p>"
+
+#: rc.cpp:260
+#, no-c-format
+msgid "Alt+H"
+msgstr "Alt+H"
+
+#: rc.cpp:263
+#, no-c-format
+msgid "Open Help Documentation"
+msgstr "Help Documentatie Openen"
+
+#: rc.cpp:266
+#, no-c-format
+msgid "&Default"
+msgstr "Stan&daard"
+
+#: rc.cpp:269
+#, no-c-format
+msgid "Alt+D"
+msgstr "Alt+D"
+
+#: rc.cpp:272
+#, no-c-format
+msgid "Apply the default configuration for this section only"
+msgstr "Standaard configuratie alleen voor deze sectie toepassen"
+
+#: rc.cpp:278
+#, no-c-format
+msgid "Alt+A"
+msgstr "Alt+A"
+
+#: rc.cpp:281
+#, no-c-format
+msgid "Save the configuration and Apply it"
+msgstr "Sla de configuratie op en pas deze toe"
+
+#: rc.cpp:287
+#, no-c-format
+msgid "Alt+X"
+msgstr "Alt+X"
+
+#: rc.cpp:290
+#, no-c-format
+msgid "Exit the configuration without saving"
+msgstr "Configuratie afsluiten zonder op te slaan"
+
+#: rc.cpp:293
+#, no-c-format
+msgid "<font size=\"+2\"><b>Kbfx start button</b><br></font>"
+msgstr "<font size=\"=2\"><b>KBFX start knop</b><br></font>"
+
+#: rc.cpp:299
+#, no-c-format
+msgid "Select default folder"
+msgstr "Selecteer de standaard map"
+
+#: rc.cpp:302
+#, no-c-format
+msgid "Please select the target folder where your themes are."
+msgstr "selecteer de map waarin je thema's zijn."
+
+#: rc.cpp:305
+#, no-c-format
+msgid "SpixBar"
+msgstr "SpixBalk"
+
+#: rc.cpp:308
+#, no-c-format
+msgid "Installed Themes"
+msgstr "Geïnstalleerde Thema's"
+
+#: rc.cpp:311
+#, no-c-format
+msgid "Here are listed all the installed KBFX Themes"
+msgstr "Alle geïnstalleerde KBFX Thema's"
+
+#: rc.cpp:314
+#, no-c-format
+msgid "Selected Theme Preview"
+msgstr "Geselecteerd Thema Voorbeeld"
+
+#: rc.cpp:317
+#, no-c-format
+msgid "Delete Selected"
+msgstr "Selectie verwijderen"
+
+#: rc.cpp:320
+#, no-c-format
+msgid "Delete the Selected Theme"
+msgstr "Geselecteerd Thema Verwijderen"
+
+#: rc.cpp:323
+#, no-c-format
+msgid ""
+"Pressing the button will delete the currently selected theme. <br><b>Warning!"
+"</b> You cannot delete the installed system wide themes!"
+msgstr ""
+"Als je de knop indrukt wordt het huidig geselecteerde thema verwijdert. "
+"<br><b> Waarschuwing!</b> U kunt de systeem breed geïnstalleerde thema's "
+"niet verwijderen!"
+
+#: rc.cpp:326
+#, no-c-format
+msgid "Get Themes"
+msgstr "Thema's Ophalen"
+
+#: rc.cpp:329
+#, no-c-format
+msgid "Get More Themes from the Internet"
+msgstr "Meer Thema's van het Internet Ophalen"
+
+#: rc.cpp:332
+#, no-c-format
+msgid ""
+"Pressing the button will launch konqueror and go to the KBFX Themes Section "
+"on www.kde-look.org"
+msgstr ""
+"Het indrukken van de knop start konqueror op, die vervolgens naar de KBFX "
+"Thema Sectie van www.kde-look.org gaat"
+
+#: rc.cpp:335
+#, no-c-format
+msgid "Install Theme"
+msgstr "Installeer Thema"
+
+#: rc.cpp:338
+#, no-c-format
+msgid "Install New Theme from KBFX Theme Package"
+msgstr "Installeer Nieuw Thema van KBFX Thema Pakket"
+
+#: rc.cpp:341
+#, no-c-format
+msgid ""
+"Pressing the button will offer a dialog where you can choose KBFX Theme "
+"Package to install in your home folder"
+msgstr ""
+"Wanneer de knop wordt ingedrukt zal er een dialoogvenster verschijnen waarin "
+"je het KBFX Thema Pakket kunt kiezen om te installeren in je home map"
+
+#: rc.cpp:344
+#, no-c-format
+msgid "Convert Theme"
+msgstr "Converteer thema "
+
+#: rc.cpp:347
+#, no-c-format
+msgid "Convert a theme to the new format"
+msgstr "Converteer een thema naar het nieuwe formaat"
+
+#: rc.cpp:350
+#, no-c-format
+msgid ""
+"Pressing the button will open dialog for converting old themes to the new "
+"specifications"
+msgstr ""
+"Wanneer de knop wordt ingedrukt zal er een dialoogvenster verschijnen waarin "
+"je oude thema's naar de nieuwe specificaties kunt converteren"
+
+#: rc.cpp:353
+#, no-c-format
+msgid "Personal Image"
+msgstr "Persoonlijke Afbeelding"
+
+#: rc.cpp:356
+#, no-c-format
+msgid "Theme's Default"
+msgstr "Thema s Standaard"
+
+#: rc.cpp:359
+#, no-c-format
+msgid "Set the Theme's Default Personal Image"
+msgstr "Instellen van Thema s Standaard Persoonlijke Afbeelding"
+
+#: rc.cpp:362
+#, no-c-format
+msgid ""
+"Pressing the button will delete the personal image you have selected and "
+"install the theme's default personal image"
+msgstr ""
+"Wanneer de knop wordt ingedrukt zal de persoonlijke afbeelding die je hebt "
+"gekozen worden verwijderd, en zal de afbeelding van het standaard thema "
+"worden geinstalleerd."
+
+#: rc.cpp:365
+#, no-c-format
+msgid "Maxsize 48 x 48"
+msgstr "Maximum grootte 48 x 48"
+
+#: rc.cpp:368
+#, no-c-format
+msgid "Select New image"
+msgstr "Kies Nieuwe afbeelding"
+
+#: rc.cpp:371
+#, no-c-format
+msgid "Select a Personal Image"
+msgstr "Kies een Persoonlijke Afbeelding"
+
+#: rc.cpp:374
+#, no-c-format
+msgid "Pressing the button will open a dialog to select your personal image"
+msgstr ""
+"Wanneer de knop wordt ingedrukt zal er een dialoogvenster verschijnen waarin "
+"je een persoonlijke afbeelding kunt kiezen"
+
+#: rc.cpp:377
+#, no-c-format
+msgid "This is your personal image displayed at the KBFX menu."
+msgstr "Dit is je persoonlijke afbeelding getoond in het KBFX menu."
+
+#: rc.cpp:380
+#, no-c-format
+msgid "Misc Options"
+msgstr "Diverse opties"
+
+#: rc.cpp:383
+#, no-c-format
+msgid "Watch System Installs"
+msgstr "Systeem installaties bekijken"
+
+#: rc.cpp:386 rc.cpp:389
+#, no-c-format
+msgid "Watch for applications installs and reload KBFX if any occurs"
+msgstr "Kijk naar programma installaties en herlaad KBFX als die zich voordoen"
+
+#: rc.cpp:392 rc.cpp:395
+#, no-c-format
+msgid "Show Old Themes"
+msgstr "Laat oude thema's zien"
+
+#: rc.cpp:398
+#, no-c-format
+msgid "<b><h3><p align=\"center\">Please select theme folder</p></h3></b>"
+msgstr "<b><h3><p align=\"center\">Selecteer de thema map</p></h3></b>"
+
+#: rc.cpp:401
+#, no-c-format
+msgid "<b><h3><p align=\"center\">Installed themes</p></h3></b>"
+msgstr "<b><h3><p align=\"center\"> Geinstalleerde thema's</p></h3></b>"
+
+#: rc.cpp:407
+#, no-c-format
+msgid "<b><h3><p align=\"center\">Tooltip ON or OFF</p></h3></b>"
+msgstr "<b><h3><p align=\"center\">Hulpballon AAN of UIT</p></h3>"
+
+#: rc.cpp:410
+#, no-c-format
+msgid "Turn off or on the tooltip"
+msgstr "Zet de hulpballon uit of aan"
+
+#: rc.cpp:413
+#, no-c-format
+msgid ""
+"Turn your tooltip off or on. <br>You can see the current status of the "
+"tooltip to the right."
+msgstr ""
+"Zet de hulpballon uit of aan<br> U kunt de huidige status van de hulpballon "
+"aan de rechterkant zien."
+
+#: rc.cpp:416
+#, no-c-format
+msgid "Turn the tooltip \"OFF\""
+msgstr "Zet hulpballon animatie \"UIT\""
+
+#: rc.cpp:419
+#, no-c-format
+msgid "Tooltip Text"
+msgstr "Hulpballon Tekst"
+
+#: rc.cpp:422
+#, no-c-format
+msgid "Type the text which you want to be displayed in the tooltip."
+msgstr "Type de tekst in die moet worden getoond in de hulpballon"
+
+#: rc.cpp:425
+#, no-c-format
+msgid "<b><h3><p align=\"center\">Tooltip personal text</p></h3></b>"
+msgstr "<b><h3><p align=\"center\">Hulpballon met persoonlijke tekst</p></h3></b>"
+
+#: rc.cpp:428
+#, no-c-format
+msgid "Tooltip animation"
+msgstr "Hulpballon animatie"
+
+#: rc.cpp:431
+#, no-c-format
+msgid ""
+"Turn your tooltip animation off or on. <br>You can see the current status of "
+"the tooltip to the right."
+msgstr ""
+"Zet hulpballon animatie uit of aan. <br> U kunt de huidige status van de "
+"hulpballon aan de rechterkant zien."
+
+#: rc.cpp:434
+#, no-c-format
+msgid "Turn the animation \"ON\""
+msgstr "Animatie \"AAN\""
+
+#: rc.cpp:437
+#, no-c-format
+msgid "<b><h3><p align=\"center\">Tooltip animation ON or OFF</p></h3></b>"
+msgstr "<b><h3><p align=\"center\"> Hulpballon animatie AAN of UIT</p></h3></b>"
+
+#: rc.cpp:443
+#, no-c-format
+msgid "<b><h3><p align=\"center\">Menu type</p></h3></b>"
+msgstr "<b><h3><p align=\"center\"> Menu type</p></h3></b>"
+
+#: rc.cpp:446
+#, no-c-format
+msgid "Please select the menu style"
+msgstr "Kies de menu stijl"
+
+#: rc.cpp:449 rc.cpp:455
+#, no-c-format
+msgid "KBFX MENU"
+msgstr "KBFX MENU"
+
+#: rc.cpp:452 rc.cpp:458
+#, no-c-format
+msgid "KDE MENU"
+msgstr "KDE MENU"
+
+#: rc.cpp:464
+#, no-c-format
+msgid "<b><h3><p align=\"center\">Font options</p></h3></b>"
+msgstr "<b><h3><p align=\"center\"> Lettertype opties</p></h3></b>"
+
+#: rc.cpp:467
+#, no-c-format
+msgid "EXPORT KBFXFONTRC FILE"
+msgstr "EXPORT KBFXFONTRC BESTAND"
+
+#: rc.cpp:470
+#, no-c-format
+msgid "Export the kbfxfontrc file to a folder"
+msgstr "Exporeer het kbfxfontrc bestand naar een map"
+
+#: rc.cpp:485
+#, no-c-format
+msgid "Bold fonts on hover"
+msgstr "Vette letters bij muisover"
+
+#: rc.cpp:488 rc.cpp:491
+#, no-c-format
+msgid "Make fonts bolder when you hover the mouse over an item"
+msgstr "Maak de letters vetter als je met de muis over een item gaat"
+
+#: rc.cpp:494
+#, no-c-format
+msgid "Application \"LINE\":"
+msgstr "Toepassing \"REGEL\":"
+
+#: rc.cpp:497
+#, no-c-format
+msgid "Horizontal line color in the application area."
+msgstr "Horizontale regel kleur in de toepassing."
+
+#: rc.cpp:500
+#, no-c-format
+msgid "Application text :"
+msgstr "Programma tekst :"
+
+#: rc.cpp:503
+#, no-c-format
+msgid "Select the color of the \"application\" in the menu."
+msgstr "Selecteer de kleur van het \"programma\" in het menu."
+
+#: rc.cpp:506
+#, no-c-format
+msgid "Comment text:"
+msgstr "Toelichtings tekst :"
+
+#: rc.cpp:509
+#, no-c-format
+msgid "Color of the \"comments\" in the menu."
+msgstr "Kleur van de commentaren in het menu."
+
+#: rc.cpp:512
+#, no-c-format
+msgid "Name display:"
+msgstr "Naam venster :"
+
+#: rc.cpp:515 rc.cpp:527 rc.cpp:533
+#, no-c-format
+msgid "The color of your login name in the menu."
+msgstr "De kleur van je login naam in het menu."
+
+#: rc.cpp:518
+#, no-c-format
+msgid "Category text:"
+msgstr "Categorie tekst :"
+
+#: rc.cpp:521
+#, no-c-format
+msgid "Font color of the categoris in the menu."
+msgstr "Lettertype kleur van de categorien in het menu."
+
+#: rc.cpp:524
+#, no-c-format
+msgid "Separator:"
+msgstr "Scheidingslijn :"
+
+#: rc.cpp:530
+#, no-c-format
+msgid "Plugin:"
+msgstr "Plugin:"
+
+#: rc.cpp:536
+#, no-c-format
+msgid "Select font for the application's text"
+msgstr "Selecteer het lettertype van de programma tekst"
+
+#: rc.cpp:539
+#, no-c-format
+msgid "Select font for the comment's text"
+msgstr "Kies het lettertype voor de tekst van het commentaar"
+
+#: rc.cpp:542
+#, no-c-format
+msgid "Select font for the username's text"
+msgstr "Kies het lettertype voor de gebruikersnaam"
+
+#: rc.cpp:545
+#, no-c-format
+msgid "Select font for the category's text"
+msgstr "Kies het lettertype voor categorie tekst"
+
+#: rc.cpp:548
+#, no-c-format
+msgid "Select font for the separator's text"
+msgstr "Kies het lettertype voor scheidingslijn tekst"
+
+#: rc.cpp:551
+#, no-c-format
+msgid "Select font for the plugins' text"
+msgstr "Kies het lettertype voor de plugins tekst"
+
+#: rc.cpp:554
+#, no-c-format
+msgid "Form1"
+msgstr "Formulier1"
+
+#: rc.cpp:557
+#, no-c-format
+msgid "<b><h3><p align=\"center\">People behind KBFX</p></h3></b>"
+msgstr "<b><h3><p align=\"center\"> Mensen achter KBFX</p></h3></b>"
+
+#: rc.cpp:560
+#, no-c-format
+msgid "You are running: <b>KBFX 0493</b>"
+msgstr "U draait: <b>KBFX 0493</b>"
+
+#: rc.cpp:563
+#, no-c-format
+msgid ""
+"Here are the people behind the KBFX application.\n"
+"We would like to thank all people who have helped with KBFX or have donated "
+"money to our project!\n"
+"THANKS A LOT ALL OF YOU OUT THERE!!!"
+msgstr ""
+"Hier zijn de mensen achter het KBFX programma.\n"
+"We willen alle mensen bedanken die hebben geholpen met KBFX en degenen die "
+"geld hebben gedoneerd voor ons project!\n"
+"BEDANKT ALLEMAAL!!!"
+
+#: rc.cpp:568
+#, no-c-format
+msgid ""
+"<strong>Name:</strong> Siraj Razick<br><br><strong>Country:</strong> Sri "
+"Lanka<br><br><strong>KBFX:</strong> Author, Maintainer, Developer, Project "
+"Admin<br><br><strong>Email:</strong> siraj(a)mail.kbfx.org"
+msgstr ""
+"<strong> Naam</strong> Siraj Razick<br><br><strong> Land:</strong> Sri "
+"Lanka<br><br><strong>KBFX</strong> Auteur Onderhouder Ontwikkelaar Project "
+"Admin<br><br><strong> E-mail</strong> siraj(a)mail.kbfx.org"
+
+#: rc.cpp:571
+#, no-c-format
+msgid ""
+"<b>Tip!</b> Hover over the contact images to see each personal contact "
+"information."
+msgstr ""
+"<b>Tip!</b>Beweeg de muis-pijl over de contact afbeeldingen om de persoonlijke contact "
+"informatie zichtbaar te maken."
+
+#: rc.cpp:574
+#, no-c-format
+msgid "SPONSORS!"
+msgstr "DONATEURS!"
+
+#: rc.cpp:577
+#, no-c-format
+msgid ""
+"We would like to thank swedish computer company <b>PC Agenten</b> for "
+"sponsoring us with a server and bandwidth."
+msgstr ""
+"We willen de Zweedse computer firma <b>PC Agenten</b> bedanken voor het "
+"verstrekken van een server en bandbreedte."
+
+#: rc.cpp:580
+#, no-c-format
+msgid ""
+"<p align=\"right\"><u><b><a href='http://www.pcagenten.se'>HTTP://WWW."
+"PCAGENTEN.SE</a></u></b></p>"
+msgstr ""
+"<p align=\"right\"><u><b><a href='http://www.pcagenten.se'> HTTP://WWW. "
+"PCAGENTEN.SE </a></u></b></p>"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:59
+msgid ""
+"<p align='center'>Invalid user themes folder!</p><p align='center'>Will use "
+"default user themes folder.</p>"
+msgstr ""
+"<p align='center'>Onbruikbare gebruikers thema map!</p><p align='center'>Standaard "
+"gebruikers thema map wordt gebruikt</p>"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:61
+msgid "Error loading themes"
+msgstr "Fout! Thema niet geladen"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:164
+msgid ""
+"<p align='center'>Are you sure you want to uninstall the KBFX theme <strong>%"
+"1</strong>?</p>"
+msgstr ""
+"<p align='center'>Weet U zeker dat U het KBFX thema wilt verwijderen <strong>% "
+"1</strong>?</p>"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:165
+msgid "Uninstall KBFX theme"
+msgstr "Verwijder KBFX thema "
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:166
+msgid "Uninstall"
+msgstr "Verwijder"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:179
+msgid ""
+"<p align='center'>Could not uninstall this KBFX theme.</p><p "
+"align='center'>You may not have sufficient permissions to delete the folder "
+"<strong>%1<strong>.</p>"
+msgstr ""
+"<p align='center'>Kon de installatie van dit KBFX thema niet ongedaan maken.</p><p "
+"align='center'>Misschien heeft U niet voldoende rechten om de map te verwijderen "
+"<strong>%1<strong>.</p>"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:192
+msgid "KBFX theme packages (*.tar, *.tar.bz2, *.tar.gz, *.kbfxtheme)"
+msgstr "KBFX thema pakketten (*.tar, *.tar.bz2, *tar.gz, *.kbfxtheme)"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:196
+msgid "Select KBFX theme package to install"
+msgstr "Kies het KBFX thema pakket om te installeren"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:212
+msgid "<p align='center'>Could not read this KBFX theme package.</p>"
+msgstr "<p align='center'>Kon dit KBFX thema pakket niet lezen.</p>"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:239
+msgid "Select personal image"
+msgstr "Kies een persoonlijke afbeelding"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:250
+msgid ""
+"<p align='center'>Image cannot be used as a personal image!</p><p "
+"align='center'>Will use default personal image.</p>"
+msgstr ""
+"<p align='center'>Afbeelding kan niet als persoonlijke afbeelding gebruikt worden!</p><p "
+"align='center'>De standaard persoonlijke afbeelding wordt gebruikt.</p>"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:252
+#: configdialog/kbfxconfigdlgbutton.ui.h:65
+#: configdialog/kbfxconfigdlgbutton.ui.h:86
+#: configdialog/kbfxconfigdlgbutton.ui.h:107
+msgid "Error loading image"
+msgstr "Fout! Afbeelding niet geladen"
+
+#: configdialog/kbfxconfigdlgthemes.ui.h:284
+#: configdialog/kbfxconfigdlgmain.ui.h:34
+msgid "<p align='center'>Not implemented yet.</p>"
+msgstr "<p align='center'>Nog niet geimplementeerd</p>"
+
+#: configdialog/kbfxconfigdlgtooltip.ui.h:23
+msgid "Turn the animation 'OFF'"
+msgstr "Animatie 'UIT'"
+
+#: configdialog/kbfxconfigdlgtooltip.ui.h:30
+msgid "Turn the animation 'ON'"
+msgstr "Animatie 'AAN'"
+
+#: configdialog/kbfxconfigdlgtooltip.ui.h:53
+msgid "Turn the tooltip 'OFF'"
+msgstr "Zet hulpballon 'UIT'"
+
+#: configdialog/kbfxconfigdlgtooltip.ui.h:60
+msgid "Turn the tooltip 'ON'"
+msgstr "Zet hulpballon 'AAN'"
+
+#: configdialog/kbfxconfigdlgfonts-old.ui.h:122
+msgid "Select folder to export kbfxfontrc file"
+msgstr "Kies de map waar het kbfxfontrc bestand naartoe geexporteerd moet worden"
+
+#: configdialog/kbfxconfigdlgfonts-old.ui.h:151
+msgid ""
+"<p align='center'>The Font configuration of the KBFX Theme <strong>%1</"
+"strong> has been exported successfully!</p>"
+msgstr ""
+"<p align='center'>Lettertype instelling voor het KBFX thema <strong>%1</"
+"strong>is met succes geexporteerd!</p>"
+
+#: configdialog/kbfxconfigdlgfonts-old.ui.h:152
+msgid "KBFX Font Export Ready"
+msgstr "KBFX lettertype export gereed"
+
+#: configdialog/kbfxconfigdlgabout.ui.h:23
+msgid ""
+"<strong>Name:</strong> Mensur Zahirovic (Nookie)<br><br><strong>Country:</"
+"strong> Sweden<br><br><strong>KBFX:</strong> co-author, Q/A, system design, "
+"web designer, bug hunter, project administror<br><br><strong>Email:</strong> "
+"nookie@mail.kbfx.org"
+msgstr ""
+"<strong> Naam</strong> Mensur Zahirovic (Nookie)<br><br><strong> Land:</ "
+"strong> Sweden<br><br><strong>KBFX</strong> co auteur, Q/A, systeem ontwerp, "
+"web designer, bug hunter, project administrator<br><br><strong> E-mail</strong> "
+"nookie@mail.kbfx.org"
+
+#: configdialog/kbfxconfigdlgabout.ui.h:32
+msgid ""
+"<strong>Name:</strong> Siraj Razick<br><br><strong>Country:</strong> Sri "
+"Lanka<br><br><strong>KBFX:</strong> author, maintainer, developer, project "
+"administror<br><br><strong>Email:</strong> siraj@mail.kbfx.org"
+msgstr ""
+"<strong> Naam</strong> Siraj Razick<br><br><strong> Land:</strong> Sri "
+"Lanka<br><br><strong>KBFX</strong> auteur onderhouder ontwikkelaar project "
+"administrator<br><br><strong> E-mail</strong> siraj@mail.kbfx.org"
+
+#: configdialog/kbfxconfigdlgabout.ui.h:41
+msgid ""
+"<strong>Name:</strong> Nathanael Dracor Gogniat<br><br><strong>Country:</"
+"strong> Switzerland<br><br><strong>KBFX:</strong> project technical writer, "
+"documentation manager, co-author<br><br><strong>Email:</strong> "
+"nathanael@mail.kbfx.org"
+msgstr ""
+"<strong> Naam</strong> Nathanael Dracor Gogniat<br><br><strong> Land:</ "
+"strong> Switzerland<br><br><strong>KBFX</strong> technisch project schrijver, "
+"documentatie manager, co auteur<br><br><strong> E-mail</strong> "
+"nathanael@mail.kbfx.org"
+
+#: configdialog/kbfxconfigdlgabout.ui.h:50
+msgid ""
+"<strong>Name:</strong> PhobosK<br><br><strong>Country:</strong> "
+"Bulgaria<br><br><strong>KBFX:</strong> package & release manager, Q/A, bug "
+"hunter, mandriva packages, project administrator, developer Qt/C+"
+"+<br><br><strong>Email:</strong> phobosk@mail.kbfx.org"
+msgstr ""
+"<strong> Naam</strong> PhobosK<br><br><strong> Land:</strong> "
+"Bulgarije<br><br><strong>KBFX</strong> pakket en release manager, Q/A, bug "
+"hunter, mandriva pakketten, project administrator, ontwikkelaar Qt/C+"
+"+<br><br><strong> E-mail</strong> phobosk@mail.kbfx.org"
+
+#: configdialog/kbfxconfigdlgabout.ui.h:59
+msgid ""
+"<strong>Name:</strong> Johnny Henry Saenz Acuna (scarebyte)"
+"<br><br><strong>Country:</strong> Peru<br><br><strong>KBFX:</strong> "
+"developer Qt4/C++<br><br><strong>Email:</strong> saenzac@mail.kbfx.org"
+msgstr ""
+"<strong> Naam</strong> Johnny Henry Saenz Acuna (scarebyte)"
+"<br><br><strong>Country:</strong> Peru<br><br><strong>KBFX:</strong> "
+"ontwikkelaar Qt4/C++<br><br><strong>Email:</strong> saenzac@mail.kbfx.org"
+
+#: configdialog/kbfxconfigdlgabout.ui.h:68
+msgid ""
+"<strong>Name:</strong> Christoffer Brodd-Reijer (Ephracis)"
+"<br><br><strong>Country:</strong> Sweden<br><br><strong>KBFX:</strong> "
+"library developer for Raptor<br><br><strong>Email:</strong> ephracis@mail."
+"kbfx.org"
+msgstr ""
+"<strong> Naam</strong>Christoffer Brodd-Reijer (Ephracis)"
+"<br><br><strong>Country:</strong> Sweden<br><br><strong>KBFX:</strong> "
+"bibliotheek ontwikkelaar voor Raptor<br><br><strong>Email:</strong> ephracis@mail."
+"kbfx.org"
+
+#: configdialog/kbfxconfigdlgbutton.ui.h:63
+msgid ""
+"<p align='center'>Image cannot be used as a pressed button skin!</p><p "
+"align='center'>Will use default pressed button skin.</p>"
+msgstr ""
+"<p align='center'>Afbeelding kan niet gebruikt worden als ingedrukte knop skin!</p><p "
+"align='center'>De standaard ingedrukte knop skin wordt gebruikt.</p>"
+
+#: configdialog/kbfxconfigdlgbutton.ui.h:84
+msgid ""
+"<p align='center'>Image cannot be used as a normal button skin!</p><p "
+"align='center'>Will use default normal button skin.</p>"
+msgstr ""
+"<p align='center'>Afbeelding kan niet gebruikt worden als normale knop skin!</p><p "
+"align='center'>De standaard normale knop skin wordt gebruikt.</p>"
+
+#: configdialog/kbfxconfigdlgbutton.ui.h:105
+msgid ""
+"<p align='center'>Image cannot be used as a hover button skin!</p><p "
+"align='center'>Will use default hover button skin.</p>"
+msgstr ""
+"<p align='center'>Afbeelding kan niet gebruikt worden als muisover knop skin!</p><p "
+"align='center'>De standaard muisoverknop skin word gebruikt.</p>"
+
+#: configdialog/kbfxconfigdlgbutton.ui.h:147
+msgid "Panel Resize is 'OFF'"
+msgstr "Werkbalk Grootte wijzigen 'UIT'"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:16
+msgid "User Properties"
+msgstr "Gebruikers eigenschappen"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:17
+msgid "* Top Bar Properties"
+msgstr "* Bovenbalk eigenschappen"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:18
+msgid "* Bottom Bar Properties"
+msgstr "* Bodembalk eigenschappen"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:20
+msgid "* List Box Properties"
+msgstr "* Eigenschappen van lijstveld"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:21
+msgid "Search Box Properties"
+msgstr "Eigenschappen van zoekveld"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:22
+msgid "* Item Properties"
+msgstr "* Item eigenschappen"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:24
+msgid "* Main Menu Properties"
+msgstr "* Hoofdmenu eigenschappen"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:25
+msgid "Water Effect Properties"
+msgstr "Water effect eigenschappen"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:209
+msgid "Face Position X"
+msgstr "Gezichts positie X"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:210
+msgid "Face Position Y"
+msgstr "Gezichts positie Y"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:211
+msgid "User Name Position X"
+msgstr "Gebruikersnaam positie X"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:212
+msgid "User Name Position Y"
+msgstr "Gebruikersnaam positie Y"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:213
+msgid "Face Box Position X"
+msgstr "Positie X van vensterweergave"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:214
+msgid "Face Box Position Y"
+msgstr "Positie Y van vensterweergave"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:215
+msgid "Face Box Height"
+msgstr "Hoogte van vensterweergave"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:216
+msgid "Face Box Width"
+msgstr "Breedte van vensterweergave"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:217
+msgid "Hide User Name"
+msgstr "Verberg gebruikersnaam"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:235
+msgid "* Top Bar Height"
+msgstr "* Hoogte van de bovenbalk"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:241
+msgid "Top Bar Width"
+msgstr "Breedte van de bovenbalk"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:266
+msgid "* Bottom Bar Height"
+msgstr "*Hoogte van de onderbalk"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:272
+msgid "Bottom Bar Width"
+msgstr "Breedte van de onderbalk"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:322
+msgid "* List Box Position X"
+msgstr "Positie X van lijstweergave"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:323
+msgid "* List Box Position Y"
+msgstr "Positie Y van lijstweergave"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:326
+msgid "List Box Height"
+msgstr "Hoogte van lijstweergave"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:327
+msgid "* List Box Width"
+msgstr "Breedte van lijstweergave"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:345
+msgid "Search Box Position X"
+msgstr "Positie X van zoekveld"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:346
+msgid "Search Box Position Y"
+msgstr "Positie Y van zoekveld"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:349
+msgid "Search Box Height"
+msgstr "Hoogte van zoekveld"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:350
+msgid "Search Box Width"
+msgstr "Breedte van zoekveld"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:368
+msgid "* Item Position X"
+msgstr "* Item positie X"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:369
+msgid "* Item Position Y"
+msgstr "* Item positie Y"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:370
+msgid "Icon Size in Item"
+msgstr "Icoon formaat in item"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:372
+msgid "Item Height"
+msgstr "Item hoogte"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:373
+msgid "* Item Width"
+msgstr "* Item breedte"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:374
+msgid "Comment Margin in Item"
+msgstr "Ruimte voor commentaar in item"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:376
+msgid "No Comments in Item"
+msgstr "Geen commentaar in item"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:417
+msgid "* Main Menu Height"
+msgstr "* Hoogte hoofdmenu"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:421
+msgid "* Main Menu Width"
+msgstr "* Breedte hoofdmenu"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:425
+msgid "Contracted Menues"
+msgstr "Gecontracteerde menu's"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:441
+msgid "Water Effect Frame Rate"
+msgstr "Framesnelheid van watereffect"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:450
+msgid "Enabled Water Effect"
+msgstr "Water effect aan"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:495
+msgid "Select folder to export kbfxlayoutrc file"
+msgstr "Kies een map om het kbfxopmaak bestand naartoe te exporteren"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:580
+msgid ""
+"<p align='center'>The Layout configuration of the KBFX Theme <strong>%1</"
+"strong> has been exported successfully!</p>"
+msgstr ""
+"<p align='center'>De opmaak instelling voor het KBFX thema opslaan <strong>%1</"
+"strong>?is met succes geexporteerd!</p>"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:581
+msgid "KBFX Layout Export Ready"
+msgstr "KBFX opmaak exporteren gereed"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:648
+msgid ""
+"<p align='center'>The Layout configuration of the KBFX Theme <strong>%1</"
+"strong> is ready!</p><p align='center'>Be sure to click the <strong>Apply</"
+"strong> button in order the changes to become active!</p>"
+msgstr ""
+"<p align='center'>De opmaak instelling van het KBFX thema<strong>%1</strong> "
+"is gereed!</p><p align='center'>Vergeet niet om de <strong>toepassen</strong> knop te gebruiken om de wijzigingen te aktiveren!</p>"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:649
+msgid "KBFX Layout Ready"
+msgstr "KBFX opmaak gereed"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:655
+msgid ""
+"<p align='center'>KBFX will calculate the necessary values using the present "
+"values for:</p><p align='center'><strong>* Main Menu Height</strong> and "
+"<strong>* Main Menu Width</strong><br><strong>* Bottom Bar Height</strong> "
+"and <strong>* Top Bar Height</strong><br></p><p align='center'>So be sure "
+"that you have entered their values as you desire!</p><p "
+"align='center'><strong>NOTE:</strong> Have in mind that the Layout of the "
+"theme also depends on the sizes of the images! So if the theme does not look "
+"like as you desire either change the images' sizes to smaller width OR "
+"change <strong>* Main Menu Width</strong> to higher value!</p>"
+msgstr ""
+"<p align='center'>KBFX zal door gebruik te maken van de huidige waarden, de noodzakelijke "
+"waarden voor de:</p><p align='center'><strong>* hoogte van het Hoofdmenu</strong> en de "
+"<strong>*breedte van het Hoofdmenu</strong><br><strong>hoogte van de Onderbalk</strong> "
+"en van de <strong>hoogte van de Bovenbalk</strong><br></p><p align='center'>Wees er dus "
+"zeker van de waarden die je wenst te hebben ingevuld!</p><p "
+"align='center'><strong>LET OP:</strong>Houd in gedachten dat de opmaakvan het thema "
+"ook afhangt van de afmetingen van de afbeeldingen! Dus als het thema er niet uitziet "
+"zoals je wilt, verklein dan de afmetingen van de afbeeldingen, OF "
+"vergroot de <strong>breedte van het Hoofdmenu</strong></p>"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:661
+msgid "Prepare Layout for the KBFX theme"
+msgstr "Opmaak voor het KBFX thema voorbereiden"
+
+#: configdialog/kbfxconfigdlglayout.ui.h:662
+msgid "Prepare"
+msgstr "Voorbereiden"
+
+#: configdialog/kbfxconfigdlgplugins.ui.h:15
+msgid "Left Panel"
+msgstr "Linker paneel"
+
+#: configdialog/kbfxconfigdlgplugins.ui.h:16
+msgid "Right Panel"
+msgstr "Rechter paneel"
+
+#: configdialog/kbfxconfigdlgplugins.ui.h:79
+#: configdialog/kbfxconfigdlgplugins.ui.h:85
+msgid "<p align='center'>Not Implemented yet.</p>"
+msgstr "<p align='center'>Nog niet geimplementeerd.</p>"
+

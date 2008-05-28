@@ -1,0 +1,1193 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>KbfxConfigDlgFonts</class>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>KbfxConfigDlgFonts</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>676</width>
+            <height>497</height>
+        </rect>
+    </property>
+    <property name="sizePolicy">
+        <sizepolicy>
+            <hsizetype>1</hsizetype>
+            <vsizetype>1</vsizetype>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+    </property>
+    <property name="caption">
+        <string>KBFX Control Center</string>
+    </property>
+    <property name="focusPolicy">
+        <enum>TabFocus</enum>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <property name="margin">
+            <number>0</number>
+        </property>
+        <property name="spacing">
+            <number>10</number>
+        </property>
+        <property name="resizeMode">
+            <enum>Minimum</enum>
+        </property>
+        <widget class="KActiveLabel" row="0" column="0">
+            <property name="name">
+                <cstring>kActiveLabel37</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>3</hsizetype>
+                    <vsizetype>0</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="minimumSize">
+                <size>
+                    <width>0</width>
+                    <height>29</height>
+                </size>
+            </property>
+            <property name="maximumSize">
+                <size>
+                    <width>32767</width>
+                    <height>29</height>
+                </size>
+            </property>
+            <property name="paletteForegroundColor">
+                <color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>255</blue>
+                </color>
+            </property>
+            <property name="paletteBackgroundPixmap">
+                <pixmap>image0</pixmap>
+            </property>
+            <property name="focusPolicy">
+                <enum>NoFocus</enum>
+            </property>
+            <property name="textFormat">
+                <enum>AutoText</enum>
+            </property>
+            <property name="text">
+                <string>&lt;b&gt;&lt;h3&gt;&lt;p align="center"&gt;Font options&lt;/p&gt;&lt;/h3&gt;&lt;/b&gt;</string>
+            </property>
+        </widget>
+        <widget class="QLayoutWidget" row="2" column="0">
+            <property name="name">
+                <cstring>layout14</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer3</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>436</width>
+                            <height>1</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>KbfxExportFile</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>1</hsizetype>
+                            <vsizetype>1</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>WheelFocus</enum>
+                    </property>
+                    <property name="text">
+                        <string>EXPORT KBFXFONTRC FILE</string>
+                    </property>
+                    <property name="toolTip" stdset="0">
+                        <string>Export the kbfxfontrc file to a folder</string>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QGroupBox" row="1" column="0">
+            <property name="name">
+                <cstring>groupBox43</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>1</hsizetype>
+                    <vsizetype>1</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="focusPolicy">
+                <enum>NoFocus</enum>
+            </property>
+            <property name="frameShape">
+                <enum>StyledPanel</enum>
+            </property>
+            <property name="title">
+                <string>Setup fonts for your KBFX</string>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer row="5" column="0">
+                    <property name="name">
+                        <cstring>spacer6_2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>MinimumExpanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>16</width>
+                            <height>1</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QLayoutWidget" row="4" column="0">
+                    <property name="name">
+                        <cstring>layout17</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>layout15</cstring>
+                            </property>
+                            <vbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <spacer>
+                                    <property name="name">
+                                        <cstring>spacer7</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Vertical</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>MinimumExpanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>1</width>
+                                            <height>1</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                                <widget class="QLayoutWidget">
+                                    <property name="name">
+                                        <cstring>layout22</cstring>
+                                    </property>
+                                    <hbox>
+                                        <property name="name">
+                                            <cstring>unnamed</cstring>
+                                        </property>
+                                        <property name="margin">
+                                            <number>0</number>
+                                        </property>
+                                        <property name="spacing">
+                                            <number>0</number>
+                                        </property>
+                                        <widget class="KActiveLabel">
+                                            <property name="name">
+                                                <cstring>kActiveLabel41</cstring>
+                                            </property>
+                                            <property name="sizePolicy">
+                                                <sizepolicy>
+                                                    <hsizetype>7</hsizetype>
+                                                    <vsizetype>1</vsizetype>
+                                                    <horstretch>0</horstretch>
+                                                    <verstretch>0</verstretch>
+                                                </sizepolicy>
+                                            </property>
+                                            <property name="focusPolicy">
+                                                <enum>NoFocus</enum>
+                                            </property>
+                                            <property name="text">
+                                                <string>Application "LINE":</string>
+                                            </property>
+                                        </widget>
+                                        <widget class="KColorCombo">
+                                            <property name="name">
+                                                <cstring>KbfxLineColor</cstring>
+                                            </property>
+                                            <property name="sizePolicy">
+                                                <sizepolicy>
+                                                    <hsizetype>1</hsizetype>
+                                                    <vsizetype>1</vsizetype>
+                                                    <horstretch>0</horstretch>
+                                                    <verstretch>0</verstretch>
+                                                </sizepolicy>
+                                            </property>
+                                            <property name="focusPolicy">
+                                                <enum>WheelFocus</enum>
+                                            </property>
+                                            <property name="toolTip" stdset="0">
+                                                <string>Horizontal line color in the application area.</string>
+                                            </property>
+                                        </widget>
+                                    </hbox>
+                                </widget>
+                                <widget class="QLayoutWidget">
+                                    <property name="name">
+                                        <cstring>layout21</cstring>
+                                    </property>
+                                    <hbox>
+                                        <property name="name">
+                                            <cstring>unnamed</cstring>
+                                        </property>
+                                        <property name="margin">
+                                            <number>0</number>
+                                        </property>
+                                        <property name="spacing">
+                                            <number>0</number>
+                                        </property>
+                                        <widget class="KActiveLabel">
+                                            <property name="name">
+                                                <cstring>kActiveLabel39</cstring>
+                                            </property>
+                                            <property name="sizePolicy">
+                                                <sizepolicy>
+                                                    <hsizetype>7</hsizetype>
+                                                    <vsizetype>1</vsizetype>
+                                                    <horstretch>0</horstretch>
+                                                    <verstretch>0</verstretch>
+                                                </sizepolicy>
+                                            </property>
+                                            <property name="focusPolicy">
+                                                <enum>NoFocus</enum>
+                                            </property>
+                                            <property name="text">
+                                                <string>Application text :</string>
+                                            </property>
+                                        </widget>
+                                        <widget class="KColorCombo">
+                                            <property name="name">
+                                                <cstring>KbfxApplicationColor</cstring>
+                                            </property>
+                                            <property name="sizePolicy">
+                                                <sizepolicy>
+                                                    <hsizetype>1</hsizetype>
+                                                    <vsizetype>1</vsizetype>
+                                                    <horstretch>0</horstretch>
+                                                    <verstretch>0</verstretch>
+                                                </sizepolicy>
+                                            </property>
+                                            <property name="focusPolicy">
+                                                <enum>WheelFocus</enum>
+                                            </property>
+                                            <property name="toolTip" stdset="0">
+                                                <string>Select the color of the "application" in the menu.</string>
+                                            </property>
+                                        </widget>
+                                    </hbox>
+                                </widget>
+                                <widget class="QLayoutWidget">
+                                    <property name="name">
+                                        <cstring>layout20</cstring>
+                                    </property>
+                                    <hbox>
+                                        <property name="name">
+                                            <cstring>unnamed</cstring>
+                                        </property>
+                                        <property name="margin">
+                                            <number>0</number>
+                                        </property>
+                                        <property name="spacing">
+                                            <number>0</number>
+                                        </property>
+                                        <widget class="KActiveLabel">
+                                            <property name="name">
+                                                <cstring>kActiveLabel40</cstring>
+                                            </property>
+                                            <property name="sizePolicy">
+                                                <sizepolicy>
+                                                    <hsizetype>7</hsizetype>
+                                                    <vsizetype>1</vsizetype>
+                                                    <horstretch>0</horstretch>
+                                                    <verstretch>0</verstretch>
+                                                </sizepolicy>
+                                            </property>
+                                            <property name="focusPolicy">
+                                                <enum>NoFocus</enum>
+                                            </property>
+                                            <property name="text">
+                                                <string>Comment text:</string>
+                                            </property>
+                                        </widget>
+                                        <widget class="KColorCombo">
+                                            <property name="name">
+                                                <cstring>KbfxCommentColor</cstring>
+                                            </property>
+                                            <property name="sizePolicy">
+                                                <sizepolicy>
+                                                    <hsizetype>1</hsizetype>
+                                                    <vsizetype>1</vsizetype>
+                                                    <horstretch>0</horstretch>
+                                                    <verstretch>0</verstretch>
+                                                </sizepolicy>
+                                            </property>
+                                            <property name="focusPolicy">
+                                                <enum>WheelFocus</enum>
+                                            </property>
+                                            <property name="toolTip" stdset="0">
+                                                <string>Color of the "comments" in the menu.</string>
+                                            </property>
+                                        </widget>
+                                    </hbox>
+                                </widget>
+                                <widget class="QLayoutWidget">
+                                    <property name="name">
+                                        <cstring>layout19</cstring>
+                                    </property>
+                                    <hbox>
+                                        <property name="name">
+                                            <cstring>unnamed</cstring>
+                                        </property>
+                                        <property name="margin">
+                                            <number>0</number>
+                                        </property>
+                                        <property name="spacing">
+                                            <number>0</number>
+                                        </property>
+                                        <widget class="KActiveLabel">
+                                            <property name="name">
+                                                <cstring>kActiveLabel43</cstring>
+                                            </property>
+                                            <property name="sizePolicy">
+                                                <sizepolicy>
+                                                    <hsizetype>7</hsizetype>
+                                                    <vsizetype>1</vsizetype>
+                                                    <horstretch>0</horstretch>
+                                                    <verstretch>0</verstretch>
+                                                </sizepolicy>
+                                            </property>
+                                            <property name="focusPolicy">
+                                                <enum>NoFocus</enum>
+                                            </property>
+                                            <property name="text">
+                                                <string>Name display:</string>
+                                            </property>
+                                        </widget>
+                                        <widget class="KColorCombo">
+                                            <property name="name">
+                                                <cstring>KbfxNameColor</cstring>
+                                            </property>
+                                            <property name="sizePolicy">
+                                                <sizepolicy>
+                                                    <hsizetype>1</hsizetype>
+                                                    <vsizetype>1</vsizetype>
+                                                    <horstretch>0</horstretch>
+                                                    <verstretch>0</verstretch>
+                                                </sizepolicy>
+                                            </property>
+                                            <property name="focusPolicy">
+                                                <enum>WheelFocus</enum>
+                                            </property>
+                                            <property name="toolTip" stdset="0">
+                                                <string>The color of your login name in the menu.</string>
+                                            </property>
+                                        </widget>
+                                    </hbox>
+                                </widget>
+                                <widget class="QLayoutWidget">
+                                    <property name="name">
+                                        <cstring>layout23</cstring>
+                                    </property>
+                                    <hbox>
+                                        <property name="name">
+                                            <cstring>unnamed</cstring>
+                                        </property>
+                                        <widget class="KActiveLabel">
+                                            <property name="name">
+                                                <cstring>kActiveLabel42</cstring>
+                                            </property>
+                                            <property name="sizePolicy">
+                                                <sizepolicy>
+                                                    <hsizetype>7</hsizetype>
+                                                    <vsizetype>1</vsizetype>
+                                                    <horstretch>0</horstretch>
+                                                    <verstretch>0</verstretch>
+                                                </sizepolicy>
+                                            </property>
+                                            <property name="focusPolicy">
+                                                <enum>NoFocus</enum>
+                                            </property>
+                                            <property name="text">
+                                                <string>Category text:</string>
+                                            </property>
+                                        </widget>
+                                        <widget class="KColorCombo">
+                                            <property name="name">
+                                                <cstring>KbfxCategoryColor</cstring>
+                                            </property>
+                                            <property name="sizePolicy">
+                                                <sizepolicy>
+                                                    <hsizetype>1</hsizetype>
+                                                    <vsizetype>1</vsizetype>
+                                                    <horstretch>0</horstretch>
+                                                    <verstretch>0</verstretch>
+                                                </sizepolicy>
+                                            </property>
+                                            <property name="focusPolicy">
+                                                <enum>WheelFocus</enum>
+                                            </property>
+                                            <property name="toolTip" stdset="0">
+                                                <string>Font color of the categoris in the menu.</string>
+                                            </property>
+                                        </widget>
+                                    </hbox>
+                                </widget>
+                                <widget class="QLayoutWidget">
+                                    <property name="name">
+                                        <cstring>layout17</cstring>
+                                    </property>
+                                    <hbox>
+                                        <property name="name">
+                                            <cstring>unnamed</cstring>
+                                        </property>
+                                        <property name="margin">
+                                            <number>1</number>
+                                        </property>
+                                        <property name="spacing">
+                                            <number>0</number>
+                                        </property>
+                                        <widget class="KActiveLabel">
+                                            <property name="name">
+                                                <cstring>kActiveLabel43_2</cstring>
+                                            </property>
+                                            <property name="sizePolicy">
+                                                <sizepolicy>
+                                                    <hsizetype>7</hsizetype>
+                                                    <vsizetype>1</vsizetype>
+                                                    <horstretch>0</horstretch>
+                                                    <verstretch>0</verstretch>
+                                                </sizepolicy>
+                                            </property>
+                                            <property name="focusPolicy">
+                                                <enum>NoFocus</enum>
+                                            </property>
+                                            <property name="text">
+                                                <string>Separator:</string>
+                                            </property>
+                                        </widget>
+                                        <widget class="KColorCombo">
+                                            <property name="name">
+                                                <cstring>KbfxSeparatorColor</cstring>
+                                            </property>
+                                            <property name="sizePolicy">
+                                                <sizepolicy>
+                                                    <hsizetype>1</hsizetype>
+                                                    <vsizetype>1</vsizetype>
+                                                    <horstretch>0</horstretch>
+                                                    <verstretch>0</verstretch>
+                                                </sizepolicy>
+                                            </property>
+                                            <property name="focusPolicy">
+                                                <enum>WheelFocus</enum>
+                                            </property>
+                                            <property name="toolTip" stdset="0">
+                                                <string>The color of the separator in the menu.</string>
+                                            </property>
+                                        </widget>
+                                    </hbox>
+                                </widget>
+                                <widget class="QLayoutWidget">
+                                    <property name="name">
+                                        <cstring>layout18</cstring>
+                                    </property>
+                                    <hbox>
+                                        <property name="name">
+                                            <cstring>unnamed</cstring>
+                                        </property>
+                                        <property name="margin">
+                                            <number>0</number>
+                                        </property>
+                                        <property name="spacing">
+                                            <number>0</number>
+                                        </property>
+                                        <widget class="KActiveLabel">
+                                            <property name="name">
+                                                <cstring>kActiveLabel43_2_2</cstring>
+                                            </property>
+                                            <property name="sizePolicy">
+                                                <sizepolicy>
+                                                    <hsizetype>7</hsizetype>
+                                                    <vsizetype>1</vsizetype>
+                                                    <horstretch>0</horstretch>
+                                                    <verstretch>0</verstretch>
+                                                </sizepolicy>
+                                            </property>
+                                            <property name="focusPolicy">
+                                                <enum>NoFocus</enum>
+                                            </property>
+                                            <property name="text">
+                                                <string>Plugin:</string>
+                                            </property>
+                                        </widget>
+                                        <widget class="KColorCombo">
+                                            <property name="name">
+                                                <cstring>KbfxPluginColor</cstring>
+                                            </property>
+                                            <property name="sizePolicy">
+                                                <sizepolicy>
+                                                    <hsizetype>1</hsizetype>
+                                                    <vsizetype>1</vsizetype>
+                                                    <horstretch>0</horstretch>
+                                                    <verstretch>0</verstretch>
+                                                </sizepolicy>
+                                            </property>
+                                            <property name="focusPolicy">
+                                                <enum>WheelFocus</enum>
+                                            </property>
+                                            <property name="toolTip" stdset="0">
+                                                <string>The color of the plugin in the menu.</string>
+                                            </property>
+                                        </widget>
+                                    </hbox>
+                                </widget>
+                                <widget class="QLayoutWidget">
+                                    <property name="name">
+                                        <cstring>layout18_2</cstring>
+                                    </property>
+                                    <hbox>
+                                        <property name="name">
+                                            <cstring>unnamed</cstring>
+                                        </property>
+                                        <property name="margin">
+                                            <number>0</number>
+                                        </property>
+                                        <property name="spacing">
+                                            <number>0</number>
+                                        </property>
+                                        <widget class="KActiveLabel">
+                                            <property name="name">
+                                                <cstring>kActiveLabel43_2_2_2</cstring>
+                                            </property>
+                                            <property name="sizePolicy">
+                                                <sizepolicy>
+                                                    <hsizetype>7</hsizetype>
+                                                    <vsizetype>1</vsizetype>
+                                                    <horstretch>0</horstretch>
+                                                    <verstretch>0</verstretch>
+                                                </sizepolicy>
+                                            </property>
+                                            <property name="focusPolicy">
+                                                <enum>NoFocus</enum>
+                                            </property>
+                                            <property name="text">
+                                                <string>Tooltip:</string>
+                                            </property>
+                                        </widget>
+                                        <widget class="KColorCombo">
+                                            <property name="name">
+                                                <cstring>KbfxTooltipColor</cstring>
+                                            </property>
+                                            <property name="sizePolicy">
+                                                <sizepolicy>
+                                                    <hsizetype>1</hsizetype>
+                                                    <vsizetype>1</vsizetype>
+                                                    <horstretch>0</horstretch>
+                                                    <verstretch>0</verstretch>
+                                                </sizepolicy>
+                                            </property>
+                                            <property name="focusPolicy">
+                                                <enum>WheelFocus</enum>
+                                            </property>
+                                            <property name="toolTip" stdset="0">
+                                                <string>The color of the tooltip in the menu.</string>
+                                            </property>
+                                        </widget>
+                                    </hbox>
+                                </widget>
+                            </vbox>
+                        </widget>
+                        <widget class="Line">
+                            <property name="name">
+                                <cstring>line2</cstring>
+                            </property>
+                            <property name="frameShape">
+                                <enum>VLine</enum>
+                            </property>
+                            <property name="frameShadow">
+                                <enum>Sunken</enum>
+                            </property>
+                            <property name="orientation">
+                                <enum>Vertical</enum>
+                            </property>
+                        </widget>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>layout16</cstring>
+                            </property>
+                            <vbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <spacer>
+                                    <property name="name">
+                                        <cstring>spacer6_3</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Vertical</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>MinimumExpanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>22</width>
+                                            <height>1</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                                <widget class="KBFXFontChooser">
+                                    <property name="name">
+                                        <cstring>KbfxFont_app</cstring>
+                                    </property>
+                                    <property name="sizePolicy">
+                                        <sizepolicy>
+                                            <hsizetype>7</hsizetype>
+                                            <vsizetype>1</vsizetype>
+                                            <horstretch>0</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="focusPolicy">
+                                        <enum>WheelFocus</enum>
+                                    </property>
+                                    <property name="toolTip" stdset="0">
+                                        <string>Select font for the application's text</string>
+                                    </property>
+                                </widget>
+                                <widget class="KBFXFontChooser">
+                                    <property name="name">
+                                        <cstring>KbfxFont_comment</cstring>
+                                    </property>
+                                    <property name="sizePolicy">
+                                        <sizepolicy>
+                                            <hsizetype>7</hsizetype>
+                                            <vsizetype>1</vsizetype>
+                                            <horstretch>0</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="focusPolicy">
+                                        <enum>WheelFocus</enum>
+                                    </property>
+                                    <property name="toolTip" stdset="0">
+                                        <string>Select font for the comment's text</string>
+                                    </property>
+                                </widget>
+                                <widget class="KBFXFontChooser">
+                                    <property name="name">
+                                        <cstring>KbfxFont_username</cstring>
+                                    </property>
+                                    <property name="sizePolicy">
+                                        <sizepolicy>
+                                            <hsizetype>7</hsizetype>
+                                            <vsizetype>1</vsizetype>
+                                            <horstretch>0</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="focusPolicy">
+                                        <enum>WheelFocus</enum>
+                                    </property>
+                                    <property name="toolTip" stdset="0">
+                                        <string>Select font for the username's text</string>
+                                    </property>
+                                </widget>
+                                <widget class="KBFXFontChooser">
+                                    <property name="name">
+                                        <cstring>KbfxFont_category</cstring>
+                                    </property>
+                                    <property name="sizePolicy">
+                                        <sizepolicy>
+                                            <hsizetype>7</hsizetype>
+                                            <vsizetype>1</vsizetype>
+                                            <horstretch>0</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="focusPolicy">
+                                        <enum>WheelFocus</enum>
+                                    </property>
+                                    <property name="toolTip" stdset="0">
+                                        <string>Select font for the category's text</string>
+                                    </property>
+                                </widget>
+                                <widget class="KBFXFontChooser">
+                                    <property name="name">
+                                        <cstring>KbfxFont_separator</cstring>
+                                    </property>
+                                    <property name="sizePolicy">
+                                        <sizepolicy>
+                                            <hsizetype>7</hsizetype>
+                                            <vsizetype>1</vsizetype>
+                                            <horstretch>0</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="focusPolicy">
+                                        <enum>WheelFocus</enum>
+                                    </property>
+                                    <property name="toolTip" stdset="0">
+                                        <string>Select font for the separator's text</string>
+                                    </property>
+                                </widget>
+                                <widget class="KBFXFontChooser">
+                                    <property name="name">
+                                        <cstring>KbfxFont_plugin</cstring>
+                                    </property>
+                                    <property name="sizePolicy">
+                                        <sizepolicy>
+                                            <hsizetype>7</hsizetype>
+                                            <vsizetype>1</vsizetype>
+                                            <horstretch>0</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="focusPolicy">
+                                        <enum>WheelFocus</enum>
+                                    </property>
+                                    <property name="toolTip" stdset="0">
+                                        <string>Select font for the plugins' text</string>
+                                    </property>
+                                </widget>
+                                <widget class="KBFXFontChooser">
+                                    <property name="name">
+                                        <cstring>KbfxFont_tooltip</cstring>
+                                    </property>
+                                    <property name="sizePolicy">
+                                        <sizepolicy>
+                                            <hsizetype>7</hsizetype>
+                                            <vsizetype>1</vsizetype>
+                                            <horstretch>0</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="focusPolicy">
+                                        <enum>WheelFocus</enum>
+                                    </property>
+                                    <property name="toolTip" stdset="0">
+                                        <string>Select font for the tooltip's text</string>
+                                    </property>
+                                </widget>
+                            </vbox>
+                        </widget>
+                    </hbox>
+                </widget>
+                <spacer row="3" column="0">
+                    <property name="name">
+                        <cstring>spacer2_2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Minimum</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>16</width>
+                            <height>1</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="Line" row="2" column="0">
+                    <property name="name">
+                        <cstring>line1</cstring>
+                    </property>
+                    <property name="frameShape">
+                        <enum>HLine</enum>
+                    </property>
+                    <property name="frameShadow">
+                        <enum>Sunken</enum>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                </widget>
+                <widget class="QLayoutWidget" row="1" column="0">
+                    <property name="name">
+                        <cstring>layout15</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <property name="margin">
+                            <number>0</number>
+                        </property>
+                        <property name="spacing">
+                            <number>0</number>
+                        </property>
+                        <widget class="KActiveLabel">
+                            <property name="name">
+                                <cstring>kActiveLabel44</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>1</hsizetype>
+                                    <vsizetype>1</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>32767</width>
+                                    <height>32767</height>
+                                </size>
+                            </property>
+                            <property name="focusPolicy">
+                                <enum>NoFocus</enum>
+                            </property>
+                            <property name="resizePolicy">
+                                <enum>Manual</enum>
+                            </property>
+                            <property name="text">
+                                <string>Theme that is edited:</string>
+                            </property>
+                        </widget>
+                        <widget class="KActiveLabel">
+                            <property name="name">
+                                <cstring>KbfxTheme</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>7</hsizetype>
+                                    <vsizetype>1</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>32767</width>
+                                    <height>32767</height>
+                                </size>
+                            </property>
+                            <property name="paletteForegroundColor">
+                                <color>
+                                    <red>69</red>
+                                    <green>162</green>
+                                    <blue>225</blue>
+                                </color>
+                            </property>
+                            <property name="focusPolicy">
+                                <enum>NoFocus</enum>
+                            </property>
+                            <property name="lineWidth">
+                                <number>1</number>
+                            </property>
+                            <property name="margin">
+                                <number>-1</number>
+                            </property>
+                            <property name="midLineWidth">
+                                <number>0</number>
+                            </property>
+                            <property name="text">
+                                <string>&lt;p align="left"&gt;&lt;b&gt;default&lt;/b&gt;&lt;/p&gt;</string>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>Please select the theme you want to edit</string>
+                            </property>
+                        </widget>
+                        <widget class="QCheckBox">
+                            <property name="name">
+                                <cstring>KbfxBoldHover</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>7</hsizetype>
+                                    <vsizetype>1</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="focusPolicy">
+                                <enum>WheelFocus</enum>
+                            </property>
+                            <property name="text">
+                                <string>Bold fonts on hover</string>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>Make fonts bolder when you hover the mouse over an item</string>
+                            </property>
+                            <property name="whatsThis" stdset="0">
+                                <string>Make fonts bolder when you hover the mouse over an item</string>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <spacer row="0" column="0">
+                    <property name="name">
+                        <cstring>spacer2_2_2_2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Minimum</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>16</width>
+                            <height>1</height>
+                        </size>
+                    </property>
+                </spacer>
+            </grid>
+        </widget>
+    </grid>
+</widget>
+<customwidgets>
+    <customwidget>
+        <class>KBFXFontChooser</class>
+        <header location="global">kbfxfontchooser.h</header>
+        <sizehint>
+            <width>-1</width>
+            <height>-1</height>
+        </sizehint>
+        <container>0</container>
+        <sizepolicy>
+            <hordata>1</hordata>
+            <verdata>0</verdata>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+        <pixmap>image1</pixmap>
+        <signal>FontChanged()</signal>
+        <slot access="public" specifier="">setFont(const QFont&amp; font)</slot>
+        <slot access="public" specifier="">buttonClicked()</slot>
+        <slot access="protected" specifier="">buttonClicked()</slot>
+        <property type="Font">font</property>
+    </customwidget>
+</customwidgets>
+<images>
+    <image name="image0">
+        <data format="XPM.GZ" length="4075">789ced974b6fda401446f7fc0a8bec5095601eb64755174d7080a669d3b48b4a5517e33134a1101230e151f5bfd7f7bbc3f8510bb29a45d5b331e77e77c6c6067b7cd670bede5c3b8db3da3291c9bd72d49d5c388d78359b6dbf7d7ff3ab5677dda6d3124e2770dcfaab5afdd651ce4953785d11937e822acf63bd81c67bfd0c1d793eeb47ad8118917e20755d4f8a31e935d4f394c48ede4395df941dd277a4adaedf9501e995568f75001dfb9154a443ad8ab547da96412bc2cc97465ba4a1d636a77da348df9276ba818c3cd273a33ee985d688d30d69d7156e14916e8de230d65a5b9cee8c22fd028dfd91c05409ab08549374611407b9d42a387d328af459abe4746514e99cd40b645375491f8c62bf8f5a5d4e6746914e49fdb64c2f12e94fad3eeb049a9e7485eb7baf3566bd23a5b31ce3c4fe808aa813e3fa8ea02af263ec68ac35603d85c642ffea147494a6b80ab156c17a422a9afb34d22a631ca4d41ab19e5a058767157ce52a22a6322bb51debc95a69830b5445cc5466a5b6633d592b6df0fba962cc5466a5b6633d592b6df003b60afe4156c15ff810938c5ca9f4a16c93228509714b39c43423572a7d28dbb4486142dce2521e8acce78f9a3983da3c5f6152a7b17a8afdb042cb1c33cef6e0760d160ccbd290243a5824cb65be6cf449b35a9961cf29694752985383470fd86c36db941d581bb84a6cd6eb7cd9e82ea3d4b11fbacb83e7668173f07705a58b14aeec4378aeab3032ad16356dc753be17863d260cc34ba26f2a3daa6429d337a50c1a13f6fb61a99a178cc5aa63301c0e98a1fe3434952c435533a8e04094efc02ae8a55c8117b7578fc732cc2a58075a050b51ab60256c15acccad825703abfcdfe3bfb3c75babe045d52a78ddb34afdf7ebda1f4394dd1e</data>
+    </image>
+    <image name="image1">
+        <data format="PNG" length="1002">89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b000003b149444154388dad945f4c5b551cc73fe7dc4b7b4bcba0762d45c43114323599ee6192609c51d883892ce083f1718b3ebb185f8dc91e972cf39d2d2a2f1af664b6f1e0fe3863a0718969700eb0c52142da0242a1bd6d696f7bcff101585203ceb8fd9ece39f99dcff9fe7edf939f88c562ec465f5f9fe609442c161362173c3e3eae7b7a7ac8e7f36432196cdbfe4f907c3e4f2291201e8fe338cec3737357e9e8e828aded1e229d650e1f2d51754b082110124c13a4dc5ea341eb9dc284c0558a853f3ce8cb0677ef500fde7d39d2596679e326597b8e9abb85d7a770ab16ab6983ec5a05b487a70e36f0f4e10afe408d6a558310980108478dba4a1e8233990c5d474b64ed39aa3a8fe5f3317fbf81dbd70bccfeb205947632fd74f6589c1c6ea2f70d03a58ba0c1f2c9bdc1b66de3b8256a6e11cbe7e3ee1d181b590124fe2693aeee08d223c82c3a2c24b7b874bec8f26288774f7bd054504aef0dde6e99c0eb83f9fb266323cb80a27fb0958141836044605a2ee5523393371cc646fee2da37195aa35d0c0c5b4859ac03d7e91712dcaac5adab3650a3ff9d08ef7dd8404bb48869e5d958b5b87dadc4c9a1464e9f0d0326df7ebd86bd2e310cb1bf62d384d59441f2d70a070e1c60e09489929b988681bdd9cc97170bcc4c65595f71f8e0e3301337fc24a7732467831875a47f289652b0be5e4151e6d07316c1b0c0340d8ab92023e76d66a6b2840e36d2fb7a13fee632475e6edc367ea98a90fb98b7dd6310ca0328a44761582e1bab41befabcc0ec940d28bc5e93b68e064cab84e1d9beaeb48934eac1f53b01c1b000fca496aa54b61a99fcde61662a4b4b4b23d1680be9d426173e4df3602a48ea411989a4fd590f52a8fd156b05ed9d350e3defe3cfdf4b4c7ce770ea7d3fb9f520afbe1620daeee5c26735d20b9b9cfb6811a754a439e4e5c5639a4caa1e5caf586bfc0197b78702005cb9b4cae4cd3267ce8638fe964bd72b393e39d74928d242617303a756a37f284447770dcdbffc6384a05a85de1306e9a52057c7527c7131c3c42d3f475eb2303c82d4fc3276d6811db37efeb148723082d9b08f79f97c1e5729109a9a28307cc622d2d6cdf52b2b24efe548dedb00142009862cfa879ee1a71f6cec928353511472fbf4389148b0b0e0c108081412458dfe21c9f11351e67e7358595468246d1d1e5e38a6e9e851bc39d84ab502a669331dafec0d8ec7e3e8cb06e1a881d727d1ae40180a434a8c9db129a54126ad48a7358c2b4c5352c8c374bcccdab2bb37d8719cba79fab8211f9df218e0582c261e95f8bfc04f1a1e8bc5c4dfe0a190172af6a9690000000049454e44ae426082</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>KbfxApplicationColor</sender>
+        <signal>activated(const QColor&amp;)</signal>
+        <receiver>KbfxConfigDlgFonts</receiver>
+        <slot>KbfxApplicationColorSelected(const QColor&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxCommentColor</sender>
+        <signal>activated(const QColor&amp;)</signal>
+        <receiver>KbfxConfigDlgFonts</receiver>
+        <slot>KbfxCommentColorSelected(const QColor&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxLineColor</sender>
+        <signal>activated(const QColor&amp;)</signal>
+        <receiver>KbfxConfigDlgFonts</receiver>
+        <slot>KbfxLineColorSelected(const QColor&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxCategoryColor</sender>
+        <signal>activated(const QColor&amp;)</signal>
+        <receiver>KbfxConfigDlgFonts</receiver>
+        <slot>KbfxCategoryColorSelected(const QColor&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxNameColor</sender>
+        <signal>activated(const QColor&amp;)</signal>
+        <receiver>KbfxConfigDlgFonts</receiver>
+        <slot>KbfxNameColorSelected(const QColor&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxSeparatorColor</sender>
+        <signal>activated(const QColor&amp;)</signal>
+        <receiver>KbfxConfigDlgFonts</receiver>
+        <slot>KbfxSeparatorColorSelected(const QColor&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxExportFile</sender>
+        <signal>clicked()</signal>
+        <receiver>KbfxConfigDlgFonts</receiver>
+        <slot>KbfxExportFileAction()</slot>
+    </connection>
+    <connection>
+        <sender>KbfxFont_username</sender>
+        <signal>FontChanged()</signal>
+        <receiver>KbfxConfigDlgFonts</receiver>
+        <slot>FontChanged()</slot>
+    </connection>
+    <connection>
+        <sender>KbfxFont_app</sender>
+        <signal>FontChanged()</signal>
+        <receiver>KbfxConfigDlgFonts</receiver>
+        <slot>FontChanged()</slot>
+    </connection>
+    <connection>
+        <sender>KbfxFont_category</sender>
+        <signal>FontChanged()</signal>
+        <receiver>KbfxConfigDlgFonts</receiver>
+        <slot>FontChanged()</slot>
+    </connection>
+    <connection>
+        <sender>KbfxFont_comment</sender>
+        <signal>FontChanged()</signal>
+        <receiver>KbfxConfigDlgFonts</receiver>
+        <slot>FontChanged()</slot>
+    </connection>
+    <connection>
+        <sender>KbfxBoldHover</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>KbfxConfigDlgFonts</receiver>
+        <slot>KbfxBoldHover_toggled(bool)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxPluginColor</sender>
+        <signal>activated(const QColor&amp;)</signal>
+        <receiver>KbfxConfigDlgFonts</receiver>
+        <slot>KbfxPluginColorSelected(const QColor&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxFont_separator</sender>
+        <signal>FontChanged()</signal>
+        <receiver>KbfxConfigDlgFonts</receiver>
+        <slot>FontChanged()</slot>
+    </connection>
+    <connection>
+        <sender>KbfxFont_plugin</sender>
+        <signal>FontChanged()</signal>
+        <receiver>KbfxConfigDlgFonts</receiver>
+        <slot>FontChanged()</slot>
+    </connection>
+    <connection>
+        <sender>KbfxTooltipColor</sender>
+        <signal>activated(const QColor&amp;)</signal>
+        <receiver>KbfxConfigDlgFonts</receiver>
+        <slot>KbfxTooltipColorSelected(const QColor&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxFont_tooltip</sender>
+        <signal>FontChanged()</signal>
+        <receiver>KbfxConfigDlgFonts</receiver>
+        <slot>FontChanged()</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>KbfxBoldHover</tabstop>
+    <tabstop>KbfxLineColor</tabstop>
+    <tabstop>KbfxApplicationColor</tabstop>
+    <tabstop>KbfxFont_app</tabstop>
+    <tabstop>KbfxCommentColor</tabstop>
+    <tabstop>KbfxFont_comment</tabstop>
+    <tabstop>KbfxNameColor</tabstop>
+    <tabstop>KbfxFont_username</tabstop>
+    <tabstop>KbfxCategoryColor</tabstop>
+    <tabstop>KbfxFont_category</tabstop>
+    <tabstop>KbfxSeparatorColor</tabstop>
+    <tabstop>KbfxFont_separator</tabstop>
+    <tabstop>KbfxPluginColor</tabstop>
+    <tabstop>KbfxFont_plugin</tabstop>
+    <tabstop>KbfxExportFile</tabstop>
+    <tabstop>groupBox43</tabstop>
+</tabstops>
+<includes>
+    <include location="global" impldecl="in declaration">kbfxconfig.h</include>
+    <include location="global" impldecl="in declaration">kdebug.h</include>
+    <include location="global" impldecl="in declaration">kbfxthemesdata.h</include>
+    <include location="global" impldecl="in declaration">kstandarddirs.h</include>
+    <include location="global" impldecl="in declaration">kfiledialog.h</include>
+    <include location="global" impldecl="in declaration">kio/netaccess.h</include>
+    <include location="global" impldecl="in declaration">kmessagebox.h</include>
+    <include location="global" impldecl="in declaration">kconfig.h</include>
+    <include location="global" impldecl="in declaration">kbfxfontchooser.h</include>
+    <include location="local" impldecl="in implementation">kbfxconfigdlgfonts-old.ui.h</include>
+</includes>
+<variables>
+    <variable access="private">bool KbfxFormReady;</variable>
+</variables>
+<slots>
+    <slot>ChangeForm()</slot>
+    <slot>KbfxApplicationColorSelected( const QColor &amp; color )</slot>
+    <slot>KbfxTooltipColorSelected( const QColor &amp; )</slot>
+    <slot>KbfxCommentColorSelected( const QColor &amp; color )</slot>
+    <slot>KbfxLineColorSelected( const QColor &amp; color )</slot>
+    <slot>KbfxCategoryColorSelected( const QColor &amp; color )</slot>
+    <slot>KbfxNameColorSelected( const QColor &amp; color )</slot>
+    <slot>KbfxSeparatorColorSelected( const QColor &amp; color )</slot>
+    <slot>KbfxPluginColorSelected( const QColor &amp; color )</slot>
+    <slot>KbfxExportFileAction()</slot>
+    <slot>FontChanged()</slot>
+    <slot>KbfxBoldHover_toggled( bool state )</slot>
+</slots>
+<functions>
+    <function access="private" specifier="non virtual">init()</function>
+</functions>
+<layoutdefaults spacing="6" margin="11"/>
+<includehints>
+    <includehint>kactivelabel.h</includehint>
+    <includehint>kactivelabel.h</includehint>
+    <includehint>kcolorcombo.h</includehint>
+    <includehint>kactivelabel.h</includehint>
+    <includehint>kcolorcombo.h</includehint>
+    <includehint>kactivelabel.h</includehint>
+    <includehint>kcolorcombo.h</includehint>
+    <includehint>kactivelabel.h</includehint>
+    <includehint>kcolorcombo.h</includehint>
+    <includehint>kactivelabel.h</includehint>
+    <includehint>kcolorcombo.h</includehint>
+    <includehint>kactivelabel.h</includehint>
+    <includehint>kcolorcombo.h</includehint>
+    <includehint>kactivelabel.h</includehint>
+    <includehint>kcolorcombo.h</includehint>
+    <includehint>kactivelabel.h</includehint>
+    <includehint>kcolorcombo.h</includehint>
+    <includehint>kbfxfontchooser.h</includehint>
+    <includehint>kbfxfontchooser.h</includehint>
+    <includehint>kbfxfontchooser.h</includehint>
+    <includehint>kbfxfontchooser.h</includehint>
+    <includehint>kbfxfontchooser.h</includehint>
+    <includehint>kbfxfontchooser.h</includehint>
+    <includehint>kbfxfontchooser.h</includehint>
+    <includehint>kactivelabel.h</includehint>
+    <includehint>kactivelabel.h</includehint>
+</includehints>
+</UI>

@@ -1,0 +1,1275 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>KbfxConfigDlgButton</class>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>KbfxConfigDlgButton</cstring>
+    </property>
+    <property name="enabled">
+        <bool>true</bool>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>613</width>
+            <height>563</height>
+        </rect>
+    </property>
+    <property name="sizePolicy">
+        <sizepolicy>
+            <hsizetype>1</hsizetype>
+            <vsizetype>1</vsizetype>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+    </property>
+    <property name="caption">
+        <string>KBFX Button</string>
+    </property>
+    <property name="mouseTracking">
+        <bool>false</bool>
+    </property>
+    <property name="focusPolicy">
+        <enum>TabFocus</enum>
+    </property>
+    <property name="acceptDrops">
+        <bool>false</bool>
+    </property>
+    <property name="whatsThis" stdset="0">
+        <string>To change KBFX button skin, simply browse to the image you want OR just Drag&amp;Drop the images to their respective place.</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <property name="spacing">
+            <number>10</number>
+        </property>
+        <property name="resizeMode">
+            <enum>Minimum</enum>
+        </property>
+        <widget class="QLayoutWidget" row="2" column="0" rowspan="1" colspan="2">
+            <property name="name">
+                <cstring>layout6</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>groupBoxPressed</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>3</hsizetype>
+                            <vsizetype>1</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="maximumSize">
+                        <size>
+                            <width>32767</width>
+                            <height>150</height>
+                        </size>
+                    </property>
+                    <property name="frameShape">
+                        <enum>StyledPanel</enum>
+                    </property>
+                    <property name="title">
+                        <string>"PRESSED" IMAGE SELECTION</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignVCenter</set>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <property name="margin">
+                            <number>5</number>
+                        </property>
+                        <property name="spacing">
+                            <number>0</number>
+                        </property>
+                        <widget class="QLabel" row="0" column="0">
+                            <property name="name">
+                                <cstring>textLabel8</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>1</hsizetype>
+                                    <vsizetype>1</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="text">
+                                <string>Please select "pressed" image.</string>
+                            </property>
+                        </widget>
+                        <widget class="KURLRequester" row="1" column="0">
+                            <property name="name">
+                                <cstring>KbfxURLRequesterPressed</cstring>
+                            </property>
+                            <property name="enabled">
+                                <bool>true</bool>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>3</hsizetype>
+                                    <vsizetype>1</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="mouseTracking">
+                                <bool>true</bool>
+                            </property>
+                            <property name="focusPolicy">
+                                <enum>WheelFocus</enum>
+                            </property>
+                            <property name="filter">
+                                <string>image/jpeg image/png image/x-xpm image/gif</string>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>The Pressed Button Skin Image</string>
+                            </property>
+                            <property name="whatsThis" stdset="0">
+                                <string>Here you can choose the Pressed Button Skin Image</string>
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>groupBox10</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>1</hsizetype>
+                            <vsizetype>1</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="maximumSize">
+                        <size>
+                            <width>322</width>
+                            <height>150</height>
+                        </size>
+                    </property>
+                    <property name="frameShape">
+                        <enum>StyledPanel</enum>
+                    </property>
+                    <property name="title">
+                        <string>Preview</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignVCenter</set>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <property name="margin">
+                            <number>5</number>
+                        </property>
+                        <property name="spacing">
+                            <number>0</number>
+                        </property>
+                        <widget class="KbfxPixmapLabel">
+                            <property name="name">
+                                <cstring>KbfxPixmapLabelPressed</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>0</hsizetype>
+                                    <vsizetype>0</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>150</width>
+                                    <height>50</height>
+                                </size>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>150</width>
+                                    <height>50</height>
+                                </size>
+                            </property>
+                            <property name="mouseTracking">
+                                <bool>true</bool>
+                            </property>
+                            <property name="acceptDrops">
+                                <bool>true</bool>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>Pressed Button Skin</string>
+                            </property>
+                            <property name="whatsThis" stdset="0">
+                                <string>Here you can Drag&amp;Drop the Pressed Button Skin Image.</string>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QLayoutWidget" row="1" column="0" rowspan="1" colspan="2">
+            <property name="name">
+                <cstring>layout7</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>groupBoxNormal</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>3</hsizetype>
+                            <vsizetype>1</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="maximumSize">
+                        <size>
+                            <width>32767</width>
+                            <height>150</height>
+                        </size>
+                    </property>
+                    <property name="frameShape">
+                        <enum>StyledPanel</enum>
+                    </property>
+                    <property name="title">
+                        <string>"NORMAL" IMAGE SELECTION</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignVCenter</set>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <property name="margin">
+                            <number>5</number>
+                        </property>
+                        <property name="spacing">
+                            <number>0</number>
+                        </property>
+                        <widget class="QLabel" row="0" column="0">
+                            <property name="name">
+                                <cstring>textLabel6</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>1</hsizetype>
+                                    <vsizetype>1</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="text">
+                                <string>Please select "normal" image.</string>
+                            </property>
+                        </widget>
+                        <widget class="KURLRequester" row="1" column="0">
+                            <property name="name">
+                                <cstring>KbfxURLRequesterNormal</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>3</hsizetype>
+                                    <vsizetype>1</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="focusPolicy">
+                                <enum>WheelFocus</enum>
+                            </property>
+                            <property name="filter">
+                                <string>image/jpeg image/png image/x-xpm image/gif</string>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>The Normal Button Skin Image</string>
+                            </property>
+                            <property name="whatsThis" stdset="0">
+                                <string>Here you can choose the Normal Button Skin Image</string>
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>groupBox7</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>1</hsizetype>
+                            <vsizetype>1</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="maximumSize">
+                        <size>
+                            <width>322</width>
+                            <height>150</height>
+                        </size>
+                    </property>
+                    <property name="frameShape">
+                        <enum>StyledPanel</enum>
+                    </property>
+                    <property name="title">
+                        <string>Preview</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignVCenter</set>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <property name="margin">
+                            <number>5</number>
+                        </property>
+                        <property name="spacing">
+                            <number>0</number>
+                        </property>
+                        <widget class="KbfxPixmapLabel">
+                            <property name="name">
+                                <cstring>KbfxPixmapLabelNormal</cstring>
+                            </property>
+                            <property name="enabled">
+                                <bool>true</bool>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>0</hsizetype>
+                                    <vsizetype>0</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>150</width>
+                                    <height>50</height>
+                                </size>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>150</width>
+                                    <height>50</height>
+                                </size>
+                            </property>
+                            <property name="mouseTracking">
+                                <bool>true</bool>
+                            </property>
+                            <property name="acceptDrops">
+                                <bool>true</bool>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>Normal Button Skin</string>
+                            </property>
+                            <property name="whatsThis" stdset="0">
+                                <string>Here you can Drag&amp;Drop the Normal Button Skin Image.</string>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QLayoutWidget" row="3" column="0" rowspan="1" colspan="2">
+            <property name="name">
+                <cstring>layout8</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>groupBoxHover</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>3</hsizetype>
+                            <vsizetype>1</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="maximumSize">
+                        <size>
+                            <width>32767</width>
+                            <height>150</height>
+                        </size>
+                    </property>
+                    <property name="frameShape">
+                        <enum>StyledPanel</enum>
+                    </property>
+                    <property name="title">
+                        <string>"HOVER" IMAGE SELECTION</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignVCenter</set>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <property name="margin">
+                            <number>5</number>
+                        </property>
+                        <property name="spacing">
+                            <number>0</number>
+                        </property>
+                        <widget class="QLabel" row="0" column="0">
+                            <property name="name">
+                                <cstring>textLabel7</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>1</hsizetype>
+                                    <vsizetype>1</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="text">
+                                <string>Please select "hover" image.</string>
+                            </property>
+                        </widget>
+                        <widget class="KURLRequester" row="1" column="0">
+                            <property name="name">
+                                <cstring>KbfxURLRequesterHover</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>3</hsizetype>
+                                    <vsizetype>1</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="cursor">
+                                <cursor>0</cursor>
+                            </property>
+                            <property name="mouseTracking">
+                                <bool>true</bool>
+                            </property>
+                            <property name="focusPolicy">
+                                <enum>WheelFocus</enum>
+                            </property>
+                            <property name="acceptDrops">
+                                <bool>false</bool>
+                            </property>
+                            <property name="filter">
+                                <string>image/jpeg image/png image/x-xpm image/gif</string>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>The Hover Button Skin Image</string>
+                            </property>
+                            <property name="whatsThis" stdset="0">
+                                <string>Here you can choose the Hover Button Skin Image</string>
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>groupBox9</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>1</hsizetype>
+                            <vsizetype>1</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="maximumSize">
+                        <size>
+                            <width>322</width>
+                            <height>150</height>
+                        </size>
+                    </property>
+                    <property name="frameShape">
+                        <enum>StyledPanel</enum>
+                    </property>
+                    <property name="title">
+                        <string>Preview</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignVCenter</set>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <property name="margin">
+                            <number>5</number>
+                        </property>
+                        <property name="spacing">
+                            <number>0</number>
+                        </property>
+                        <widget class="KbfxPixmapLabel">
+                            <property name="name">
+                                <cstring>KbfxPixmapLabelHover</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>0</hsizetype>
+                                    <vsizetype>0</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>150</width>
+                                    <height>50</height>
+                                </size>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>150</width>
+                                    <height>50</height>
+                                </size>
+                            </property>
+                            <property name="mouseTracking">
+                                <bool>true</bool>
+                            </property>
+                            <property name="acceptDrops">
+                                <bool>true</bool>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>Hover Button Skin</string>
+                            </property>
+                            <property name="whatsThis" stdset="0">
+                                <string>Here you can Drag&amp;Drop the Hover Button Skin Image.</string>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="KActiveLabel" row="0" column="0" rowspan="1" colspan="2">
+            <property name="name">
+                <cstring>kActiveLabel6_2</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>7</hsizetype>
+                    <vsizetype>0</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="minimumSize">
+                <size>
+                    <width>0</width>
+                    <height>29</height>
+                </size>
+            </property>
+            <property name="maximumSize">
+                <size>
+                    <width>32767</width>
+                    <height>29</height>
+                </size>
+            </property>
+            <property name="paletteForegroundColor">
+                <color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>255</blue>
+                </color>
+            </property>
+            <property name="paletteBackgroundPixmap">
+                <pixmap>image0</pixmap>
+            </property>
+            <property name="focusPolicy">
+                <enum>NoFocus</enum>
+            </property>
+            <property name="resizePolicy">
+                <enum>AutoOneFit</enum>
+            </property>
+            <property name="dragAutoScroll">
+                <bool>false</bool>
+            </property>
+            <property name="textFormat">
+                <enum>AutoText</enum>
+            </property>
+            <property name="text">
+                <string>&lt;h3&gt;&lt;p align="center"&gt;Please select KBFX button's images&lt;/p&gt;&lt;/h3&gt;</string>
+            </property>
+            <property name="wordWrap">
+                <enum>WidgetWidth</enum>
+            </property>
+            <property name="autoFormatting">
+                <set>AutoAll</set>
+            </property>
+        </widget>
+        <widget class="QGroupBox" row="7" column="1">
+            <property name="name">
+                <cstring>KbfxResizeKickerBox</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>1</hsizetype>
+                    <vsizetype>1</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="frameShape">
+                <enum>StyledPanel</enum>
+            </property>
+            <property name="title">
+                <string>Resize Panel</string>
+            </property>
+            <property name="alignment">
+                <set>AlignVCenter</set>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>10</number>
+                </property>
+                <property name="spacing">
+                    <number>0</number>
+                </property>
+                <widget class="QLabel" row="0" column="0">
+                    <property name="name">
+                        <cstring>textLabel9_2</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>1</hsizetype>
+                            <vsizetype>1</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="text">
+                        <string>&lt;b&gt;Tip!&lt;/b&gt; This button resizes the panel on which the KBFX button is to button's height or width.</string>
+                    </property>
+                    <property name="textFormat">
+                        <enum>RichText</enum>
+                    </property>
+                    <property name="alignment">
+                        <set>WordBreak|AlignTop|AlignLeft</set>
+                    </property>
+                </widget>
+                <widget class="QLayoutWidget" row="2" column="0">
+                    <property name="name">
+                        <cstring>layout8</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <spacer>
+                            <property name="name">
+                                <cstring>spacer6_2</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Minimum</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>1</width>
+                                    <height>1</height>
+                                </size>
+                            </property>
+                        </spacer>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>KbfxResizeKicker</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>1</hsizetype>
+                                    <vsizetype>1</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>270</width>
+                                    <height>58</height>
+                                </size>
+                            </property>
+                            <property name="focusPolicy">
+                                <enum>WheelFocus</enum>
+                            </property>
+                            <property name="text">
+                                <string>Panel Resize is 'ON'</string>
+                            </property>
+                            <property name="toggleButton">
+                                <bool>true</bool>
+                            </property>
+                            <property name="on">
+                                <bool>true</bool>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string></string>
+                            </property>
+                            <property name="whatsThis" stdset="0">
+                                <string></string>
+                            </property>
+                        </widget>
+                        <spacer>
+                            <property name="name">
+                                <cstring>spacer6_2_2</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Minimum</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>1</width>
+                                    <height>1</height>
+                                </size>
+                            </property>
+                        </spacer>
+                    </hbox>
+                </widget>
+                <spacer row="1" column="0">
+                    <property name="name">
+                        <cstring>spacer4</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Minimum</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>16</width>
+                            <height>1</height>
+                        </size>
+                    </property>
+                </spacer>
+            </grid>
+        </widget>
+        <widget class="KActiveLabel" row="6" column="0" rowspan="1" colspan="2">
+            <property name="name">
+                <cstring>kActiveLabel6</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>7</hsizetype>
+                    <vsizetype>0</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="minimumSize">
+                <size>
+                    <width>0</width>
+                    <height>29</height>
+                </size>
+            </property>
+            <property name="maximumSize">
+                <size>
+                    <width>32767</width>
+                    <height>29</height>
+                </size>
+            </property>
+            <property name="paletteForegroundColor">
+                <color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>255</blue>
+                </color>
+            </property>
+            <property name="paletteBackgroundPixmap">
+                <pixmap>image0</pixmap>
+            </property>
+            <property name="focusPolicy">
+                <enum>NoFocus</enum>
+            </property>
+            <property name="resizePolicy">
+                <enum>AutoOneFit</enum>
+            </property>
+            <property name="dragAutoScroll">
+                <bool>false</bool>
+            </property>
+            <property name="textFormat">
+                <enum>AutoText</enum>
+            </property>
+            <property name="text">
+                <string>&lt;h3&gt;&lt;p align="center"&gt;Preview of selected images&lt;/p&gt;&lt;/h3&gt;</string>
+            </property>
+            <property name="wordWrap">
+                <enum>WidgetWidth</enum>
+            </property>
+            <property name="autoFormatting">
+                <set>AutoAll</set>
+            </property>
+        </widget>
+        <widget class="QGroupBox" row="7" column="0">
+            <property name="name">
+                <cstring>groupBox11</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>3</hsizetype>
+                    <vsizetype>1</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="frameShape">
+                <enum>StyledPanel</enum>
+            </property>
+            <property name="title">
+                <string>Livepreview</string>
+            </property>
+            <property name="alignment">
+                <set>AlignVCenter</set>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>10</number>
+                </property>
+                <property name="spacing">
+                    <number>0</number>
+                </property>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel9</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>3</hsizetype>
+                            <vsizetype>1</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="text">
+                        <string>&lt;b&gt;Tip!&lt;/b&gt; To see live preview, hover or press the preview image with your mouse.</string>
+                    </property>
+                    <property name="textFormat">
+                        <enum>RichText</enum>
+                    </property>
+                    <property name="alignment">
+                        <set>WordBreak|AlignTop|AlignLeft</set>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer7</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Minimum</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>1</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="KbfxPushButton">
+                    <property name="name">
+                        <cstring>KbfxButton</cstring>
+                    </property>
+                    <property name="enabled">
+                        <bool>true</bool>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>0</hsizetype>
+                            <vsizetype>0</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                        <size>
+                            <width>150</width>
+                            <height>50</height>
+                        </size>
+                    </property>
+                    <property name="maximumSize">
+                        <size>
+                            <width>150</width>
+                            <height>50</height>
+                        </size>
+                    </property>
+                    <property name="cursor">
+                        <cursor>0</cursor>
+                    </property>
+                    <property name="mouseTracking">
+                        <bool>true</bool>
+                    </property>
+                    <property name="autoMask">
+                        <bool>false</bool>
+                    </property>
+                    <property name="toolTip" stdset="0">
+                        <string>KBFX Button live preview</string>
+                    </property>
+                    <property name="whatsThis" stdset="0">
+                        <string>Here you can see the live preview of the KBFX Button.</string>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QButtonGroup" row="4" column="0" rowspan="1" colspan="2">
+            <property name="name">
+                <cstring>KbfxFadeButton</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>7</hsizetype>
+                    <vsizetype>1</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="focusPolicy">
+                <enum>WheelFocus</enum>
+            </property>
+            <property name="frameShape">
+                <enum>StyledPanel</enum>
+            </property>
+            <property name="title">
+                <string>Button Fade Transition Effect</string>
+            </property>
+            <property name="checkable">
+                <bool>true</bool>
+            </property>
+            <property name="checked">
+                <bool>true</bool>
+            </property>
+            <property name="exclusive">
+                <bool>true</bool>
+            </property>
+            <property name="toolTip" stdset="0">
+                <string>Check this to turn the fade effect of the button ON</string>
+            </property>
+            <property name="whatsThis" stdset="0">
+                <string>This allows you to turn ON or OFF the fade effect for the KBFX button.&lt;br&gt;This effect makes transitions between the three images (normal, hover, pressed) animated.</string>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>10</number>
+                </property>
+                <widget class="QLabel" row="0" column="0">
+                    <property name="name">
+                        <cstring>textLabel5</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>1</hsizetype>
+                            <vsizetype>1</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="text">
+                        <string>Fade Effect Time (in msec.):</string>
+                    </property>
+                    <property name="toolTip" stdset="0">
+                        <string>The fade effect transition time in msec. Valid values are between 20 and 1000 msec. Default is 75 msec.</string>
+                    </property>
+                    <property name="whatsThis" stdset="0">
+                        <string>Here you can enter the value of the fade effect transition time in msec.&lt;br&gt;Valid values are between 20 and 1000 msec.&lt;br&gt;Default is 75 msec.</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="0" column="1">
+                    <property name="name">
+                        <cstring>KbfxFadeTime</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>1</hsizetype>
+                            <vsizetype>1</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>WheelFocus</enum>
+                    </property>
+                    <property name="frameShape">
+                        <enum>StyledPanel</enum>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignHCenter</set>
+                    </property>
+                    <property name="toolTip" stdset="0">
+                        <string>The fade effect transition time in msec. Valid values are between 20 and 1000 msec. Default is 75 msec.</string>
+                    </property>
+                    <property name="whatsThis" stdset="0">
+                        <string>Here you can enter the value of the fade effect transition time in msec.&lt;br&gt;Valid values are between 20 and 1000 msec.&lt;br&gt;Default is 75 msec.</string>
+                    </property>
+                </widget>
+                <spacer row="0" column="2">
+                    <property name="name">
+                        <cstring>spacer6</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>MinimumExpanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>16</width>
+                            <height>16</height>
+                        </size>
+                    </property>
+                </spacer>
+            </grid>
+        </widget>
+        <spacer row="5" column="0">
+            <property name="name">
+                <cstring>spacer3</cstring>
+            </property>
+            <property name="orientation">
+                <enum>Vertical</enum>
+            </property>
+            <property name="sizeType">
+                <enum>MinimumExpanding</enum>
+            </property>
+            <property name="sizeHint">
+                <size>
+                    <width>16</width>
+                    <height>1</height>
+                </size>
+            </property>
+        </spacer>
+    </grid>
+</widget>
+<customwidgets>
+    <customwidget>
+        <class>KbfxPixmapLabel</class>
+        <header location="global">kbfxpixmaplabel.h</header>
+        <sizehint>
+            <width>-1</width>
+            <height>-1</height>
+        </sizehint>
+        <container>0</container>
+        <sizepolicy>
+            <hordata>0</hordata>
+            <verdata>0</verdata>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+        <pixmap>image1</pixmap>
+        <signal>targetDrop(const QString &amp;)</signal>
+        <signal>mouseClicked( const ButtonState &amp; )</signal>
+        <signal>mouseDoubleClicked( const ButtonState &amp; )</signal>
+        <slot access="public" specifier="">dragEnterEvent( QDragEnterEvent *mouseDragEnterEvent )</slot>
+        <slot access="public" specifier="">dropEvent( QDropEvent *mouseDropEvent )</slot>
+        <slot access="public" specifier="">mousePressEvent( QMouseEvent * e )</slot>
+        <slot access="public" specifier="">mouseDoubleClickEvent( QMouseEvent * e )</slot>
+    </customwidget>
+    <customwidget>
+        <class>KbfxPushButton</class>
+        <header location="local">kbfxpushbutton.h</header>
+        <sizehint>
+            <width>-1</width>
+            <height>-1</height>
+        </sizehint>
+        <container>0</container>
+        <sizepolicy>
+            <hordata>5</hordata>
+            <verdata>5</verdata>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+        <pixmap>image2</pixmap>
+        <signal>pressed()</signal>
+        <signal>released()</signal>
+        <signal>clicked()</signal>
+        <signal>toggled( bool )</signal>
+        <signal>stateChanged( int )</signal>
+        <slot access="public" specifier="">animateClick()</slot>
+        <slot access="public" specifier="">toggle()</slot>
+    </customwidget>
+</customwidgets>
+<images>
+    <image name="image0">
+        <data format="XPM.GZ" length="4075">789ced974b6fda401446f7fc0a8bec5095601eb64755174d7080a669d3b48b4a5517e33134a1101230e151f5bfd7f7bbc3f8510bb29a45d5b331e77e77c6c6067b7cd670bede5c3b8db3da3291c9bd72d49d5c388d78359b6dbf7d7ff3ab5677dda6d3124e2770dcfaab5afdd651ce4953785d11937e822acf63bd81c67bfd0c1d793eeb47ad8118917e20755d4f8a31e935d4f394c48ede4395df941dd277a4adaedf9501e995568f75001dfb9154a443ad8ab547da96412bc2cc97465ba4a1d636a77da348df9276ba818c3cd273a33ee985d688d30d69d7156e14916e8de230d65a5b9cee8c22fd028dfd91c05409ab08549374611407b9d42a387d328af459abe4746514e99cd40b645375491f8c62bf8f5a5d4e6746914e49fdb64c2f12e94fad3eeb049a9e7485eb7baf3566bd23a5b31ce3c4fe808aa813e3fa8ea02af263ec68ac35603d85c642ffea147494a6b80ab156c17a422a9afb34d22a631ca4d41ab19e5a058767157ce52a22a6322bb51debc95a69830b5445cc5466a5b6633d592b6df0fba962cc5466a5b6633d592b6df003b60afe4156c15ff810938c5ca9f4a16c93228509714b39c43423572a7d28dbb4486142dce2521e8acce78f9a3983da3c5f6152a7b17a8afdb042cb1c33cef6e0760d160ccbd290243a5824cb65be6cf449b35a9961cf29694752985383470fd86c36db941d581bb84a6cd6eb7cd9e82ea3d4b11fbacb83e7668173f07705a58b14aeec4378aeab3032ad16356dc753be17863d260cc34ba26f2a3daa6429d337a50c1a13f6fb61a99a178cc5aa63301c0e98a1fe3434952c435533a8e04094efc02ae8a55c8117b7578fc732cc2a58075a050b51ab60256c15acccad825703abfcdfe3bfb3c75babe045d52a78ddb34afdf7ebda1f4394dd1e</data>
+    </image>
+    <image name="image1">
+        <data format="PNG" length="1002">89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b000003b149444154388dad945f4c5b551cc73fe7dc4b7b4bcba0762d45c43114323599ee6192609c51d883892ce083f1718b3ebb185f8dc91e972cf39d2d2a2f1af664b6f1e0fe3863a0718969700eb0c52142da0242a1bd6d696f7bcff101585203ceb8fd9ece39f99dcff9fe7edf939f88c562ec465f5f9fe609442c161362173c3e3eae7b7a7ac8e7f36432196cdbfe4f907c3e4f2291201e8fe338cec3737357e9e8e828aded1e229d650e1f2d51754b082110124c13a4dc5ea341eb9dc284c0558a853f3ce8cb0677ef500fde7d39d2596679e326597b8e9abb85d7a770ab16ab6983ec5a05b487a70e36f0f4e10afe408d6a558310980108478dba4a1e8233990c5d474b64ed39aa3a8fe5f3317fbf81dbd70bccfeb205947632fd74f6589c1c6ea2f70d03a58ba0c1f2c9bdc1b66de3b8256a6e11cbe7e3ee1d181b590124fe2693aeee08d223c82c3a2c24b7b874bec8f26288774f7bd054504aef0dde6e99c0eb83f9fb266323cb80a27fb0958141836044605a2ee5523393371cc646fee2da37195aa35d0c0c5b4859ac03d7e91712dcaac5adab3650a3ff9d08ef7dd8404bb48869e5d958b5b87dadc4c9a1464e9f0d0326df7ebd86bd2e310cb1bf62d384d59441f2d70a070e1c60e09489929b988681bdd9cc97170bcc4c65595f71f8e0e3301337fc24a7732467831875a47f289652b0be5e4151e6d07316c1b0c0340d8ab92023e76d66a6b2840e36d2fb7a13fee632475e6edc367ea98a90fb98b7dd6310ca0328a44761582e1bab41befabcc0ec940d28bc5e93b68e064cab84e1d9beaeb48934eac1f53b01c1b000fca496aa54b61a99fcde61662a4b4b4b23d1680be9d426173e4df3602a48ea411989a4fd590f52a8fd156b05ed9d350e3defe3cfdf4b4c7ce770ea7d3fb9f520afbe1620daeee5c26735d20b9b9cfb6811a754a439e4e5c5639a4caa1e5caf586bfc0197b78702005cb9b4cae4cd3267ce8638fe964bd72b393e39d74928d242617303a756a37f284447770dcdbffc6384a05a85de1306e9a52057c7527c7131c3c42d3f475eb2303c82d4fc3276d6811db37efeb148723082d9b08f79f97c1e5729109a9a28307cc622d2d6cdf52b2b24efe548dedb00142009862cfa879ee1a71f6cec928353511472fbf4389148b0b0e0c108081412458dfe21c9f11351e67e7358595468246d1d1e5e38a6e9e851bc39d84ab502a669331dafec0d8ec7e3e8cb06e1a881d727d1ae40180a434a8c9db129a54126ad48a7358c2b4c5352c8c374bcccdab2bb37d8719cba79fab8211f9df218e0582c261e95f8bfc04f1a1e8bc5c4dfe0a190172af6a9690000000049454e44ae426082</data>
+    </image>
+    <image name="image2">
+        <data format="PNG" length="1003">89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b000003b249444154388db5944d4c5c5518869f73ce9db9cc40f929cc30300e18129a50685268a28291982e1a2175212eaab1c49d3f8971e7aec6aedb54a32b435dd8685cb8c0c4b8b0feb421b7bd8186a069d23209144b18cb0c02f3732ff3c3ccbdd705a571941213f1dd9d93739ef37e6fbeef08d334d9d5d0d090c701c8344d2176c1a6697a5d5d5dd8b64d2a95c2b2ac7f05b12c8b783c8e6118d8b6fd685fdb753a39394928e2a7c55724d693a7e214104220242805520a84d8b9e4790f0b1302c7751958f1e30534be9fa41a0c60db362dbe227f64af91b6e7719c2dfc0117a71c603da591de2882a7d3d4ec27122b10acad50aeb88044d542b84de3af7ab44aa55274f4e449dbf354bc347aa096fbf37e7efa2ecbad1b36907d78b289de8120232f37726250c3f52cf0a026a0f6065b9645d929e038167aa096d91b307171059034b5f8e9e9eb44fa052b4b25eeccd9dc99cb71f6ad082fbea2e351c075bdbdc13b9109fc01b83fef63e2e232e03076b68393231a0dcd024daf502c1e66e67a89cb971ef0e5a74bb4b61e6378248094b92ab0ac024b70ca017ef8360394187b2dc6d8b89ffa500e4d4f93d9083275d5e6f9913ade3dd70ee87c7d25c95646a25415aadab152b09ed4f8c5cc130a853839eac3951b684a61e70ef3f9c739668c24eba912afbfddc6d4d506e6a6d7b8b7d082aa8eb8dab19482cdcd220e36dd3dc19df23545de0a71f952861923493456cfd3cf36123c54a0b7bf0e8064621b21f7712c040857071ca4eea0f40a99f510573ec971cb48030e811a1faded3e94be85f2fb00703d1ff26f96ab9f011a5b04d0c4f26fdb948a754c1b25668c2491483d5d5d611617d6b8f0fe32cb779b492ce65168b4c774a4701eefd8f3a02d56e6e8f13aeefe9a63fa5a89d1970e91d908f3d46003e1480d173e28b37827c9b977348ab92ce16890237d1ec907ee3e8e3d8f60d0e1f4583d009f7d9860662acff89bad1c1faad0717493f7ce7713ed8cb0995c255f2a317a26427b67198f6a70f51c0a41b902279ed1187f23cc17130b7c74de65eac77a7a8f05517e41e2deefa4930576db60fa7a8ee1535134df3e93e7b82e0817476439fd6a9070a49f6fbe4a3077739db99b15c001146dd13a46cf1cc1f83943c62e51de76b0738fc9381e8f3390f0236b252e124999e11724fd833196164bacadb87848224fe874f779b43fe9f2dca928956d505a96dbb3f9bdc18661e00534c26d1a7a40e13912a11c9454280da41048a9915c75585df500074d53d816dc9edd229528ef0db66dbbea3ffdaffa471f1f28d8344df1bf800f1a6e9aa6f813c39885bc050f269c0000000049454e44ae426082</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>KbfxURLRequesterHover</sender>
+        <signal>urlSelected(const QString&amp;)</signal>
+        <receiver>KbfxConfigDlgButton</receiver>
+        <slot>KbfxURLRequesterHoverUrlSelected(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxURLRequesterPressed</sender>
+        <signal>urlSelected(const QString&amp;)</signal>
+        <receiver>KbfxConfigDlgButton</receiver>
+        <slot>KbfxURLRequesterPressedUrlSelected(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxURLRequesterNormal</sender>
+        <signal>urlSelected(const QString&amp;)</signal>
+        <receiver>KbfxConfigDlgButton</receiver>
+        <slot>KbfxURLRequesterNormalUrlSelected(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxURLRequesterHover</sender>
+        <signal>returnPressed(const QString&amp;)</signal>
+        <receiver>KbfxConfigDlgButton</receiver>
+        <slot>KbfxURLRequesterHoverUrlSelected(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxURLRequesterPressed</sender>
+        <signal>returnPressed(const QString&amp;)</signal>
+        <receiver>KbfxConfigDlgButton</receiver>
+        <slot>KbfxURLRequesterPressedUrlSelected(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxURLRequesterNormal</sender>
+        <signal>returnPressed(const QString&amp;)</signal>
+        <receiver>KbfxConfigDlgButton</receiver>
+        <slot>KbfxURLRequesterNormalUrlSelected(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxButton</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>KbfxConfigDlgButton</receiver>
+        <slot>KbfxButtonToggled(bool)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxPixmapLabelHover</sender>
+        <signal>targetDrop(const QString&amp;)</signal>
+        <receiver>KbfxConfigDlgButton</receiver>
+        <slot>KbfxURLRequesterHoverUrlSelected(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxPixmapLabelNormal</sender>
+        <signal>targetDrop(const QString&amp;)</signal>
+        <receiver>KbfxConfigDlgButton</receiver>
+        <slot>KbfxURLRequesterNormalUrlSelected(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxPixmapLabelPressed</sender>
+        <signal>targetDrop(const QString&amp;)</signal>
+        <receiver>KbfxConfigDlgButton</receiver>
+        <slot>KbfxURLRequesterPressedUrlSelected(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxResizeKicker</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>KbfxConfigDlgButton</receiver>
+        <slot>KbfxResizeKickerToggled(bool)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxFadeButton</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>KbfxConfigDlgButton</receiver>
+        <slot>KbfxFadeButton_toggled(bool)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxFadeTime</sender>
+        <signal>lostFocus()</signal>
+        <receiver>KbfxConfigDlgButton</receiver>
+        <slot>KbfxFadeTime_lostFocus()</slot>
+    </connection>
+    <connection>
+        <sender>KbfxFadeTime</sender>
+        <signal>returnPressed()</signal>
+        <receiver>KbfxConfigDlgButton</receiver>
+        <slot>KbfxFadeTime_lostFocus()</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>KbfxURLRequesterNormal</tabstop>
+    <tabstop>KbfxURLRequesterPressed</tabstop>
+    <tabstop>KbfxURLRequesterHover</tabstop>
+    <tabstop>KbfxFadeButton</tabstop>
+    <tabstop>KbfxFadeTime</tabstop>
+    <tabstop>KbfxResizeKicker</tabstop>
+</tabstops>
+<includes>
+    <include location="global" impldecl="in declaration">kmessagebox.h</include>
+    <include location="global" impldecl="in declaration">kbfxpushbutton.h</include>
+    <include location="global" impldecl="in declaration">qstring.h</include>
+    <include location="global" impldecl="in declaration">qpainter.h</include>
+    <include location="global" impldecl="in declaration">qimage.h</include>
+    <include location="global" impldecl="in declaration">kbfxpixmaplabel.h</include>
+    <include location="local" impldecl="in implementation">kbfxconfigdlgbutton.ui.h</include>
+</includes>
+<signals>
+    <signal>KbfxConfigDlgButtonChanged(const char * name, const QString &amp; path)</signal>
+</signals>
+<slots>
+    <slot>KbfxURLRequesterNormalUrlSelected( const QString &amp; selected_img_path )</slot>
+    <slot>KbfxURLRequesterPressedUrlSelected( const QString &amp; selected_img_path )</slot>
+    <slot>KbfxURLRequesterHoverUrlSelected( const QString &amp; selected_img_path )</slot>
+    <slot>KbfxButtonToggled( bool )</slot>
+    <slot>ChangeForm( const char * name, const QString &amp; path )</slot>
+    <slot>ChangeForm()</slot>
+    <slot>KbfxResizeKickerToggled( bool )</slot>
+    <slot>KbfxFadeButton_toggled( bool _state )</slot>
+    <slot>KbfxFadeTime_lostFocus()</slot>
+</slots>
+<functions>
+    <function access="private" specifier="non virtual">init()</function>
+</functions>
+<layoutdefaults spacing="4" margin="0"/>
+<includehints>
+    <includehint>kurlrequester.h</includehint>
+    <includehint>klineedit.h</includehint>
+    <includehint>kpushbutton.h</includehint>
+    <includehint>kbfxpixmaplabel.h</includehint>
+    <includehint>kurlrequester.h</includehint>
+    <includehint>klineedit.h</includehint>
+    <includehint>kpushbutton.h</includehint>
+    <includehint>kbfxpixmaplabel.h</includehint>
+    <includehint>kurlrequester.h</includehint>
+    <includehint>klineedit.h</includehint>
+    <includehint>kpushbutton.h</includehint>
+    <includehint>kbfxpixmaplabel.h</includehint>
+    <includehint>kactivelabel.h</includehint>
+    <includehint>kactivelabel.h</includehint>
+    <includehint>kbfxpushbutton.h</includehint>
+</includehints>
+</UI>

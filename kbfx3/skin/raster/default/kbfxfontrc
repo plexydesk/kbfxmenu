@@ -1,0 +1,15 @@
+[Fonts]
+ApplicationText=0,0,0
+ApplicationTextFont=Arial,8,-1,5,50,0,0,0,0,0
+CommentText=128,125,0
+CommentTextFont=Arial,8,-1,5,50,0,0,0,0,0
+GroupText=0,0,0
+GroupTextFont=Arial,8,-1,5,50,0,0,0,0,0
+HoverBold=false
+LineColor=255,220,125
+PluginColor=0,0,0
+PluginFont=Arial,8,-1,5,50,0,0,0,0,0
+SeparatorColor=0,0,0
+SeparatorFont=Arial,8,-1,5,75,0,0,0,0,0
+UserName=255,255,255
+UserNameFont=Arial,10,-1,5,75,0,0,0,0,0

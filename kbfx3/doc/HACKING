@@ -1,0 +1,21 @@
+========================
+|  Some syntax rules:  |
+========================
+
+Variables:
+----------
+
+	{prefix}_{variablename}
+  
+  	Prefixes   Use
+  	"m_"       for member variables
+  	"p_"       for pointer variables
+  	"a_"       for variables of argument functions
+
+
+Comments:
+---------
+	
+	Please make small comments on important issues.
+	And TODOs also.
+	

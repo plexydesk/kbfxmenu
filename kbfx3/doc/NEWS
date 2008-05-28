@@ -1,0 +1,37 @@
+"KBFX Silk" (0.4.9.3.1)
+=======================
+
+Hello everyone,
+
+After a long silence from us now we are happy to announce that finally the
+stable release of KBFX is ready.
+We made a lot of changes to the KBFX Configurator and to KBFX Menu itself.
+However we were not able to implement everything you proposed and everything we
+wanted. So some of the features (see the TODO list in the source files)
+in "KBFX Silk" (0.4.9.3.1) are still not ready. We are sure that they will
+present in the next stable release which will be due just after KDE4 is
+released. The menu itself, however, is fully functional.
+
+Thanks to all of you who gave us ideas and who tested the prerelease versions of
+KBFX.
+
+All the best from your KBFX Team. :)
+
+
+Note: Things to be considered before installing "KBFX Silk"
+===========================================================
+
+1.) To configure and compile "KBFX Silk" you need Cmake >= 2.4.2 from http://www.cmake.org
+
+2.) To configure, compile and install "KBFX Silk" simply run ./build.sh
+
+3.) Before the install of "KBFX Silk", please unload and uninstall any previous version of KBFX.
+
+4.) After the install of "KBFX Silk" please relogin KDE.
+
+5.) If you need file searching capabilities in KBFX, please download and install Strigi
+    from http://strigi.sf.net
+
+6.) To enable Strigi support in KBFX, please pass "--strigi" OR "-s" option to build.sh
+    i.e: ./build.sh --strigi
+

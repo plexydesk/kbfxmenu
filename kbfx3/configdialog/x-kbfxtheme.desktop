@@ -1,0 +1,20 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=MimeType
+MimeType=application/x-kbfxtheme
+Icon=kbfxconfigapp
+Patterns=*.kbfxtheme
+
+Comment=KBFX Theme Package
+Comment[bg]=Пакет KBFX Theme
+Comment[da]=KBFX-temapakke
+Comment[de]=KBFX Theme-Paket
+Comment[el]=Πακέτο θέματος KBFX
+Comment[es]=Paquete con el tema KBFX
+Comment[et]=KBFX teemapakett
+Comment[fr]=Paquet des thèmes KBFX
+Comment[ja]=KBFX テーマパッケージ
+Comment[nl]=KBFX-themapakket
+Comment[pt]=Pacote de Tema do KBFX
+Comment[pt_BR]=Pacote do Tema KBFX
+Comment[sv]=KBFX-temapaket

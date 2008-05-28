@@ -1,0 +1,390 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>KbfxConfigDlgPlugins</class>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>KbfxConfigDlgPlugins</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>660</width>
+            <height>217</height>
+        </rect>
+    </property>
+    <property name="sizePolicy">
+        <sizepolicy>
+            <hsizetype>1</hsizetype>
+            <vsizetype>1</vsizetype>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+    </property>
+    <property name="caption">
+        <string>KBFX Control Center</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <property name="margin">
+            <number>0</number>
+        </property>
+        <property name="spacing">
+            <number>10</number>
+        </property>
+        <property name="resizeMode">
+            <enum>Minimum</enum>
+        </property>
+        <widget class="KActiveLabel" row="0" column="0" rowspan="1" colspan="3">
+            <property name="name">
+                <cstring>kActiveLabel37</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>3</hsizetype>
+                    <vsizetype>0</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="minimumSize">
+                <size>
+                    <width>0</width>
+                    <height>29</height>
+                </size>
+            </property>
+            <property name="maximumSize">
+                <size>
+                    <width>32767</width>
+                    <height>29</height>
+                </size>
+            </property>
+            <property name="paletteForegroundColor">
+                <color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>255</blue>
+                </color>
+            </property>
+            <property name="paletteBackgroundPixmap">
+                <pixmap>image0</pixmap>
+            </property>
+            <property name="focusPolicy">
+                <enum>NoFocus</enum>
+            </property>
+            <property name="textFormat">
+                <enum>AutoText</enum>
+            </property>
+            <property name="text">
+                <string>&lt;b&gt;&lt;h3&gt;&lt;p align="center"&gt;Plugins options&lt;/p&gt;&lt;/h3&gt;&lt;/b&gt;</string>
+            </property>
+        </widget>
+        <widget class="QGroupBox" row="2" column="0" rowspan="1" colspan="3">
+            <property name="name">
+                <cstring>KbfxSelectPanel</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>3</hsizetype>
+                    <vsizetype>1</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="frameShape">
+                <enum>StyledPanel</enum>
+            </property>
+            <property name="title">
+                <string>Select KBFX Panel</string>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="KComboBox" row="0" column="1">
+                    <property name="name">
+                        <cstring>KbfxPanel</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>1</hsizetype>
+                            <vsizetype>1</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="maximumSize">
+                        <size>
+                            <width>32767</width>
+                            <height>44</height>
+                        </size>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>WheelFocus</enum>
+                    </property>
+                    <property name="toolTip" stdset="0">
+                        <string>Plugin to configure</string>
+                    </property>
+                    <property name="whatsThis" stdset="0">
+                        <string>Plugin to configure</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="0" column="0">
+                    <property name="name">
+                        <cstring>textLabel1</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>7</hsizetype>
+                            <vsizetype>1</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="maximumSize">
+                        <size>
+                            <width>32767</width>
+                            <height>44</height>
+                        </size>
+                    </property>
+                    <property name="text">
+                        <string>Please select the panel you want to configure:          </string>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="KActionSelector" row="3" column="0">
+            <property name="name">
+                <cstring>KbfxPluginSelector</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>1</hsizetype>
+                    <vsizetype>1</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="focusPolicy">
+                <enum>WheelFocus</enum>
+            </property>
+            <property name="availableLabel">
+                <string>&amp;Available Plugins:</string>
+            </property>
+            <property name="selectedLabel">
+                <string>&amp;Enabled Plugins:</string>
+            </property>
+            <property name="buttonIconSize">
+                <enum>SmallIcon</enum>
+            </property>
+        </widget>
+        <widget class="QLayoutWidget" row="3" column="2">
+            <property name="name">
+                <cstring>layout3</cstring>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>MinimumExpanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>1</width>
+                            <height>1</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>KbfxConfigurePluginButton</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>1</hsizetype>
+                            <vsizetype>1</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>WheelFocus</enum>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Configure Plugin</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+C</string>
+                    </property>
+                    <property name="toolTip" stdset="0">
+                        <string>Configure the selected plugin</string>
+                    </property>
+                    <property name="whatsThis" stdset="0">
+                        <string>Configure the selected plugin</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>KbfxPluginInfoButton</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>1</hsizetype>
+                            <vsizetype>1</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>WheelFocus</enum>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Plugin Information</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+P</string>
+                    </property>
+                    <property name="toolTip" stdset="0">
+                        <string>Information about the selected plugin</string>
+                    </property>
+                    <property name="whatsThis" stdset="0">
+                        <string>Information about the selected plugin</string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer2_2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>MinimumExpanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>1</width>
+                            <height>1</height>
+                        </size>
+                    </property>
+                </spacer>
+            </vbox>
+        </widget>
+        <spacer row="3" column="1">
+            <property name="name">
+                <cstring>spacer4</cstring>
+            </property>
+            <property name="orientation">
+                <enum>Horizontal</enum>
+            </property>
+            <property name="sizeType">
+                <enum>Minimum</enum>
+            </property>
+            <property name="sizeHint">
+                <size>
+                    <width>1</width>
+                    <height>1</height>
+                </size>
+            </property>
+        </spacer>
+    </grid>
+</widget>
+<customwidgets>
+</customwidgets>
+<images>
+    <image name="image0">
+        <data format="XPM.GZ" length="4075">789ced974b6fda401446f7fc0a8bec5095601eb64755174d7080a669d3b48b4a5517e33134a1101230e151f5bfd7f7bbc3f8510bb29a45d5b331e77e77c6c6067b7cd670bede5c3b8db3da3291c9bd72d49d5c388d78359b6dbf7d7ff3ab5677dda6d3124e2770dcfaab5afdd651ce4953785d11937e822acf63bd81c67bfd0c1d793eeb47ad8118917e20755d4f8a31e935d4f394c48ede4395df941dd277a4adaedf9501e995568f75001dfb9154a443ad8ab547da96412bc2cc97465ba4a1d636a77da348df9276ba818c3cd273a33ee985d688d30d69d7156e14916e8de230d65a5b9cee8c22fd028dfd91c05409ab08549374611407b9d42a387d328af459abe4746514e99cd40b645375491f8c62bf8f5a5d4e6746914e49fdb64c2f12e94fad3eeb049a9e7485eb7baf3566bd23a5b31ce3c4fe808aa813e3fa8ea02af263ec68ac35603d85c642ffea147494a6b80ab156c17a422a9afb34d22a631ca4d41ab19e5a058767157ce52a22a6322bb51debc95a69830b5445cc5466a5b6633d592b6df0fba962cc5466a5b6633d592b6df003b60afe4156c15ff810938c5ca9f4a16c93228509714b39c43423572a7d28dbb4486142dce2521e8acce78f9a3983da3c5f6152a7b17a8afdb042cb1c33cef6e0760d160ccbd290243a5824cb65be6cf449b35a9961cf29694752985383470fd86c36db941d581bb84a6cd6eb7cd9e82ea3d4b11fbacb83e7668173f07705a58b14aeec4378aeab3032ad16356dc753be17863d260cc34ba26f2a3daa6429d337a50c1a13f6fb61a99a178cc5aa63301c0e98a1fe3434952c435533a8e04094efc02ae8a55c8117b7578fc732cc2a58075a050b51ab60256c15acccad825703abfcdfe3bfb3c75babe045d52a78ddb34afdf7ebda1f4394dd1e</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>KbfxConfigurePluginButton</sender>
+        <signal>clicked()</signal>
+        <receiver>KbfxConfigDlgPlugins</receiver>
+        <slot>KbfxConfigurePluginButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>KbfxPluginInfoButton</sender>
+        <signal>clicked()</signal>
+        <receiver>KbfxConfigDlgPlugins</receiver>
+        <slot>KbfxPluginInfoButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>KbfxPanel</sender>
+        <signal>activated(int)</signal>
+        <receiver>KbfxConfigDlgPlugins</receiver>
+        <slot>KbfxPanelSelected(int)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxPluginSelector</sender>
+        <signal>movedDown(QListBoxItem*)</signal>
+        <receiver>KbfxConfigDlgPlugins</receiver>
+        <slot>KbfxPluginSelector_movedDown(QListBoxItem*)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxPluginSelector</sender>
+        <signal>movedUp(QListBoxItem*)</signal>
+        <receiver>KbfxConfigDlgPlugins</receiver>
+        <slot>KbfxPluginSelector_movedUp(QListBoxItem*)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxPluginSelector</sender>
+        <signal>removed(QListBoxItem*)</signal>
+        <receiver>KbfxConfigDlgPlugins</receiver>
+        <slot>KbfxPluginSelector_removed(QListBoxItem*)</slot>
+    </connection>
+    <connection>
+        <sender>KbfxPluginSelector</sender>
+        <signal>added(QListBoxItem*)</signal>
+        <receiver>KbfxConfigDlgPlugins</receiver>
+        <slot>KbfxPluginSelector_added(QListBoxItem*)</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>KbfxPanel</tabstop>
+    <tabstop>KbfxPluginSelector</tabstop>
+    <tabstop>KbfxConfigurePluginButton</tabstop>
+    <tabstop>KbfxPluginInfoButton</tabstop>
+</tabstops>
+<includes>
+    <include location="global" impldecl="in declaration">kbfxthemesdata.h</include>
+    <include location="global" impldecl="in declaration">kbfxconfig.h</include>
+    <include location="global" impldecl="in declaration">kdebug.h</include>
+    <include location="global" impldecl="in declaration">qstringlist.h</include>
+    <include location="global" impldecl="in declaration">kstandarddirs.h</include>
+    <include location="global" impldecl="in declaration">kmessagebox.h</include>
+    <include location="global" impldecl="in declaration">qlistbox.h</include>
+    <include location="global" impldecl="in declaration">kbfxplasmapluginloader.h</include>
+    <include location="local" impldecl="in implementation">kbfxconfigdlgplugins.ui.h</include>
+</includes>
+<slots>
+    <slot>ChangeForm()</slot>
+    <slot>KbfxConfigurePluginButton_clicked()</slot>
+    <slot>KbfxPluginInfoButton_clicked()</slot>
+    <slot>KbfxPanelSelected( int _sel )</slot>
+    <slot>KbfxPluginSelector_movedDown( QListBoxItem * )</slot>
+    <slot>KbfxPluginSelector_movedUp( QListBoxItem * )</slot>
+    <slot>KbfxPluginSelector_removed( QListBoxItem * )</slot>
+    <slot>KbfxPluginSelector_added( QListBoxItem * )</slot>
+</slots>
+<functions>
+    <function access="private" specifier="non virtual">init()</function>
+    <function access="private" returnType="QStringList">KbfxListPlugins( int panel )</function>
+    <function access="private">KbfxSaveSelectedPlugins()</function>
+</functions>
+<layoutdefaults spacing="6" margin="11"/>
+<includehints>
+    <includehint>kactivelabel.h</includehint>
+    <includehint>kcombobox.h</includehint>
+    <includehint>kactionselector.h</includehint>
+</includehints>
+</UI>

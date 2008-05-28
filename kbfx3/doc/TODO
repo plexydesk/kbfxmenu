@@ -1,0 +1,62 @@
+###############
+#             #
+#  TODO List  #
+#             #
+###############
+
+
+ KEYS
+ ----
+ *  Completed
+ +  Work In Progress
+ -  Still Dreaming About It
+ ?  What On The Earth Is This
+ !  Top Important - To Be Done As Soon As Possible
+
+
+ KBFX Cmake
+ ----------
+!+ # KDE4 Compatibility
+!- # Auto Strigi Sensitive
+
+
+ KBFX Docs
+ ---------
+ - # Document Plugin Interface
+
+
+ KBFX App
+ --------
+!- # Implement A Recently Used Menu
+!- # Rightclick On An App - Menu (Run, Edit, Properties etc.)
+!- # Implement A "Switch User" Button (Like Logout And Lock Buttons)
+!- # Customization Of The Logout And Lock Buttons Places
+!- # To Implement Another Way Of Reloading KBFX Not Through Kicker DCOP Reload
+!- # Rewrite the DCOP interface (in src/) to DBUS for KDE4 support. Should be done in a way to preserve KDE3 compatibility!
+!- # Side Slider For The Programs In The Middle Part Except The Arrow Up/Down (@janet Proposal)
+ + # Make The Canvas Autoadjust On Group Fold
+ - # Add Config Interface For Each Plugin
+ - # Clean Plugin Interface
+ - # Write More Plugins
+ - # Some Tool-Tips Would Be Really Nice To Have, Especially The Cancel And Logout Buttons (@athleston Proposal)
+ - # Configurable Timeout When Clicking And Hovering Over A Group In The Menu (@ruffy Proposal)
+ - # Beryl Compatibility (@ruffy Proposal And Testing -  http://img406.imageshack.us/img406/1554/snapshot207ed.png )
+ - # Submenu Handling - See http://img211.imageshack.us/img211/2026/kbfxsubmenusweirdod7.jpg (@janet Proposal)
+
+
+ KBFX Config
+ -----------
+
+
+ KBFX Design
+ -----------
+
+
+ Remover
+ -------
+
+
+ Public Relations
+ ----------------
+ + # Talk To Heliocastro About Shifting To Extragears : emailTO helio@kde.org
+ + # Talk To SuSe People
