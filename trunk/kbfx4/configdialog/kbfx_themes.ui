@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>594</width>
-    <height>385</height>
+    <width>647</width>
+    <height>480</height>
    </rect>
   </property>
   <property name="sizePolicy" >
@@ -40,7 +40,7 @@
        </property>
        <property name="minimumSize" >
         <size>
-         <width>500</width>
+         <width>0</width>
          <height>23</height>
         </size>
        </property>
@@ -86,7 +86,7 @@ p, li { white-space: pre-wrap; }
         <item>
          <widget class="QLabel" name="label" >
           <property name="sizePolicy" >
-           <sizepolicy vsizetype="Maximum" hsizetype="Maximum" >
+           <sizepolicy vsizetype="Preferred" hsizetype="Preferred" >
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
@@ -113,7 +113,7 @@ p, li { white-space: pre-wrap; }
           <item>
            <widget class="QLineEdit" name="lineEdit" >
             <property name="sizePolicy" >
-             <sizepolicy vsizetype="Maximum" hsizetype="MinimumExpanding" >
+             <sizepolicy vsizetype="Preferred" hsizetype="Preferred" >
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
@@ -135,7 +135,7 @@ p, li { white-space: pre-wrap; }
           <item>
            <widget class="QPushButton" name="pushButton" >
             <property name="sizePolicy" >
-             <sizepolicy vsizetype="Maximum" hsizetype="Maximum" >
+             <sizepolicy vsizetype="Preferred" hsizetype="Maximum" >
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
@@ -182,7 +182,7 @@ p, li { white-space: pre-wrap; }
        </property>
        <property name="minimumSize" >
         <size>
-         <width>500</width>
+         <width>0</width>
          <height>23</height>
         </size>
        </property>
@@ -213,7 +213,7 @@ p, li { white-space: pre-wrap; }
      <item>
       <widget class="QGroupBox" name="groupBox_2" >
        <property name="sizePolicy" >
-        <sizepolicy vsizetype="Preferred" hsizetype="MinimumExpanding" >
+        <sizepolicy vsizetype="Maximum" hsizetype="MinimumExpanding" >
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
@@ -225,7 +225,7 @@ p, li { white-space: pre-wrap; }
         <item>
          <widget class="QListWidget" name="listWidget" >
           <property name="sizePolicy" >
-           <sizepolicy vsizetype="Maximum" hsizetype="MinimumExpanding" >
+           <sizepolicy vsizetype="MinimumExpanding" hsizetype="Preferred" >
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
@@ -236,12 +236,22 @@ p, li { white-space: pre-wrap; }
             <height>0</height>
            </size>
           </property>
+          <item>
+           <property name="text" >
+            <string>2panels</string>
+           </property>
+          </item>
+          <item>
+           <property name="text" >
+            <string>default</string>
+           </property>
+          </item>
          </widget>
         </item>
         <item>
          <widget class="QGroupBox" name="groupBox_3" >
           <property name="sizePolicy" >
-           <sizepolicy vsizetype="MinimumExpanding" hsizetype="MinimumExpanding" >
+           <sizepolicy vsizetype="Preferred" hsizetype="Preferred" >
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
@@ -255,6 +265,74 @@ p, li { white-space: pre-wrap; }
           <property name="title" >
            <string>Selected Them Preview</string>
           </property>
+          <layout class="QVBoxLayout" name="verticalLayout_9" >
+           <item>
+            <widget class="QLabel" name="label_2" >
+             <property name="sizePolicy" >
+              <sizepolicy vsizetype="MinimumExpanding" hsizetype="MinimumExpanding" >
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text" >
+              <string>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;img src=":/ZTEST/images/low_menu1.jpg" />&lt;/p>&lt;/body>&lt;/html></string>
+             </property>
+             <property name="alignment" >
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_3" >
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_8" >
+               <item>
+                <widget class="QPushButton" name="pushButton_5" >
+                 <property name="sizePolicy" >
+                  <sizepolicy vsizetype="Fixed" hsizetype="Minimum" >
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text" >
+                  <string>&amp;Theme Info</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_6" >
+                 <property name="text" >
+                  <string>&amp;Get Themes</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_6" >
+               <item>
+                <widget class="QPushButton" name="pushButton_3" >
+                 <property name="text" >
+                  <string>&amp;Install Theme</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_4" >
+                 <property name="text" >
+                  <string>D&amp;elete Selected</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
          </widget>
         </item>
         <item>
@@ -270,19 +348,54 @@ p, li { white-space: pre-wrap; }
             <property name="title" >
              <string>Personal Image</string>
             </property>
-            <widget class="QPushButton" name="pushButton_2" >
-             <property name="geometry" >
-              <rect>
-               <x>20</x>
-               <y>30</y>
-               <width>75</width>
-               <height>24</height>
-              </rect>
-             </property>
-             <property name="text" >
-              <string>PushButton</string>
-             </property>
-            </widget>
+            <layout class="QVBoxLayout" name="verticalLayout_10" >
+             <item>
+              <widget class="QLabel" name="label_3" >
+               <property name="text" >
+                <string>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;">This is your personal image&lt;br />displayed at the KBFX menu.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;">&lt;img src=":/ZTEST/images/low_menu2.jpg" />&lt;/p>&lt;/body>&lt;/html></string>
+               </property>
+               <property name="alignment" >
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_2" >
+               <property name="text" >
+                <string>&amp;Select New Image</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_4" >
+               <property name="sizePolicy" >
+                <sizepolicy vsizetype="Maximum" hsizetype="MinimumExpanding" >
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text" >
+                <string>Max size 48 x 48</string>
+               </property>
+               <property name="alignment" >
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_7" >
+               <property name="text" >
+                <string>The&amp;me's Default</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
            </widget>
           </item>
           <item>
@@ -335,6 +448,8 @@ p, li { white-space: pre-wrap; }
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="images.qrc" />
+ </resources>
  <connections/>
 </ui>
