@@ -8,6 +8,10 @@
     <file>images/newfont.png</file>
     <file>images/fonts.png</file>
   </qresource>
+  <qresource prefix="ZTEST" >
+    <file>images/low_menu2.jpg</file>
+    <file>images/low_menu1.jpg</file>
+  </qresource>
   <qresource prefix="kbfx_team" >
     <file>images/nookiepc.png</file>
     <file>images/sirajpc.png</file>
