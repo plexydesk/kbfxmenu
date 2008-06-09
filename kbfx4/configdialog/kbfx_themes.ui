@@ -6,7 +6,7 @@
     <x>0</x>
     <y>0</y>
     <width>647</width>
-    <height>480</height>
+    <height>438</height>
    </rect>
   </property>
   <property name="sizePolicy" >
@@ -86,7 +86,7 @@ p, li { white-space: pre-wrap; }
         <item>
          <widget class="QLabel" name="label" >
           <property name="sizePolicy" >
-           <sizepolicy vsizetype="Preferred" hsizetype="Preferred" >
+           <sizepolicy vsizetype="Maximum" hsizetype="Maximum" >
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
@@ -113,7 +113,7 @@ p, li { white-space: pre-wrap; }
           <item>
            <widget class="QLineEdit" name="lineEdit" >
             <property name="sizePolicy" >
-             <sizepolicy vsizetype="Preferred" hsizetype="Preferred" >
+             <sizepolicy vsizetype="Minimum" hsizetype="MinimumExpanding" >
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
@@ -213,7 +213,7 @@ p, li { white-space: pre-wrap; }
      <item>
       <widget class="QGroupBox" name="groupBox_2" >
        <property name="sizePolicy" >
-        <sizepolicy vsizetype="Maximum" hsizetype="MinimumExpanding" >
+        <sizepolicy vsizetype="MinimumExpanding" hsizetype="MinimumExpanding" >
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
