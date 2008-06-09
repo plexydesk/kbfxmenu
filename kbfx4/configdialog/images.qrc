@@ -1,0 +1,30 @@
+<RCC>
+  <qresource prefix="categories" >
+    <file>images/konversation.png</file>
+    <file>images/kcharselect.png</file>
+    <file>images/display.png</file>
+    <file>images/digikam.png</file>
+    <file>images/messagebox_info.png</file>
+    <file>images/newfont.png</file>
+    <file>images/fonts.png</file>
+  </qresource>
+  <qresource prefix="kbfx_team" >
+    <file>images/nookiepc.png</file>
+    <file>images/sirajpc.png</file>
+    <file>images/nathanael.png</file>
+    <file>images/phobos-mars-small.jpg</file>
+    <file>images/scarebyte.jpg</file>
+    <file>images/ephracis.png</file>
+    <file>images/finalpf3.jpg</file>
+  </qresource>
+  <qresource prefix="buttons" >
+    <file>images/help.png</file>
+    <file>images/button_cancel.png</file>
+    <file>images/button-ok.png</file>
+  </qresource>
+  <qresource prefix="appicons" >
+    <file>images/hi16-app-kbfxconfigapp.png</file>
+    <file>images/hi32-app-kbfxconfigapp.png</file>
+    <file>images/hi128-app-kbfx.png</file>
+  </qresource>
+</RCC>
