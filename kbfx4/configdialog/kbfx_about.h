@@ -15,6 +15,11 @@ public:
 public slots:
     void addItem();
     void removeItem();
+    void btn_Clicked();
+    
+//private:
+		
+	
 
 };
  

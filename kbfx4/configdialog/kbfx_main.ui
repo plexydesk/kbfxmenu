@@ -9,6 +9,12 @@
     <height>525</height>
    </rect>
   </property>
+  <property name="sizePolicy" >
+   <sizepolicy vsizetype="Preferred" hsizetype="Preferred" >
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
   <property name="palette" >
    <palette>
     <active>
@@ -437,7 +443,7 @@
      <item>
       <widget class="QListWidget" name="listWidget" >
        <property name="sizePolicy" >
-        <sizepolicy vsizetype="MinimumExpanding" hsizetype="Maximum" >
+        <sizepolicy vsizetype="MinimumExpanding" hsizetype="Minimum" >
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
@@ -756,7 +762,7 @@ p, li { white-space: pre-wrap; }
      <item>
       <widget class="QStackedWidget" name="stackedWidget" >
        <property name="sizePolicy" >
-        <sizepolicy vsizetype="MinimumExpanding" hsizetype="MinimumExpanding" >
+        <sizepolicy vsizetype="Expanding" hsizetype="MinimumExpanding" >
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
