@@ -9,6 +9,8 @@
     <file>images/fonts.png</file>
   </qresource>
   <qresource prefix="ZTEST" >
+    <file>images/kbfxmenu2.jpg</file>
+    <file>images/kbfxmenu1.jpg</file>
     <file>images/low_menu2.jpg</file>
     <file>images/low_menu1.jpg</file>
   </qresource>
