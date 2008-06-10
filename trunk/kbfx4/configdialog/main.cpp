@@ -1,4 +1,5 @@
 #include <QApplication>
+#include <QTranslator>
 
 #include "kbfx_main.h"
 //include "dlglogin.h"
