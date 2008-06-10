@@ -6,7 +6,7 @@
     <x>0</x>
     <y>0</y>
     <width>602</width>
-    <height>456</height>
+    <height>475</height>
    </rect>
   </property>
   <property name="windowTitle" >
@@ -96,6 +96,9 @@ p, li { white-space: pre-wrap; }
             <property name="text" >
              <string>KBFX Menu</string>
             </property>
+            <property name="checked" >
+             <bool>true</bool>
+            </property>
            </widget>
           </item>
           <item>
@@ -130,6 +133,12 @@ p, li { white-space: pre-wrap; }
          <layout class="QHBoxLayout" name="horizontalLayout_3" >
           <item>
            <widget class="QGroupBox" name="groupBox_3" >
+            <property name="sizePolicy" >
+             <sizepolicy vsizetype="MinimumExpanding" hsizetype="Minimum" >
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="title" >
              <string>KDE Menu</string>
             </property>
@@ -153,6 +162,12 @@ p, li { white-space: pre-wrap; }
           </item>
           <item>
            <widget class="QGroupBox" name="groupBox_2" >
+            <property name="sizePolicy" >
+             <sizepolicy vsizetype="MinimumExpanding" hsizetype="Minimum" >
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="title" >
              <string>KBFX Menu</string>
             </property>
