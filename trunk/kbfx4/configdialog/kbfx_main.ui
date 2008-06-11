@@ -10,7 +10,7 @@
    </rect>
   </property>
   <property name="sizePolicy" >
-   <sizepolicy vsizetype="Preferred" hsizetype="Preferred" >
+   <sizepolicy vsizetype="Minimum" hsizetype="Minimum" >
     <horstretch>0</horstretch>
     <verstretch>0</verstretch>
    </sizepolicy>
@@ -451,12 +451,12 @@
        <property name="minimumSize" >
         <size>
          <width>150</width>
-         <height>265</height>
+         <height>0</height>
         </size>
        </property>
        <property name="maximumSize" >
         <size>
-         <width>150</width>
+         <width>16777215</width>
          <height>16777215</height>
         </size>
        </property>
@@ -601,7 +601,7 @@
      <item>
       <widget class="QLabel" name="label" >
        <property name="sizePolicy" >
-        <sizepolicy vsizetype="Fixed" hsizetype="Maximum" >
+        <sizepolicy vsizetype="Expanding" hsizetype="Maximum" >
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
@@ -609,7 +609,7 @@
        <property name="minimumSize" >
         <size>
          <width>150</width>
-         <height>200</height>
+         <height>0</height>
         </size>
        </property>
        <property name="text" >
@@ -655,9 +655,15 @@ Please report bugs on this version &lt;a href="http://www.google.com">-HERE-&lt;
        </property>
        <item>
         <widget class="QLabel" name="lbl_menu_top" >
+         <property name="sizePolicy" >
+          <sizepolicy vsizetype="Maximum" hsizetype="MinimumExpanding" >
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <property name="minimumSize" >
           <size>
-           <width>500</width>
+           <width>0</width>
            <height>23</height>
           </size>
          </property>
@@ -698,9 +704,15 @@ p, li { white-space: pre-wrap; }
          </property>
          <item>
           <widget class="QLabel" name="lbl_menu_content" >
+           <property name="sizePolicy" >
+            <sizepolicy vsizetype="Maximum" hsizetype="MinimumExpanding" >
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
            <property name="minimumSize" >
             <size>
-             <width>425</width>
+             <width>0</width>
              <height>75</height>
             </size>
            </property>
@@ -729,6 +741,12 @@ p, li { white-space: pre-wrap; }
          </item>
          <item>
           <widget class="QLabel" name="lbl_menu_picture" >
+           <property name="sizePolicy" >
+            <sizepolicy vsizetype="Maximum" hsizetype="MinimumExpanding" >
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
            <property name="minimumSize" >
             <size>
              <width>75</width>
