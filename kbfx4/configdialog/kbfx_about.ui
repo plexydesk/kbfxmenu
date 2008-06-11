@@ -6,7 +6,7 @@
     <x>0</x>
     <y>0</y>
     <width>599</width>
-    <height>623</height>
+    <height>586</height>
    </rect>
   </property>
   <property name="windowTitle" >
@@ -83,7 +83,7 @@ p, li { white-space: pre-wrap; }
      <item>
       <widget class="QGroupBox" name="groupBox_2" >
        <property name="sizePolicy" >
-        <sizepolicy vsizetype="Minimum" hsizetype="Minimum" >
+        <sizepolicy vsizetype="Maximum" hsizetype="MinimumExpanding" >
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
@@ -95,7 +95,7 @@ p, li { white-space: pre-wrap; }
         <item>
          <widget class="QTextEdit" name="textEdit" >
           <property name="sizePolicy" >
-           <sizepolicy vsizetype="Preferred" hsizetype="Preferred" >
+           <sizepolicy vsizetype="Expanding" hsizetype="MinimumExpanding" >
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
@@ -447,12 +447,24 @@ p, li { white-space: pre-wrap; }
           </item>
           <item>
            <widget class="QGroupBox" name="groupBox" >
+            <property name="sizePolicy" >
+             <sizepolicy vsizetype="Maximum" hsizetype="MinimumExpanding" >
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="title" >
              <string>Sponsors!</string>
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_3" >
              <item>
               <widget class="QLabel" name="label_3" >
+               <property name="sizePolicy" >
+                <sizepolicy vsizetype="Maximum" hsizetype="MinimumExpanding" >
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
                <property name="text" >
                 <string>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
