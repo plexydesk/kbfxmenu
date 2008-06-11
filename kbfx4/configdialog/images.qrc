@@ -1,5 +1,7 @@
 <RCC>
   <qresource prefix="categories" >
+    <file>images/desktop.png</file>
+    <file>images/winprops1.png</file>
     <file>images/konversation.png</file>
     <file>images/kcharselect.png</file>
     <file>images/display.png</file>
@@ -25,6 +27,7 @@
   </qresource>
   <qresource prefix="buttons" >
     <file>images/help.png</file>
+    <file>images/folder.png</file>
     <file>images/button_cancel.png</file>
     <file>images/button-ok.png</file>
   </qresource>
