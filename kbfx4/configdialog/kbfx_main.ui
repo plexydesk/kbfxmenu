@@ -443,7 +443,7 @@
      <item>
       <widget class="QListWidget" name="listWidget" >
        <property name="sizePolicy" >
-        <sizepolicy vsizetype="MinimumExpanding" hsizetype="Minimum" >
+        <sizepolicy vsizetype="Minimum" hsizetype="Minimum" >
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
@@ -451,7 +451,7 @@
        <property name="minimumSize" >
         <size>
          <width>150</width>
-         <height>0</height>
+         <height>300</height>
         </size>
        </property>
        <property name="maximumSize" >
@@ -556,8 +556,8 @@
          <string>Layout</string>
         </property>
         <property name="icon" >
-         <iconset>
-          <normaloff>:/Themes/images/messagebox_info.png</normaloff>:/Themes/images/messagebox_info.png</iconset>
+         <iconset resource="images.qrc" >
+          <normaloff>:/categories/images/desktop.png</normaloff>:/categories/images/desktop.png</iconset>
         </property>
        </item>
        <item>
@@ -565,8 +565,8 @@
          <string>Plugins</string>
         </property>
         <property name="icon" >
-         <iconset>
-          <normaloff>:/Themes/images/messagebox_info.png</normaloff>:/Themes/images/messagebox_info.png</iconset>
+         <iconset resource="images.qrc" >
+          <normaloff>:/categories/images/winprops1.png</normaloff>:/categories/images/winprops1.png</iconset>
         </property>
        </item>
        <item>
