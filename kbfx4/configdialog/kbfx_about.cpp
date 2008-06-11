@@ -19,14 +19,14 @@ dlgabout::dlgabout(QWidget *parent)
 
 void dlgabout::btn_Clicked()
 {
-		 toolButton_9
+    QMessageBox::about(this,"About dlgMain",
+                "This app was coded for educational purposes.\n"
+                "Number 1 is: "  
+                "Bye.\n");
 }
  
 void dlgabout::addItem()
 {
-		
-
-
     QMessageBox::about(this,"About dlgMain",
                 "This app was coded for educational purposes.\n"
                 "Number 1 is: "  
