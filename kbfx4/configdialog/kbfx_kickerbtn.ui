@@ -141,7 +141,11 @@ p, li { white-space: pre-wrap; }
              </size>
             </property>
             <property name="text" >
-             <string>PushButton</string>
+             <string>Locate</string>
+            </property>
+            <property name="icon" >
+             <iconset resource="images.qrc" >
+              <normaloff>:/buttons/images/folder.png</normaloff>:/buttons/images/folder.png</iconset>
             </property>
            </widget>
           </item>
@@ -235,7 +239,11 @@ p, li { white-space: pre-wrap; }
              </size>
             </property>
             <property name="text" >
-             <string>PushButton</string>
+             <string>Locate</string>
+            </property>
+            <property name="icon" >
+             <iconset resource="images.qrc" >
+              <normaloff>:/buttons/images/folder.png</normaloff>:/buttons/images/folder.png</iconset>
             </property>
            </widget>
           </item>
@@ -329,7 +337,11 @@ p, li { white-space: pre-wrap; }
              </size>
             </property>
             <property name="text" >
-             <string>PushButton</string>
+             <string>Locate</string>
+            </property>
+            <property name="icon" >
+             <iconset resource="images.qrc" >
+              <normaloff>:/buttons/images/folder.png</normaloff>:/buttons/images/folder.png</iconset>
             </property>
            </widget>
           </item>
@@ -583,6 +595,8 @@ p, li { white-space: pre-wrap; }
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="images.qrc" />
+ </resources>
  <connections/>
 </ui>
