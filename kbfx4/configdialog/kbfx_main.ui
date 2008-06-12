@@ -10,7 +10,7 @@
    </rect>
   </property>
   <property name="sizePolicy" >
-   <sizepolicy vsizetype="Minimum" hsizetype="Minimum" >
+   <sizepolicy vsizetype="Expanding" hsizetype="MinimumExpanding" >
     <horstretch>0</horstretch>
     <verstretch>0</verstretch>
    </sizepolicy>
@@ -443,7 +443,7 @@
      <item>
       <widget class="QListWidget" name="listWidget" >
        <property name="sizePolicy" >
-        <sizepolicy vsizetype="Minimum" hsizetype="Minimum" >
+        <sizepolicy vsizetype="MinimumExpanding" hsizetype="Minimum" >
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
@@ -583,8 +583,8 @@
          <string>Menu Style</string>
         </property>
         <property name="icon" >
-         <iconset>
-          <normaloff>:/Themes/images/messagebox_info.png</normaloff>:/Themes/images/messagebox_info.png</iconset>
+         <iconset resource="images.qrc" >
+          <normaloff>:/categories/images/go_kde.png</normaloff>:/categories/images/go_kde.png</iconset>
         </property>
        </item>
        <item>
@@ -651,7 +651,7 @@ Please report bugs on this version &lt;a href="http://www.google.com">-HERE-&lt;
         <number>0</number>
        </property>
        <property name="sizeConstraint" >
-        <enum>QLayout::SetMinimumSize</enum>
+        <enum>QLayout::SetDefaultConstraint</enum>
        </property>
        <item>
         <widget class="QLabel" name="lbl_menu_top" >
@@ -700,7 +700,7 @@ p, li { white-space: pre-wrap; }
           <number>0</number>
          </property>
          <property name="sizeConstraint" >
-          <enum>QLayout::SetMinimumSize</enum>
+          <enum>QLayout::SetDefaultConstraint</enum>
          </property>
          <item>
           <widget class="QLabel" name="lbl_menu_content" >
