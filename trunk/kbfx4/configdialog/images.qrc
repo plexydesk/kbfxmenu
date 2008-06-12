@@ -1,5 +1,6 @@
 <RCC>
   <qresource prefix="categories" >
+    <file>images/go_kde.png</file>
     <file>images/desktop.png</file>
     <file>images/winprops1.png</file>
     <file>images/konversation.png</file>
@@ -26,6 +27,10 @@
     <file>images/finalpf3.jpg</file>
   </qresource>
   <qresource prefix="buttons" >
+    <file>images/1leftarrow.png</file>
+    <file>images/1rightarrow.png</file>
+    <file>images/2leftarrow.png</file>
+    <file>images/2rightarrow.png</file>
     <file>images/help.png</file>
     <file>images/folder.png</file>
     <file>images/button_cancel.png</file>
