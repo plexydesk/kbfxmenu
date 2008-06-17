@@ -23,6 +23,9 @@ public slots:
     void addItem();
     void removeItem();
     void menu_change();
+    void closeEvent(QCloseEvent *event);
+		void readSettings();
+		void writeSettings();
     
 private:
  		KbfxConfigDlgThemes *pageThemes;
@@ -33,6 +36,7 @@ private:
  		dlgtooltip *pagetooltip;
  		dlgmstyle *pagemstyle;
 		dlgabout *pageabout;
+
 		
 		
 
