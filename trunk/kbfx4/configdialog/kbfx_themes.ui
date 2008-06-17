@@ -104,7 +104,7 @@ p, li { white-space: pre-wrap; }
            </size>
           </property>
           <property name="text" >
-           <string>Please select the source folder where your themes reside. (default /usr/share/apps/kbfx/skins)</string>
+           <string>Please select the source folder where your themes reside.</string>
           </property>
          </widget>
         </item>

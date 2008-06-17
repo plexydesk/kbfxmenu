@@ -6,10 +6,25 @@ KbfxConfigDlgThemes::KbfxConfigDlgThemes(QWidget *parent)
     setupUi(this); // this sets up GUI
 
 
+ #ifdef Q_WS_X11
+ 			label->setText("Please select the source folder where your themes reside. (default: /usr/share/apps/kbfx/skins)");
+    	lineEdit->setText("/usr/share/apps/kbfx/skins");
+ #endif
+ #ifdef Q_WS_WIN
+ 			label->setText("Please select the source folder where your themes reside. (default: %Porgram Files%\\kbfx\\skins)");
+    	lineEdit->setText("C:\\Program Files\\kbfx\\skins");
+ #endif
+ #ifdef Q_WS_MAC
+ 			label->setText("Please select the source folder where your themes reside.");
+    	//lineEdit->setText("");
+ #endif
+
     // signals/slots mechanism in action
     //connect( pbAdd, SIGNAL( clicked() ), this, SLOT( addItem() ) ); 
     //connect( pbRemove, SIGNAL( clicked() ), this, SLOT( removeItem() ) ); 
     //connect( pbOk, SIGNAL( clicked() ), this, SLOT( close() ) ); 
+    
+    readSettings();
     
 }
  
@@ -30,3 +45,43 @@ void KbfxConfigDlgThemes::removeItem()
                 "Number 1 is: "  
                 "Bye.\n");
 }
+
+void KbfxConfigDlgThemes::writeSettings()
+{
+    QSettings settings(QSettings::IniFormat, QSettings::UserScope, "KBFX", "KBFX Configurator");
+
+    settings.beginGroup("themes");
+    settings.setValue("skinloc", lineEdit->text());
+    //settings.setValue("pos", pos());
+    settings.endGroup();
+}
+
+
+void KbfxConfigDlgThemes::readSettings()
+{
+    QSettings settings(QSettings::IniFormat, QSettings::UserScope, "KBFX", "KBFX Configurator");
+
+    settings.beginGroup("themes");
+    
+    QString skinloc = settings.value("skinloc").toString();
+    skinloc = skinloc.trimmed();
+    
+    if (!skinloc.isEmpty())
+	    lineEdit->setText(skinloc);
+	    
+    //move(settings.value("pos", QPoint(200, 200)).toPoint());
+    settings.endGroup();
+}
+
+
+void KbfxConfigDlgThemes::closeEvent(QCloseEvent *event)
+{
+    //if (userReallyWantsToQuit()) {
+        writeSettings();
+        event->accept();
+    //} else {
+    //    event->ignore();
+    //}
+}
+
+
