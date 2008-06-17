@@ -1,4 +1,6 @@
 #include <QtGui> 
+#include <QSettings>
+
 #include "kbfx_main.h"
 
 
@@ -47,6 +49,7 @@ dlgMain::dlgMain(QWidget *parent)
 		stackedWidget->addWidget(pageabout);
 		stackedWidget->setCurrentWidget(pageThemes);
 
+		readSettings();
 }
 
 void dlgMain::menu_change()
@@ -146,3 +149,37 @@ void dlgMain::removeItem()
                 "Number 1 is: "  
                 "Bye.\n");
 }
+
+
+ void dlgMain::writeSettings()
+ {
+     QSettings settings(QSettings::IniFormat, QSettings::UserScope, "KBFX", "KBFX Configurator");
+
+     settings.beginGroup("MainWindow");
+     settings.setValue("size", size());
+     settings.setValue("pos", pos());
+     settings.endGroup();
+ }
+
+
+ void dlgMain::readSettings()
+ {
+     QSettings settings(QSettings::IniFormat, QSettings::UserScope, "KBFX", "KBFX Configurator");
+
+     settings.beginGroup("MainWindow");
+     resize(settings.value("size", QSize(400, 400)).toSize());
+     move(settings.value("pos", QPoint(200, 200)).toPoint());
+     settings.endGroup();
+ }
+
+
+void dlgMain::closeEvent(QCloseEvent *event)
+{
+    //if (userReallyWantsToQuit()) {
+        writeSettings();
+        event->accept();
+    //} else {
+    //    event->ignore();
+    //}
+}
+
