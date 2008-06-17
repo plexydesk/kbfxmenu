@@ -20,8 +20,6 @@ public:
     dlgMain(QWidget *parent = 0);
  
 public slots:
-    void addItem();
-    void removeItem();
     void menu_change();
     void apply_btn();
     void closeEvent(QCloseEvent *event);
