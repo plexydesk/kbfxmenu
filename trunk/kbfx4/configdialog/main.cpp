@@ -14,8 +14,15 @@ int main(int argc, char *argv[])
   translator.load("trans/" + QString("kbfxconf_") + locale);
   app.installTranslator(&translator);
 
+	QCoreApplication::setOrganizationName("KBFX");
+  QCoreApplication::setOrganizationDomain("kbfx.com");
+  QCoreApplication::setApplicationName("KBFX Configurator");
+
   dlgMain *l = new dlgMain();
   l->show();
 
   return app.exec();
 }
+
+
+ 
