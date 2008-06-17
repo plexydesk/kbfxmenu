@@ -56,7 +56,6 @@ void dlgkickerbtn::readSettings()
 	    
 	  groupBox_4->setChecked(settings.value("framebox").toBool());
 	  	spinBox->setValue(settings.value("fade_time").toInt());
-    
 
     settings.endGroup();
 }
