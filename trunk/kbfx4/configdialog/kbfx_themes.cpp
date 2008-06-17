@@ -27,24 +27,6 @@ KbfxConfigDlgThemes::KbfxConfigDlgThemes(QWidget *parent)
     readSettings();
     
 }
- 
- 
-void KbfxConfigDlgThemes::addItem()
-{
-    QMessageBox::about(this,"About dlgMain",
-                "This app was coded for educational purposes.\n"
-                "Number 1 is: "  
-                "Bye.\n");
-}
- 
- 
-void KbfxConfigDlgThemes::removeItem()
-{
-    QMessageBox::about(this,"About dlgMain",
-                "This app was coded for educational purposes.\n"
-                "Number 1 is: "  
-                "Bye.\n");
-}
 
 void KbfxConfigDlgThemes::writeSettings()
 {
@@ -52,7 +34,8 @@ void KbfxConfigDlgThemes::writeSettings()
 
     settings.beginGroup("themes");
     settings.setValue("skinloc", lineEdit->text());
-    //settings.setValue("pos", pos());
+    settings.setValue("oldthemes", checkBox->isChecked());
+    settings.setValue("sysinstalls", checkBox_2->isChecked());
     settings.endGroup();
 }
 
@@ -69,19 +52,17 @@ void KbfxConfigDlgThemes::readSettings()
     if (!skinloc.isEmpty())
 	    lineEdit->setText(skinloc);
 	    
+	  checkBox->setChecked(settings.value("oldthemes").toBool());
+	  checkBox_2->setChecked(settings.value("sysinstalls").toBool());
+	    
     //move(settings.value("pos", QPoint(200, 200)).toPoint());
     settings.endGroup();
+    
 }
 
-
-void KbfxConfigDlgThemes::closeEvent(QCloseEvent *event)
-{
-    //if (userReallyWantsToQuit()) {
-        writeSettings();
-        event->accept();
-    //} else {
-    //    event->ignore();
-    //}
-}
-
-
+/*
+    QMessageBox::about(this,"About dlgMain",
+                "This app was coded for educational purposes.\n"
+                "Number 1 is: "  
+                "Bye.\n");
+*/
