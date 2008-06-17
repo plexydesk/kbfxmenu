@@ -151,26 +151,26 @@ void dlgMain::removeItem()
 }
 
 
- void dlgMain::writeSettings()
- {
-     QSettings settings(QSettings::IniFormat, QSettings::UserScope, "KBFX", "KBFX Configurator");
+void dlgMain::writeSettings()
+{
+    QSettings settings(QSettings::IniFormat, QSettings::UserScope, "KBFX", "KBFX Configurator");
 
-     settings.beginGroup("MainWindow");
-     settings.setValue("size", size());
-     settings.setValue("pos", pos());
-     settings.endGroup();
- }
+    settings.beginGroup("MainWindow");
+    settings.setValue("size", size());
+    settings.setValue("pos", pos());
+    settings.endGroup();
+}
 
 
- void dlgMain::readSettings()
- {
-     QSettings settings(QSettings::IniFormat, QSettings::UserScope, "KBFX", "KBFX Configurator");
+void dlgMain::readSettings()
+{
+    QSettings settings(QSettings::IniFormat, QSettings::UserScope, "KBFX", "KBFX Configurator");
 
-     settings.beginGroup("MainWindow");
-     resize(settings.value("size", QSize(400, 400)).toSize());
-     move(settings.value("pos", QPoint(200, 200)).toPoint());
-     settings.endGroup();
- }
+    settings.beginGroup("MainWindow");
+    resize(settings.value("size", QSize(400, 400)).toSize());
+    move(settings.value("pos", QPoint(200, 200)).toPoint());
+    settings.endGroup();
+}
 
 
 void dlgMain::closeEvent(QCloseEvent *event)
