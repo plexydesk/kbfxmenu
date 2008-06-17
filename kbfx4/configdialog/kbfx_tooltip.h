@@ -13,8 +13,10 @@ public:
  
  
 public slots:
-    void addItem();
-    void removeItem();
+		void readSettings();
+		void writeSettings();
+		void tooltipstate();
+		void tooltipanima();
 
 };
  

@@ -123,7 +123,8 @@ You can see the current status of the tooltip to the right.</string>
           <property name="styleSheet" >
            <string notr="true" >border-radius: 6px;
 border: 2px solid #8f8f91;
-background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #f6f7fa, stop: 1 #dadbde);</string>
+background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #f6f7fa, stop: 1 #dadbde);
+font: 75 36pt;</string>
           </property>
           <property name="text" >
            <string>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
@@ -256,7 +257,8 @@ p, li { white-space: pre-wrap; }
           <property name="styleSheet" >
            <string notr="true" >border-radius: 6px;
 border: 2px solid #8f8f91;
-background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #f6f7fa, stop: 1 #dadbde);</string>
+background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #f6f7fa, stop: 1 #dadbde);
+font: 75 36pt;</string>
           </property>
           <property name="text" >
            <string>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
