@@ -3,29 +3,60 @@
 
 dlgkickerbtn::dlgkickerbtn(QWidget *parent)
 {
-    setupUi(this); // this sets up GUI
+    setupUi(this);
 
     // signals/slots mechanism in action
-    //connect( pbAdd, SIGNAL( clicked() ), this, SLOT( addItem() ) ); 
-    //connect( pbRemove, SIGNAL( clicked() ), this, SLOT( removeItem() ) ); 
-    //connect( pbOk, SIGNAL( clicked() ), this, SLOT( close() ) ); 
+    //connect( pbAdd, SIGNAL( clicked() ), this, SLOT( addItem() ) );
+    //connect( pbRemove, SIGNAL( clicked() ), this, SLOT( removeItem() ) );
+    //connect( pbOk, SIGNAL( clicked() ), this, SLOT( close() ) );
+    
+    readSettings();
     
 }
  
  
-void dlgkickerbtn::addItem()
+void dlgkickerbtn::writeSettings()
 {
-    QMessageBox::about(this,"About dlgMain",
-                "This app was coded for educational purposes.\n"
-                "Number 1 is: "  
-                "Bye.\n");
+    QSettings settings(QSettings::IniFormat, QSettings::UserScope, "KBFX", "KBFX Configurator");
+
+    settings.beginGroup("kicker button");
+    settings.setValue("imgsel_normal", lineEdit->text());
+    settings.setValue("imgsel_pressed", lineEdit_2->text());
+    settings.setValue("imgsel_hover", lineEdit_3->text());
+    settings.setValue("framebox", groupBox_4->isChecked());
+    settings.setValue("fade_time", spinBox->value());
+    
+    settings.endGroup();
 }
- 
- 
-void dlgkickerbtn::removeItem()
+
+
+void dlgkickerbtn::readSettings()
 {
-    QMessageBox::about(this,"About dlgMain",
-                "This app was coded for educational purposes.\n"
-                "Number 1 is: "  
-                "Bye.\n");
+    QSettings settings(QSettings::IniFormat, QSettings::UserScope, "KBFX", "KBFX Configurator");
+
+    settings.beginGroup("kicker button");
+    
+    QString imgselnormal = settings.value("imgsel_normal").toString();
+    imgselnormal = imgselnormal.trimmed();
+
+    QString imgselpressed = settings.value("imgsel_pressed").toString();
+    imgselpressed = imgselpressed.trimmed();
+    
+    QString imgselhover = settings.value("imgsel_hover").toString();
+    imgselhover = imgselhover.trimmed();
+    
+    if (!imgselnormal.isEmpty())
+	    lineEdit->setText(imgselnormal);
+	    
+    if (!imgselpressed.isEmpty())
+	    lineEdit_2->setText(imgselpressed);
+	    
+    if (!imgselhover.isEmpty())
+	    lineEdit_3->setText(imgselhover);
+	    
+	  groupBox_4->setChecked(settings.value("framebox").toBool());
+	  	spinBox->setValue(settings.value("fade_time").toInt());
+    
+
+    settings.endGroup();
 }
