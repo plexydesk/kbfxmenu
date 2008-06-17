@@ -23,6 +23,7 @@ public slots:
     void addItem();
     void removeItem();
     void menu_change();
+    void apply_btn();
     void closeEvent(QCloseEvent *event);
 		void readSettings();
 		void writeSettings();

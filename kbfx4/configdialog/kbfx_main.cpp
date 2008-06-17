@@ -28,7 +28,9 @@ dlgMain::dlgMain(QWidget *parent)
      
     move ( x, y );
 
-		connect ( listWidget, SIGNAL ( itemSelectionChanged() ), this, SLOT ( menu_change() ) );    
+		connect ( pushButton_4, SIGNAL ( clicked() ), this, SLOT ( close() ) );
+		connect ( listWidget, SIGNAL ( itemSelectionChanged() ), this, SLOT ( menu_change() ) );
+		connect ( pushButton, SIGNAL ( clicked() ), this, SLOT ( apply_btn() ) );
     
  		pageThemes = new KbfxConfigDlgThemes();
  		pagekickerbtn = new dlgkickerbtn();
@@ -50,6 +52,11 @@ dlgMain::dlgMain(QWidget *parent)
 		stackedWidget->setCurrentWidget(pageThemes);
 
 		readSettings();
+}
+
+void dlgMain::apply_btn()
+{
+	pageThemes->writeSettings();
 }
 
 void dlgMain::menu_change()
