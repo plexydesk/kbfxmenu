@@ -144,21 +144,6 @@ void dlgMain::menu_change()
 	
 }
  
-void dlgMain::addItem()
-{
-    
-}
- 
- 
-void dlgMain::removeItem()
-{
-    QMessageBox::about(this,"About dlgMain",
-                "This app was coded for educational purposes.\n"
-                "Number 1 is: "  
-                "Bye.\n");
-}
-
-
 void dlgMain::writeSettings()
 {
     QSettings settings(QSettings::IniFormat, QSettings::UserScope, "KBFX", "KBFX Configurator");
