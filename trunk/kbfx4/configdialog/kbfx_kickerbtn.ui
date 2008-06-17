@@ -410,6 +410,13 @@ p, li { white-space: pre-wrap; }
          </widget>
         </item>
         <item>
+         <widget class="QLabel" name="label_7" >
+          <property name="text" >
+           <string>Default: 75 msec.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
          <spacer name="horizontalSpacer" >
           <property name="orientation" >
            <enum>Qt::Horizontal</enum>
