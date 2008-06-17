@@ -57,6 +57,7 @@ dlgMain::dlgMain(QWidget *parent)
 void dlgMain::apply_btn()
 {
 	pageThemes->writeSettings();
+	pagekickerbtn->writeSettings();
 }
 
 void dlgMain::menu_change()
