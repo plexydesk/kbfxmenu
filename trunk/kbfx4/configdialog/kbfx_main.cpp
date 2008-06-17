@@ -58,6 +58,7 @@ void dlgMain::apply_btn()
 {
 	pageThemes->writeSettings();
 	pagekickerbtn->writeSettings();
+	pagetooltip->writeSettings();
 }
 
 void dlgMain::menu_change()
