@@ -13,24 +13,23 @@ dlgtooltip::dlgtooltip(QWidget *parent)
 
 void dlgtooltip::tooltipstate()
 {
-	  QString tooltipstate = label_2->text();
-    tooltipstate = tooltipstate.trimmed();
-    
-    if (tooltipstate == "OFF")
-    	label_2->setText("ON");
-    else if (tooltipstate == "ON")
-    	label_2->setText("OFF");
+	  QString tooltipstate = label_2->text().trimmed();
+
+    if (tooltipstate.compare("<b>OFF</b>", Qt::CaseInsensitive) == 0)
+    	label_2->setText("<b>ON</b>");
+    else if (tooltipstate.compare("<b>ON</b>", Qt::CaseInsensitive) == 0)
+    	label_2->setText("<b>OFF</b>");
+
 }
 
 void dlgtooltip::tooltipanima()
 {
-	  QString tooltipanima = label_4->text();
-    tooltipanima = tooltipanima.trimmed();
+	  QString tooltipanima = label_4->text().trimmed();
     
-    if (tooltipanima == "OFF")
-    	label_4->setText("ON");
-    else if (tooltipanima == "ON")
-    	label_4->setText("OFF");
+    if (tooltipanima.compare("<b>OFF</b>", Qt::CaseInsensitive) == 0)
+    	label_4->setText("<b>ON</b>");
+    else if (tooltipanima.compare("<b>ON</b>", Qt::CaseInsensitive) == 0)
+    	label_4->setText("<b>OFF</b>");
 }
 
 void dlgtooltip::writeSettings()
@@ -51,24 +50,15 @@ void dlgtooltip::readSettings()
 
     settings.beginGroup("tooltips");
     
-    QString tooltipstate = settings.value("tooltipstate").toString();
-    tooltipstate = tooltipstate.trimmed();
-    
+    QString tooltipstate = settings.value("tooltipstate").toString().trimmed();
     if (tooltipstate.isEmpty() || tooltipstate.isNull())
-    	{
-    		tooltipstate = "OFF";
-    	}
+    		tooltipstate = "<b>OFF</b>";
     
-    QString tooltipanimation = settings.value("tooltipanimation").toString();
-    tooltipanimation = tooltipanimation.trimmed();
-    
+    QString tooltipanimation = settings.value("tooltipanimation").toString().trimmed();
     if (tooltipanimation.isEmpty() || tooltipanimation.isNull())
-    	{
-    		tooltipanimation = "OFF";
-    	}
+    		tooltipanimation = "<b>OFF</b>";
     
-    QString tooltiptext = settings.value("tooltiptext").toString();
-    tooltiptext = tooltiptext.trimmed();
+    QString tooltiptext = settings.value("tooltiptext").toString().trimmed();
     
     label_2->setText(tooltipstate);
     label_4->setText(tooltipanimation);
