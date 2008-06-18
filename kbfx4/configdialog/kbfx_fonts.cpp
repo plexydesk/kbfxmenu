@@ -1,4 +1,4 @@
-#include <QtGui> 
+#include <QtGui>
 #include "kbfx_fonts.h"
 
 dlgfonts::dlgfonts(QWidget *parent)
@@ -7,26 +7,26 @@ dlgfonts::dlgfonts(QWidget *parent)
 
 
     // signals/slots mechanism in action
-    //connect( pbAdd, SIGNAL( clicked() ), this, SLOT( addItem() ) ); 
-    //connect( pbRemove, SIGNAL( clicked() ), this, SLOT( removeItem() ) ); 
-    //connect( pbOk, SIGNAL( clicked() ), this, SLOT( close() ) ); 
-    
+    //connect( pbAdd, SIGNAL( clicked() ), this, SLOT( addItem() ) );
+    //connect( pbRemove, SIGNAL( clicked() ), this, SLOT( removeItem() ) );
+    //connect( pbOk, SIGNAL( clicked() ), this, SLOT( close() ) );
+
 }
- 
- 
+
+
 void dlgfonts::addItem()
 {
     QMessageBox::about(this,"About dlgMain",
-                "This app was coded for educational purposes.\n"
-                "Number 1 is: "  
-                "Bye.\n");
+                       "This app was coded for educational purposes.\n"
+                       "Number 1 is: "
+                       "Bye.\n");
 }
- 
- 
+
+
 void dlgfonts::removeItem()
 {
     QMessageBox::about(this,"About dlgMain",
-                "This app was coded for educational purposes.\n"
-                "Number 1 is: "  
-                "Bye.\n");
+                       "This app was coded for educational purposes.\n"
+                       "Number 1 is: "
+                       "Bye.\n");
 }
