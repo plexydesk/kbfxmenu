@@ -1,22 +1,22 @@
-#include <QtGui> 
+#include <QtGui>
 #include "kbfx_themes.h"
 
 KbfxConfigDlgThemes::KbfxConfigDlgThemes(QWidget *parent)
 {
     setupUi(this);
 
-		#ifdef Q_WS_X11
-				label->setText("Please select the source folder where your themes reside. (default: /usr/share/apps/kbfx/skins)");
-		   	lineEdit->setText("/usr/share/apps/kbfx/skins");
-		#endif
-		#ifdef Q_WS_WIN
-				label->setText("Please select the source folder where your themes reside. (default: %Porgram Files%\\kbfx\\skins)");
-		   	lineEdit->setText("C:\\Program Files\\kbfx\\skins");
-		#endif
-		#ifdef Q_WS_MAC
-				label->setText("Please select the source folder where your themes reside.");
-		   	//lineEdit->setText("");
-		#endif
+#ifdef Q_WS_X11
+    label->setText("Please select the source folder where your themes reside. (default: /usr/share/apps/kbfx/skins)");
+    lineEdit->setText("/usr/share/apps/kbfx/skins");
+#endif
+#ifdef Q_WS_WIN
+    label->setText("Please select the source folder where your themes reside. (default: %Porgram Files%\\kbfx\\skins)");
+    lineEdit->setText("C:\\Program Files\\kbfx\\skins");
+#endif
+#ifdef Q_WS_MAC
+    label->setText("Please select the source folder where your themes reside.");
+    //lineEdit->setText("");
+#endif
 
     readSettings();
 }
@@ -43,10 +43,10 @@ void KbfxConfigDlgThemes::readSettings()
     skinloc = skinloc.trimmed();
 
     if (!skinloc.isEmpty())
-	    lineEdit->setText(skinloc);
+        lineEdit->setText(skinloc);
 
-	  checkBox->setChecked(settings.value("oldthemes").toBool());
-	  checkBox_2->setChecked(settings.value("sysinstalls").toBool());
+    checkBox->setChecked(settings.value("oldthemes").toBool());
+    checkBox_2->setChecked(settings.value("sysinstalls").toBool());
 
     settings.endGroup();
 }
@@ -54,6 +54,6 @@ void KbfxConfigDlgThemes::readSettings()
 /*
     QMessageBox::about(this,"About dlgMain",
                 "This app was coded for educational purposes.\n"
-                "Number 1 is: "  
+                "Number 1 is: "
                 "Bye.\n");
 */

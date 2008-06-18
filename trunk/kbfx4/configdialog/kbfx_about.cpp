@@ -1,4 +1,4 @@
-#include <QtGui> 
+#include <QtGui>
 #include "kbfx_about.h"
 
 dlgabout::dlgabout(QWidget *parent)
@@ -20,24 +20,24 @@ dlgabout::dlgabout(QWidget *parent)
 void dlgabout::btn_Clicked()
 {
     QMessageBox::about(this,"About dlgMain",
-                "This app was coded for educational purposes.\n"
-                "Number 1 is: "  
-                "Bye.\n");
+                       "This app was coded for educational purposes.\n"
+                       "Number 1 is: "
+                       "Bye.\n");
 }
- 
+
 void dlgabout::addItem()
 {
     QMessageBox::about(this,"About dlgMain",
-                "This app was coded for educational purposes.\n"
-                "Number 1 is: "  
-                "Bye.\n");
+                       "This app was coded for educational purposes.\n"
+                       "Number 1 is: "
+                       "Bye.\n");
 }
- 
- 
+
+
 void dlgabout::removeItem()
 {
     QMessageBox::about(this,"About dlgMain",
-                "This app was coded for educational purposes.\n"
-                "Number 1 is: "  
-                "Bye.\n");
+                       "This app was coded for educational purposes.\n"
+                       "Number 1 is: "
+                       "Bye.\n");
 }
