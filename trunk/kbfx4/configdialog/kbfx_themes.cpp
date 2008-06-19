@@ -5,15 +5,13 @@ KbfxConfigDlgThemes::KbfxConfigDlgThemes(QWidget *parent)
 {
     setupUi(this);
 
-#ifdef Q_WS_X11
+#if defined(Q_OS_X11)
     label->setText("Please select the source folder where your themes reside. (default: /usr/share/apps/kbfx/skins)");
     lineEdit->setText("/usr/share/apps/kbfx/skins");
-#endif
-#ifdef Q_WS_WIN
+#elif defined(Q_OS_WIN) //#ifdef Q_WS_WIN #endif
     label->setText("Please select the source folder where your themes reside. (default: %Porgram Files%\\kbfx\\skins)");
     lineEdit->setText("C:\\Program Files\\kbfx\\skins");
-#endif
-#ifdef Q_WS_MAC
+#elif defined(Q_OS_MAC)
     label->setText("Please select the source folder where your themes reside.");
     //lineEdit->setText("");
 #endif
