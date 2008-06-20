@@ -14,6 +14,7 @@ public:
 
 public slots:
 	  void LocateTheme();
+	  void LocateImage();
     void readSettings();
     void writeSettings();
 

@@ -17,6 +17,7 @@ KbfxConfigDlgThemes::KbfxConfigDlgThemes(QWidget *parent)
 #endif
 
     connect( pushButton, SIGNAL( clicked() ), this, SLOT( LocateTheme() ) );
+    connect( pushButton_2, SIGNAL( clicked() ), this, SLOT( LocateImage() ) );
 
     readSettings();
 }
@@ -24,6 +25,12 @@ KbfxConfigDlgThemes::KbfxConfigDlgThemes(QWidget *parent)
 void KbfxConfigDlgThemes::LocateTheme()
 {
     QString fileName = QFileDialog::getOpenFileName(this, tr("Open Theme"), lineEdit->text(), tr("Image Files (*.theme)"));
+    qDebug() << fileName << endl;
+}
+
+void KbfxConfigDlgThemes::LocateImage()
+{
+    QString fileName = QFileDialog::getOpenFileName(this, tr("Select Image"), "", tr("Image Files (*.png)"));
     qDebug() << fileName << endl;
 }
 
