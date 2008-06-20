@@ -13,6 +13,7 @@ public:
 
 
 public slots:
+	  void LocateTheme();
     void readSettings();
     void writeSettings();
 
