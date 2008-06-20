@@ -16,7 +16,15 @@ KbfxConfigDlgThemes::KbfxConfigDlgThemes(QWidget *parent)
     //lineEdit->setText("");
 #endif
 
+    connect( pushButton, SIGNAL( clicked() ), this, SLOT( LocateTheme() ) );
+
     readSettings();
+}
+
+void KbfxConfigDlgThemes::LocateTheme()
+{
+    QString fileName = QFileDialog::getOpenFileName(this, tr("Open Theme"), lineEdit->text(), tr("Image Files (*.theme)"));
+    qDebug() << fileName << endl;
 }
 
 void KbfxConfigDlgThemes::writeSettings()
